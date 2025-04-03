@@ -1,0 +1,1366 @@
+2025-04-03 10:15:04,325 - root - INFO - Logging configured for MCC Classifier
+2025-04-03 10:15:04,325 - mcc_classifier.agent_factory - INFO - Creating all agents
+2025-04-03 10:15:05,384 - mcc_classifier.agent.Rafa - INFO - OpenAI client initialized successfully.
+2025-04-03 10:15:05,390 - mcc_classifier.agent.Matheus - INFO - Successfully loaded 981 MCCs from /Users/lucaswaki/Documents/Workplace/infinitepay/prompt_mcc_tester/mcc_classifier/agents/mcc_list.csv
+2025-04-03 10:15:05,416 - mcc_classifier.agent.Matheus - INFO - OpenAI client initialized successfully.
+2025-04-03 10:15:05,416 - mcc_classifier.agent.Waki - INFO - Loading MCC data from /Users/lucaswaki/Documents/Workplace/infinitepay/prompt_mcc_tester/mcc_classifier/agents/mcc_list.csv
+2025-04-03 10:15:06,706 - mcc_classifier.agent.Waki - INFO - Loaded 981 MCC codes from CSV file
+2025-04-03 10:15:06,873 - mcc_classifier.agent.Waki - INFO - OpenAI client initialized successfully.
+2025-04-03 10:15:06,873 - mcc_classifier.evaluator - INFO - Initialized MCC evaluator with 3 agents
+2025-04-03 10:15:06,873 - mcc_classifier.evaluator - INFO - Starting evaluation with input file: data/custom_test_merchants.csv
+2025-04-03 10:15:06,873 - mcc_classifier.data_handler - INFO - Reading data from data/custom_test_merchants.csv
+2025-04-03 10:15:06,920 - mcc_classifier.data_handler - INFO - Successfully read 100 rows from data/custom_test_merchants.csv
+2025-04-03 10:15:06,921 - mcc_classifier.evaluator - INFO - Read 100 merchants from input file
+2025-04-03 10:15:06,921 - mcc_classifier.agent.Rafa - INFO - Classifying merchant: Scalp Aesthetic Clinic
+2025-04-03 10:15:06,921 - mcc_classifier.agent.Rafa - INFO - Sending request to OpenAI for merchant: Scalp Aesthetic Clinic
+2025-04-03 10:15:13,641 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-03 10:15:13,685 - mcc_classifier.agent.Rafa - INFO - Classified 'Scalp Aesthetic Clinic' as MCC 7298 - Health and Beauty Spas
+2025-04-03 10:15:13,687 - mcc_classifier.agent.Matheus - INFO - Classifying merchant: Scalp Aesthetic Clinic
+2025-04-03 10:15:13,688 - mcc_classifier.evaluator - INFO - Agent Matheus doesn't support full data, falling back to basic parameters
+2025-04-03 10:15:13,688 - mcc_classifier.agent.Matheus - INFO - Classifying merchant: Scalp Aesthetic Clinic
+2025-04-03 10:15:13,689 - mcc_classifier.agent.Matheus - INFO - Performing tier1 classification for: Scalp Aesthetic Clinic
+2025-04-03 10:15:23,628 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-03 10:15:23,748 - mcc_classifier.agent.Waki - INFO - Classifying merchant: Scalp Aesthetic Clinic
+2025-04-03 10:15:23,749 - mcc_classifier.agent.Waki - INFO - Sending request to GPT for merchant: Scalp Aesthetic Clinic
+2025-04-03 10:15:34,504 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-03 10:15:34,537 - mcc_classifier.agent.Waki - INFO - Classified 'Scalp Aesthetic Clinic' as MCC 7230 - Barber and Beauty Shops with confidence 0.9
+2025-04-03 10:15:34,540 - mcc_classifier.agent.Rafa - INFO - Classifying merchant: Sparkle Bright Janitorial
+2025-04-03 10:15:34,540 - mcc_classifier.agent.Rafa - INFO - Sending request to OpenAI for merchant: Sparkle Bright Janitorial
+2025-04-03 10:15:38,689 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-03 10:15:38,717 - mcc_classifier.agent.Rafa - INFO - Classified 'Sparkle Bright Janitorial' as MCC 7210 - Laundry & Cleaning
+2025-04-03 10:15:38,718 - mcc_classifier.agent.Matheus - INFO - Classifying merchant: Sparkle Bright Janitorial
+2025-04-03 10:15:38,721 - mcc_classifier.evaluator - INFO - Agent Matheus doesn't support full data, falling back to basic parameters
+2025-04-03 10:15:38,721 - mcc_classifier.agent.Matheus - INFO - Classifying merchant: Sparkle Bright Janitorial
+2025-04-03 10:15:38,721 - mcc_classifier.agent.Matheus - INFO - Performing tier1 classification for: Sparkle Bright Janitorial
+2025-04-03 10:15:52,231 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-03 10:15:52,481 - mcc_classifier.agent.Waki - INFO - Classifying merchant: Sparkle Bright Janitorial
+2025-04-03 10:15:52,587 - mcc_classifier.agent.Waki - INFO - Sending request to GPT for merchant: Sparkle Bright Janitorial
+2025-04-03 10:15:58,891 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-03 10:15:58,924 - mcc_classifier.agent.Waki - INFO - Classified 'Sparkle Bright Janitorial' as MCC 7349 - Cleaning and Maintenance, Janitorial Services with confidence 0.7
+2025-04-03 10:15:58,925 - mcc_classifier.agent.Rafa - INFO - Classifying merchant: A1foam
+2025-04-03 10:15:58,926 - mcc_classifier.agent.Rafa - INFO - Sending request to OpenAI for merchant: A1foam
+2025-04-03 10:16:05,077 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-03 10:16:05,085 - mcc_classifier.agent.Rafa - INFO - Classified 'A1foam' as MCC 5211 - Building Materials
+2025-04-03 10:16:05,085 - mcc_classifier.agent.Matheus - INFO - Classifying merchant: A1foam
+2025-04-03 10:16:05,141 - mcc_classifier.evaluator - INFO - Agent Matheus doesn't support full data, falling back to basic parameters
+2025-04-03 10:16:05,141 - mcc_classifier.agent.Matheus - INFO - Classifying merchant: A1foam
+2025-04-03 10:16:05,142 - mcc_classifier.agent.Matheus - INFO - Performing tier1 classification for: A1foam
+2025-04-03 10:16:21,171 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-03 10:16:21,279 - mcc_classifier.agent.Waki - INFO - Classifying merchant: A1foam
+2025-04-03 10:16:21,280 - mcc_classifier.agent.Waki - INFO - Sending request to GPT for merchant: A1foam
+2025-04-03 10:16:37,355 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-03 10:16:37,391 - mcc_classifier.agent.Waki - INFO - Classified 'A1foam' as MCC 5999 - Miscellaneous and Specialty Retail Stores with confidence 0.6
+2025-04-03 10:16:37,391 - mcc_classifier.agent.Rafa - INFO - Classifying merchant: U S 1 Home Builders LLC
+2025-04-03 10:16:37,392 - mcc_classifier.agent.Rafa - INFO - Sending request to OpenAI for merchant: U S 1 Home Builders LLC
+2025-04-03 10:16:41,565 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-03 10:16:41,571 - mcc_classifier.agent.Rafa - INFO - Classified 'U S 1 Home Builders LLC' as MCC 1520 - General Contractors—Residential and Commercial
+2025-04-03 10:16:41,592 - mcc_classifier.agent.Matheus - INFO - Classifying merchant: U S 1 Home Builders LLC
+2025-04-03 10:16:41,594 - mcc_classifier.evaluator - INFO - Agent Matheus doesn't support full data, falling back to basic parameters
+2025-04-03 10:16:41,594 - mcc_classifier.agent.Matheus - INFO - Classifying merchant: U S 1 Home Builders LLC
+2025-04-03 10:16:41,595 - mcc_classifier.agent.Matheus - INFO - Performing tier1 classification for: U S 1 Home Builders LLC
+2025-04-03 10:16:57,413 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-03 10:16:57,450 - mcc_classifier.agent.Matheus - INFO - Performing risk tier classification for: U S 1 Home Builders LLC
+2025-04-03 10:17:04,145 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-03 10:17:04,212 - mcc_classifier.agent.Waki - INFO - Classifying merchant: U S 1 Home Builders LLC
+2025-04-03 10:17:04,213 - mcc_classifier.agent.Waki - INFO - Sending request to GPT for merchant: U S 1 Home Builders LLC
+2025-04-03 10:17:10,557 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-03 10:17:10,575 - mcc_classifier.agent.Waki - INFO - Classified 'U S 1 Home Builders LLC' as MCC 1520 - General Contractors-Residential and Commercial with confidence 0.95
+2025-04-03 10:17:10,575 - mcc_classifier.agent.Rafa - INFO - Classifying merchant: JLS ideal Home Repairs LLC
+2025-04-03 10:17:10,576 - mcc_classifier.agent.Rafa - INFO - Sending request to OpenAI for merchant: JLS ideal Home Repairs LLC
+2025-04-03 10:17:18,090 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-03 10:17:18,115 - mcc_classifier.agent.Rafa - INFO - Classified 'JLS ideal Home Repairs LLC' as MCC 1520 - General Contractors—Residential and Commercial
+2025-04-03 10:17:18,120 - mcc_classifier.agent.Matheus - INFO - Classifying merchant: JLS ideal Home Repairs LLC
+2025-04-03 10:17:18,122 - mcc_classifier.evaluator - INFO - Agent Matheus doesn't support full data, falling back to basic parameters
+2025-04-03 10:17:18,122 - mcc_classifier.agent.Matheus - INFO - Classifying merchant: JLS ideal Home Repairs LLC
+2025-04-03 10:17:18,123 - mcc_classifier.agent.Matheus - INFO - Performing tier1 classification for: JLS ideal Home Repairs LLC
+2025-04-03 10:17:41,512 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-03 10:17:41,536 - mcc_classifier.agent.Waki - INFO - Classifying merchant: JLS ideal Home Repairs LLC
+2025-04-03 10:17:41,536 - mcc_classifier.agent.Waki - INFO - Sending request to GPT for merchant: JLS ideal Home Repairs LLC
+2025-04-03 10:17:48,841 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-03 10:17:49,028 - mcc_classifier.agent.Waki - INFO - Classified 'JLS ideal Home Repairs LLC' as MCC 1520 - General Contractors-Residential and Commercial with confidence 0.95
+2025-04-03 10:17:49,042 - mcc_classifier.agent.Rafa - INFO - Classifying merchant: OT4 management
+2025-04-03 10:17:49,042 - mcc_classifier.agent.Rafa - INFO - Sending request to OpenAI for merchant: OT4 management
+2025-04-03 10:17:52,688 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-03 10:17:52,694 - mcc_classifier.agent.Rafa - INFO - Classified 'OT4 management' as MCC 7399 - Other B2B Services
+2025-04-03 10:17:52,694 - mcc_classifier.agent.Matheus - INFO - Classifying merchant: OT4 management
+2025-04-03 10:17:52,720 - mcc_classifier.evaluator - INFO - Agent Matheus doesn't support full data, falling back to basic parameters
+2025-04-03 10:17:52,721 - mcc_classifier.agent.Matheus - INFO - Classifying merchant: OT4 management
+2025-04-03 10:17:52,723 - mcc_classifier.agent.Matheus - INFO - Performing tier1 classification for: OT4 management
+2025-04-03 10:18:19,626 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-03 10:18:19,832 - mcc_classifier.agent.Matheus - INFO - Performing risk tier classification for: OT4 management
+2025-04-03 10:18:31,342 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-03 10:18:31,408 - mcc_classifier.agent.Waki - INFO - Classifying merchant: OT4 management
+2025-04-03 10:18:31,408 - mcc_classifier.agent.Waki - INFO - Sending request to GPT for merchant: OT4 management
+2025-04-03 10:18:40,084 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-03 10:18:40,117 - mcc_classifier.agent.Waki - INFO - Classified 'OT4 management' as MCC 7392 - Management, Consulting, and Public Relations Services with confidence 0.8
+2025-04-03 10:18:40,118 - mcc_classifier.agent.Rafa - INFO - Classifying merchant: Roberts Construction
+2025-04-03 10:18:40,122 - mcc_classifier.agent.Rafa - INFO - Sending request to OpenAI for merchant: Roberts Construction
+2025-04-03 10:18:44,081 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-03 10:18:44,098 - mcc_classifier.agent.Rafa - INFO - Classified 'Roberts Construction' as MCC 1520 - General Contractors—Residential and Commercial
+2025-04-03 10:18:44,098 - mcc_classifier.agent.Matheus - INFO - Classifying merchant: Roberts Construction
+2025-04-03 10:18:44,105 - mcc_classifier.evaluator - INFO - Agent Matheus doesn't support full data, falling back to basic parameters
+2025-04-03 10:18:44,105 - mcc_classifier.agent.Matheus - INFO - Classifying merchant: Roberts Construction
+2025-04-03 10:18:44,108 - mcc_classifier.agent.Matheus - INFO - Performing tier1 classification for: Roberts Construction
+2025-04-03 10:18:58,631 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-03 10:18:58,655 - mcc_classifier.agent.Matheus - INFO - Performing risk tier classification for: Roberts Construction
+2025-04-03 10:19:03,395 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-03 10:19:03,401 - mcc_classifier.agent.Waki - INFO - Classifying merchant: Roberts Construction
+2025-04-03 10:19:03,402 - mcc_classifier.agent.Waki - INFO - Sending request to GPT for merchant: Roberts Construction
+2025-04-03 10:19:15,995 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-03 10:19:16,011 - mcc_classifier.agent.Waki - INFO - Classified 'Roberts Construction' as MCC 1520 - General Contractors-Residential and Commercial with confidence 0.95
+2025-04-03 10:19:16,015 - mcc_classifier.agent.Rafa - INFO - Classifying merchant:  Romero construction
+2025-04-03 10:19:16,019 - mcc_classifier.agent.Rafa - INFO - Sending request to OpenAI for merchant:  Romero construction
+2025-04-03 10:19:20,355 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-03 10:19:20,362 - mcc_classifier.agent.Rafa - INFO - Classified ' Romero construction' as MCC 1520 - General Contractors—Residential and Commercial
+2025-04-03 10:19:20,363 - mcc_classifier.agent.Matheus - INFO - Classifying merchant:  Romero construction
+2025-04-03 10:19:20,374 - mcc_classifier.evaluator - INFO - Agent Matheus doesn't support full data, falling back to basic parameters
+2025-04-03 10:19:20,374 - mcc_classifier.agent.Matheus - INFO - Classifying merchant:  Romero construction
+2025-04-03 10:19:20,375 - mcc_classifier.agent.Matheus - INFO - Performing tier1 classification for:  Romero construction
+2025-04-03 10:19:38,403 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-03 10:19:38,463 - mcc_classifier.agent.Matheus - INFO - Performing risk tier classification for:  Romero construction
+2025-04-03 10:19:42,989 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-03 10:19:42,996 - mcc_classifier.agent.Waki - INFO - Classifying merchant:  Romero construction
+2025-04-03 10:19:42,997 - mcc_classifier.agent.Waki - INFO - Sending request to GPT for merchant:  Romero construction
+2025-04-03 10:19:55,514 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-03 10:19:55,526 - mcc_classifier.agent.Waki - INFO - Classified ' Romero construction' as MCC 1520 - General Contractors-Residential and Commercial with confidence 0.95
+2025-04-03 10:19:55,526 - mcc_classifier.agent.Rafa - INFO - Classifying merchant: McCabes Gold & Diamonds
+2025-04-03 10:19:55,526 - mcc_classifier.agent.Rafa - INFO - Sending request to OpenAI for merchant: McCabes Gold & Diamonds
+2025-04-03 10:20:00,315 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-03 10:20:00,318 - mcc_classifier.agent.Rafa - INFO - Classified 'McCabes Gold & Diamonds' as MCC 5944 - Jewelry Stores, Watches, Clocks, and Silverware Stores
+2025-04-03 10:20:00,319 - mcc_classifier.agent.Matheus - INFO - Classifying merchant: McCabes Gold & Diamonds
+2025-04-03 10:20:00,322 - mcc_classifier.evaluator - INFO - Agent Matheus doesn't support full data, falling back to basic parameters
+2025-04-03 10:20:00,322 - mcc_classifier.agent.Matheus - INFO - Classifying merchant: McCabes Gold & Diamonds
+2025-04-03 10:20:00,323 - mcc_classifier.agent.Matheus - INFO - Performing tier1 classification for: McCabes Gold & Diamonds
+2025-04-03 10:20:15,840 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-03 10:20:16,235 - mcc_classifier.agent.Waki - INFO - Classifying merchant: McCabes Gold & Diamonds
+2025-04-03 10:20:16,235 - mcc_classifier.agent.Waki - INFO - Sending request to GPT for merchant: McCabes Gold & Diamonds
+2025-04-03 10:20:22,794 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-03 10:20:22,827 - mcc_classifier.agent.Waki - INFO - Classified 'McCabes Gold & Diamonds' as MCC 5944 - Watch, Clock, Jewelry, and Silverware Stores with confidence 0.95
+2025-04-03 10:20:22,827 - mcc_classifier.agent.Rafa - INFO - Classifying merchant: Joseph Mouzakis
+2025-04-03 10:20:22,828 - mcc_classifier.agent.Rafa - INFO - Sending request to OpenAI for merchant: Joseph Mouzakis
+2025-04-03 10:20:29,756 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-03 10:20:29,778 - mcc_classifier.agent.Rafa - INFO - Classified 'Joseph Mouzakis' as MCC 1520 - General Contractors—Residential and Commercial
+2025-04-03 10:20:29,778 - mcc_classifier.agent.Matheus - INFO - Classifying merchant: Joseph Mouzakis
+2025-04-03 10:20:29,781 - mcc_classifier.evaluator - INFO - Agent Matheus doesn't support full data, falling back to basic parameters
+2025-04-03 10:20:29,781 - mcc_classifier.agent.Matheus - INFO - Classifying merchant: Joseph Mouzakis
+2025-04-03 10:20:29,782 - mcc_classifier.agent.Matheus - INFO - Performing tier1 classification for: Joseph Mouzakis
+2025-04-03 10:20:54,894 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-03 10:20:54,929 - mcc_classifier.agent.Waki - INFO - Classifying merchant: Joseph Mouzakis
+2025-04-03 10:20:54,930 - mcc_classifier.agent.Waki - INFO - Sending request to GPT for merchant: Joseph Mouzakis
+2025-04-03 10:21:03,619 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-03 10:21:03,659 - mcc_classifier.agent.Waki - INFO - Classified 'Joseph Mouzakis' as MCC 1520 - General Contractors-Residential and Commercial with confidence 0.9
+2025-04-03 10:21:03,659 - mcc_classifier.agent.Rafa - INFO - Classifying merchant: Bosscontracting 
+2025-04-03 10:21:03,659 - mcc_classifier.agent.Rafa - INFO - Sending request to OpenAI for merchant: Bosscontracting 
+2025-04-03 10:21:09,179 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-03 10:21:09,188 - mcc_classifier.agent.Rafa - INFO - Classified 'Bosscontracting ' as MCC 1520 - General Contractors—Residential and Commercial
+2025-04-03 10:21:09,188 - mcc_classifier.agent.Matheus - INFO - Classifying merchant: Bosscontracting 
+2025-04-03 10:21:09,190 - mcc_classifier.evaluator - INFO - Agent Matheus doesn't support full data, falling back to basic parameters
+2025-04-03 10:21:09,190 - mcc_classifier.agent.Matheus - INFO - Classifying merchant: Bosscontracting 
+2025-04-03 10:21:09,191 - mcc_classifier.agent.Matheus - INFO - Performing tier1 classification for: Bosscontracting 
+2025-04-03 10:21:20,790 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-03 10:21:20,794 - mcc_classifier.agent.Matheus - INFO - Performing risk tier classification for: Bosscontracting 
+2025-04-03 10:21:29,278 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-03 10:21:29,282 - mcc_classifier.agent.Waki - INFO - Classifying merchant: Bosscontracting 
+2025-04-03 10:21:29,282 - mcc_classifier.agent.Waki - INFO - Sending request to GPT for merchant: Bosscontracting 
+2025-04-03 10:21:37,772 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-03 10:21:37,800 - mcc_classifier.agent.Waki - INFO - Classified 'Bosscontracting ' as MCC 1520 - General Contractors-Residential and Commercial with confidence 0.95
+2025-04-03 10:21:37,800 - mcc_classifier.agent.Rafa - INFO - Classifying merchant: Uncledino Construction L.L.C.
+2025-04-03 10:21:37,800 - mcc_classifier.agent.Rafa - INFO - Sending request to OpenAI for merchant: Uncledino Construction L.L.C.
+2025-04-03 10:21:42,788 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-03 10:21:42,795 - mcc_classifier.agent.Rafa - INFO - Classified 'Uncledino Construction L.L.C.' as MCC 1520 - General Contractors—Residential and Commercial
+2025-04-03 10:21:42,796 - mcc_classifier.agent.Matheus - INFO - Classifying merchant: Uncledino Construction L.L.C.
+2025-04-03 10:21:42,807 - mcc_classifier.evaluator - INFO - Agent Matheus doesn't support full data, falling back to basic parameters
+2025-04-03 10:21:42,807 - mcc_classifier.agent.Matheus - INFO - Classifying merchant: Uncledino Construction L.L.C.
+2025-04-03 10:21:42,808 - mcc_classifier.agent.Matheus - INFO - Performing tier1 classification for: Uncledino Construction L.L.C.
+2025-04-03 10:21:50,922 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-03 10:21:50,949 - mcc_classifier.agent.Waki - INFO - Classifying merchant: Uncledino Construction L.L.C.
+2025-04-03 10:21:50,950 - mcc_classifier.agent.Waki - INFO - Sending request to GPT for merchant: Uncledino Construction L.L.C.
+2025-04-03 10:21:58,452 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-03 10:21:58,458 - mcc_classifier.agent.Waki - INFO - Classified 'Uncledino Construction L.L.C.' as MCC 1520 - General Contractors-Residential and Commercial with confidence 0.7
+2025-04-03 10:21:58,458 - mcc_classifier.agent.Rafa - INFO - Classifying merchant:  Reid mechanical Services LLC
+2025-04-03 10:21:58,458 - mcc_classifier.agent.Rafa - INFO - Sending request to OpenAI for merchant:  Reid mechanical Services LLC
+2025-04-03 10:22:02,003 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-03 10:22:02,007 - mcc_classifier.agent.Rafa - INFO - Classified ' Reid mechanical Services LLC' as MCC 1711 - HVAC & Plumbing
+2025-04-03 10:22:02,008 - mcc_classifier.agent.Matheus - INFO - Classifying merchant:  Reid mechanical Services LLC
+2025-04-03 10:22:02,010 - mcc_classifier.evaluator - INFO - Agent Matheus doesn't support full data, falling back to basic parameters
+2025-04-03 10:22:02,010 - mcc_classifier.agent.Matheus - INFO - Classifying merchant:  Reid mechanical Services LLC
+2025-04-03 10:22:02,011 - mcc_classifier.agent.Matheus - INFO - Performing tier1 classification for:  Reid mechanical Services LLC
+2025-04-03 10:22:14,469 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-03 10:22:14,506 - mcc_classifier.agent.Waki - INFO - Classifying merchant:  Reid mechanical Services LLC
+2025-04-03 10:22:14,510 - mcc_classifier.agent.Waki - INFO - Sending request to GPT for merchant:  Reid mechanical Services LLC
+2025-04-03 10:22:22,846 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-03 10:22:22,873 - mcc_classifier.agent.Waki - INFO - Classified ' Reid mechanical Services LLC' as MCC 1711 - Air Conditioning Contractors – Sales and Installation, Heating Contractors – Sales, Service, Installation with confidence 0.95
+2025-04-03 10:22:22,884 - mcc_classifier.agent.Rafa - INFO - Classifying merchant: Terry L Figart Heating and Cooling
+2025-04-03 10:22:22,885 - mcc_classifier.agent.Rafa - INFO - Sending request to OpenAI for merchant: Terry L Figart Heating and Cooling
+2025-04-03 10:22:27,633 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-03 10:22:27,637 - mcc_classifier.agent.Rafa - INFO - Classified 'Terry L Figart Heating and Cooling' as MCC 1711 - HVAC & Plumbing
+2025-04-03 10:22:27,638 - mcc_classifier.agent.Matheus - INFO - Classifying merchant: Terry L Figart Heating and Cooling
+2025-04-03 10:22:27,639 - mcc_classifier.evaluator - INFO - Agent Matheus doesn't support full data, falling back to basic parameters
+2025-04-03 10:22:27,639 - mcc_classifier.agent.Matheus - INFO - Classifying merchant: Terry L Figart Heating and Cooling
+2025-04-03 10:22:27,640 - mcc_classifier.agent.Matheus - INFO - Performing tier1 classification for: Terry L Figart Heating and Cooling
+2025-04-03 10:22:40,478 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-03 10:22:40,488 - mcc_classifier.agent.Waki - INFO - Classifying merchant: Terry L Figart Heating and Cooling
+2025-04-03 10:22:40,489 - mcc_classifier.agent.Waki - INFO - Sending request to GPT for merchant: Terry L Figart Heating and Cooling
+2025-04-03 10:22:48,153 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-03 10:22:48,196 - mcc_classifier.agent.Waki - INFO - Classified 'Terry L Figart Heating and Cooling' as MCC 1711 - Air Conditioning Contractors – Sales and Installation, Heating Contractors – Sales, Service, Installation with confidence 0.7
+2025-04-03 10:22:48,198 - mcc_classifier.agent.Rafa - INFO - Classifying merchant: Omar Guerra
+2025-04-03 10:22:48,199 - mcc_classifier.agent.Rafa - INFO - Sending request to OpenAI for merchant: Omar Guerra
+2025-04-03 10:22:51,471 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-03 10:22:51,487 - mcc_classifier.agent.Rafa - INFO - Classified 'Omar Guerra' as MCC 1711 - HVAC & Plumbing
+2025-04-03 10:22:51,488 - mcc_classifier.agent.Matheus - INFO - Classifying merchant: Omar Guerra
+2025-04-03 10:22:51,489 - mcc_classifier.evaluator - INFO - Agent Matheus doesn't support full data, falling back to basic parameters
+2025-04-03 10:22:51,489 - mcc_classifier.agent.Matheus - INFO - Classifying merchant: Omar Guerra
+2025-04-03 10:22:51,490 - mcc_classifier.agent.Matheus - INFO - Performing tier1 classification for: Omar Guerra
+2025-04-03 10:23:00,931 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-03 10:23:01,643 - mcc_classifier.agent.Waki - INFO - Classifying merchant: Omar Guerra
+2025-04-03 10:23:01,723 - mcc_classifier.agent.Waki - INFO - Sending request to GPT for merchant: Omar Guerra
+2025-04-03 10:23:08,407 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-03 10:23:08,439 - mcc_classifier.agent.Waki - INFO - Classified 'Omar Guerra' as MCC 1711 - Air Conditioning Contractors – Sales and Installation, Heating Contractors – Sales, Service, Installation with confidence 0.95
+2025-04-03 10:23:08,439 - mcc_classifier.agent.Rafa - INFO - Classifying merchant: D.V.M.G Service Solutions LLC
+2025-04-03 10:23:08,439 - mcc_classifier.agent.Rafa - INFO - Sending request to OpenAI for merchant: D.V.M.G Service Solutions LLC
+2025-04-03 10:23:16,956 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-03 10:23:16,996 - mcc_classifier.agent.Rafa - INFO - Classified 'D.V.M.G Service Solutions LLC' as MCC 1711 - HVAC & Plumbing
+2025-04-03 10:23:16,997 - mcc_classifier.agent.Matheus - INFO - Classifying merchant: D.V.M.G Service Solutions LLC
+2025-04-03 10:23:17,085 - mcc_classifier.evaluator - INFO - Agent Matheus doesn't support full data, falling back to basic parameters
+2025-04-03 10:23:17,085 - mcc_classifier.agent.Matheus - INFO - Classifying merchant: D.V.M.G Service Solutions LLC
+2025-04-03 10:23:17,086 - mcc_classifier.agent.Matheus - INFO - Performing tier1 classification for: D.V.M.G Service Solutions LLC
+2025-04-03 10:23:29,897 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-03 10:23:29,957 - mcc_classifier.agent.Matheus - INFO - Performing risk tier classification for: D.V.M.G Service Solutions LLC
+2025-04-03 10:23:51,113 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-03 10:23:51,370 - mcc_classifier.agent.Waki - INFO - Classifying merchant: D.V.M.G Service Solutions LLC
+2025-04-03 10:23:51,373 - mcc_classifier.agent.Waki - INFO - Sending request to GPT for merchant: D.V.M.G Service Solutions LLC
+2025-04-03 10:23:57,978 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-03 10:23:58,070 - mcc_classifier.agent.Waki - INFO - Classified 'D.V.M.G Service Solutions LLC' as MCC 1711 - Air Conditioning Contractors – Sales and Installation, Heating Contractors – Sales, Service, Installation with confidence 0.9
+2025-04-03 10:23:58,070 - mcc_classifier.agent.Rafa - INFO - Classifying merchant: Joaquin Williams Rentals 
+2025-04-03 10:23:58,070 - mcc_classifier.agent.Rafa - INFO - Sending request to OpenAI for merchant: Joaquin Williams Rentals 
+2025-04-03 10:24:04,303 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-03 10:24:04,310 - mcc_classifier.agent.Rafa - INFO - Classified 'Joaquin Williams Rentals ' as MCC 7011 - Hotels & Lodging
+2025-04-03 10:24:04,311 - mcc_classifier.agent.Matheus - INFO - Classifying merchant: Joaquin Williams Rentals 
+2025-04-03 10:24:04,319 - mcc_classifier.evaluator - INFO - Agent Matheus doesn't support full data, falling back to basic parameters
+2025-04-03 10:24:04,319 - mcc_classifier.agent.Matheus - INFO - Classifying merchant: Joaquin Williams Rentals 
+2025-04-03 10:24:04,331 - mcc_classifier.agent.Matheus - INFO - Performing tier1 classification for: Joaquin Williams Rentals 
+2025-04-03 10:24:18,143 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-03 10:24:18,230 - mcc_classifier.agent.Waki - INFO - Classifying merchant: Joaquin Williams Rentals 
+2025-04-03 10:24:18,241 - mcc_classifier.agent.Waki - INFO - Sending request to GPT for merchant: Joaquin Williams Rentals 
+2025-04-03 10:24:25,946 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-03 10:24:25,956 - mcc_classifier.agent.Waki - INFO - Classified 'Joaquin Williams Rentals ' as MCC 7394 - Equipment Rental and Leasing Services, Tool Rental, Furniture Rental, and Appliance Rental with confidence 0.9
+2025-04-03 10:24:25,956 - mcc_classifier.agent.Rafa - INFO - Classifying merchant: Morning Tech Of Staten Island 
+2025-04-03 10:24:25,958 - mcc_classifier.agent.Rafa - INFO - Sending request to OpenAI for merchant: Morning Tech Of Staten Island 
+2025-04-03 10:24:28,810 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-03 10:24:28,813 - mcc_classifier.agent.Rafa - INFO - Classified 'Morning Tech Of Staten Island ' as MCC 1731 - Electrical Contractors
+2025-04-03 10:24:28,813 - mcc_classifier.agent.Matheus - INFO - Classifying merchant: Morning Tech Of Staten Island 
+2025-04-03 10:24:28,814 - mcc_classifier.evaluator - INFO - Agent Matheus doesn't support full data, falling back to basic parameters
+2025-04-03 10:24:28,814 - mcc_classifier.agent.Matheus - INFO - Classifying merchant: Morning Tech Of Staten Island 
+2025-04-03 10:24:28,815 - mcc_classifier.agent.Matheus - INFO - Performing tier1 classification for: Morning Tech Of Staten Island 
+2025-04-03 10:24:44,548 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-03 10:24:44,648 - mcc_classifier.agent.Waki - INFO - Classifying merchant: Morning Tech Of Staten Island 
+2025-04-03 10:24:44,649 - mcc_classifier.agent.Waki - INFO - Sending request to GPT for merchant: Morning Tech Of Staten Island 
+2025-04-03 10:24:54,798 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-03 10:24:54,891 - mcc_classifier.agent.Waki - INFO - Classified 'Morning Tech Of Staten Island ' as MCC 5732 - Electronic Sales with confidence 0.9
+2025-04-03 10:24:54,891 - mcc_classifier.agent.Rafa - INFO - Classifying merchant: Hank Hunter
+2025-04-03 10:24:54,891 - mcc_classifier.agent.Rafa - INFO - Sending request to OpenAI for merchant: Hank Hunter
+2025-04-03 10:24:59,432 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-03 10:24:59,448 - mcc_classifier.agent.Rafa - INFO - Classified 'Hank Hunter' as MCC 1731 - Electrical Contractors
+2025-04-03 10:24:59,448 - mcc_classifier.agent.Matheus - INFO - Classifying merchant: Hank Hunter
+2025-04-03 10:24:59,453 - mcc_classifier.evaluator - INFO - Agent Matheus doesn't support full data, falling back to basic parameters
+2025-04-03 10:24:59,453 - mcc_classifier.agent.Matheus - INFO - Classifying merchant: Hank Hunter
+2025-04-03 10:24:59,456 - mcc_classifier.agent.Matheus - INFO - Performing tier1 classification for: Hank Hunter
+2025-04-03 10:25:07,509 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-03 10:25:07,598 - mcc_classifier.agent.Waki - INFO - Classifying merchant: Hank Hunter
+2025-04-03 10:25:07,598 - mcc_classifier.agent.Waki - INFO - Sending request to GPT for merchant: Hank Hunter
+2025-04-03 10:25:18,714 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-03 10:25:18,748 - mcc_classifier.agent.Waki - INFO - Classified 'Hank Hunter' as MCC 1731 - Electrical Contractors with confidence 0.95
+2025-04-03 10:25:18,748 - mcc_classifier.agent.Rafa - INFO - Classifying merchant: Darth Inc
+2025-04-03 10:25:18,749 - mcc_classifier.agent.Rafa - INFO - Sending request to OpenAI for merchant: Darth Inc
+2025-04-03 10:25:23,031 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-03 10:25:23,045 - mcc_classifier.agent.Rafa - INFO - Classified 'Darth Inc' as MCC 1731 - Electrical Contractors
+2025-04-03 10:25:23,046 - mcc_classifier.agent.Matheus - INFO - Classifying merchant: Darth Inc
+2025-04-03 10:25:23,047 - mcc_classifier.evaluator - INFO - Agent Matheus doesn't support full data, falling back to basic parameters
+2025-04-03 10:25:23,047 - mcc_classifier.agent.Matheus - INFO - Classifying merchant: Darth Inc
+2025-04-03 10:25:23,049 - mcc_classifier.agent.Matheus - INFO - Performing tier1 classification for: Darth Inc
+2025-04-03 10:25:32,714 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-03 10:25:32,758 - mcc_classifier.agent.Waki - INFO - Classifying merchant: Darth Inc
+2025-04-03 10:25:32,763 - mcc_classifier.agent.Waki - INFO - Sending request to GPT for merchant: Darth Inc
+2025-04-03 10:25:38,523 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-03 10:25:38,556 - mcc_classifier.agent.Waki - INFO - Classified 'Darth Inc' as MCC 1731 - Electrical Contractors with confidence 0.95
+2025-04-03 10:25:38,556 - mcc_classifier.agent.Rafa - INFO - Classifying merchant: Carr Contracting
+2025-04-03 10:25:38,556 - mcc_classifier.agent.Rafa - INFO - Sending request to OpenAI for merchant: Carr Contracting
+2025-04-03 10:25:45,598 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-03 10:25:45,698 - mcc_classifier.agent.Rafa - INFO - Classified 'Carr Contracting' as MCC 1750 - Carpentry
+2025-04-03 10:25:45,709 - mcc_classifier.agent.Matheus - INFO - Classifying merchant: Carr Contracting
+2025-04-03 10:25:45,715 - mcc_classifier.evaluator - INFO - Agent Matheus doesn't support full data, falling back to basic parameters
+2025-04-03 10:25:45,715 - mcc_classifier.agent.Matheus - INFO - Classifying merchant: Carr Contracting
+2025-04-03 10:25:45,740 - mcc_classifier.agent.Matheus - INFO - Performing tier1 classification for: Carr Contracting
+2025-04-03 10:26:02,146 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-03 10:26:02,203 - mcc_classifier.agent.Matheus - INFO - Performing risk tier classification for: Carr Contracting
+2025-04-03 10:26:11,598 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-03 10:26:11,629 - mcc_classifier.agent.Waki - INFO - Classifying merchant: Carr Contracting
+2025-04-03 10:26:11,630 - mcc_classifier.agent.Waki - INFO - Sending request to GPT for merchant: Carr Contracting
+2025-04-03 10:26:21,120 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-03 10:26:21,147 - mcc_classifier.agent.Waki - INFO - Classified 'Carr Contracting' as MCC 1520 - General Contractors-Residential and Commercial with confidence 0.9
+2025-04-03 10:26:21,155 - mcc_classifier.agent.Rafa - INFO - Classifying merchant: Y&M Building And Contracting LLC
+2025-04-03 10:26:21,157 - mcc_classifier.agent.Rafa - INFO - Sending request to OpenAI for merchant: Y&M Building And Contracting LLC
+2025-04-03 10:26:25,523 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-03 10:26:25,546 - mcc_classifier.agent.Rafa - INFO - Classified 'Y&M Building And Contracting LLC' as MCC 1520 - General Contractors
+2025-04-03 10:26:25,546 - mcc_classifier.agent.Matheus - INFO - Classifying merchant: Y&M Building And Contracting LLC
+2025-04-03 10:26:25,547 - mcc_classifier.evaluator - INFO - Agent Matheus doesn't support full data, falling back to basic parameters
+2025-04-03 10:26:25,547 - mcc_classifier.agent.Matheus - INFO - Classifying merchant: Y&M Building And Contracting LLC
+2025-04-03 10:26:25,548 - mcc_classifier.agent.Matheus - INFO - Performing tier1 classification for: Y&M Building And Contracting LLC
+2025-04-03 10:26:48,664 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-03 10:26:48,762 - mcc_classifier.agent.Matheus - INFO - Performing risk tier classification for: Y&M Building And Contracting LLC
+2025-04-03 10:26:55,462 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-03 10:26:55,478 - mcc_classifier.agent.Waki - INFO - Classifying merchant: Y&M Building And Contracting LLC
+2025-04-03 10:26:55,478 - mcc_classifier.agent.Waki - INFO - Sending request to GPT for merchant: Y&M Building And Contracting LLC
+2025-04-03 10:27:02,855 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-03 10:27:02,871 - mcc_classifier.agent.Waki - INFO - Classified 'Y&M Building And Contracting LLC' as MCC 1520 - General Contractors-Residential and Commercial with confidence 0.9
+2025-04-03 10:27:02,872 - mcc_classifier.agent.Rafa - INFO - Classifying merchant: R&B Remodeling
+2025-04-03 10:27:02,872 - mcc_classifier.agent.Rafa - INFO - Sending request to OpenAI for merchant: R&B Remodeling
+2025-04-03 10:27:09,384 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-03 10:27:09,413 - mcc_classifier.agent.Rafa - INFO - Classified 'R&B Remodeling' as MCC 1750 - Carpentry
+2025-04-03 10:27:09,414 - mcc_classifier.agent.Matheus - INFO - Classifying merchant: R&B Remodeling
+2025-04-03 10:27:09,425 - mcc_classifier.evaluator - INFO - Agent Matheus doesn't support full data, falling back to basic parameters
+2025-04-03 10:27:09,430 - mcc_classifier.agent.Matheus - INFO - Classifying merchant: R&B Remodeling
+2025-04-03 10:27:09,434 - mcc_classifier.agent.Matheus - INFO - Performing tier1 classification for: R&B Remodeling
+2025-04-03 10:27:24,893 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-03 10:27:24,963 - mcc_classifier.agent.Matheus - INFO - Performing risk tier classification for: R&B Remodeling
+2025-04-03 10:27:29,708 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-03 10:27:29,787 - mcc_classifier.agent.Waki - INFO - Classifying merchant: R&B Remodeling
+2025-04-03 10:27:29,814 - mcc_classifier.agent.Waki - INFO - Sending request to GPT for merchant: R&B Remodeling
+2025-04-03 10:27:37,243 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-03 10:27:37,271 - mcc_classifier.agent.Waki - INFO - Classified 'R&B Remodeling' as MCC 1520 - General Contractors-Residential and Commercial with confidence 0.9
+2025-04-03 10:27:37,280 - mcc_classifier.agent.Rafa - INFO - Classifying merchant: Bernabela Contractor
+2025-04-03 10:27:37,283 - mcc_classifier.agent.Rafa - INFO - Sending request to OpenAI for merchant: Bernabela Contractor
+2025-04-03 10:27:44,954 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-03 10:27:44,963 - mcc_classifier.agent.Rafa - INFO - Classified 'Bernabela Contractor' as MCC 1750 - Carpentry
+2025-04-03 10:27:44,967 - mcc_classifier.agent.Matheus - INFO - Classifying merchant: Bernabela Contractor
+2025-04-03 10:27:44,969 - mcc_classifier.evaluator - INFO - Agent Matheus doesn't support full data, falling back to basic parameters
+2025-04-03 10:27:44,970 - mcc_classifier.agent.Matheus - INFO - Classifying merchant: Bernabela Contractor
+2025-04-03 10:27:44,970 - mcc_classifier.agent.Matheus - INFO - Performing tier1 classification for: Bernabela Contractor
+2025-04-03 10:27:57,593 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-03 10:27:57,634 - mcc_classifier.agent.Matheus - INFO - Performing risk tier classification for: Bernabela Contractor
+2025-04-03 10:28:06,839 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-03 10:28:07,479 - mcc_classifier.agent.Waki - INFO - Classifying merchant: Bernabela Contractor
+2025-04-03 10:28:07,479 - mcc_classifier.agent.Waki - INFO - Sending request to GPT for merchant: Bernabela Contractor
+2025-04-03 10:28:16,645 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-03 10:28:16,716 - mcc_classifier.agent.Waki - INFO - Classified 'Bernabela Contractor' as MCC 1750 - Carpentry Contractors with confidence 0.95
+2025-04-03 10:28:16,718 - mcc_classifier.agent.Rafa - INFO - Classifying merchant: Littys Cakes
+2025-04-03 10:28:16,720 - mcc_classifier.agent.Rafa - INFO - Sending request to OpenAI for merchant: Littys Cakes
+2025-04-03 10:28:21,964 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-03 10:28:21,973 - mcc_classifier.agent.Rafa - INFO - Classified 'Littys Cakes' as MCC 5462 - Bakeries
+2025-04-03 10:28:21,974 - mcc_classifier.agent.Matheus - INFO - Classifying merchant: Littys Cakes
+2025-04-03 10:28:21,978 - mcc_classifier.evaluator - INFO - Agent Matheus doesn't support full data, falling back to basic parameters
+2025-04-03 10:28:21,979 - mcc_classifier.agent.Matheus - INFO - Classifying merchant: Littys Cakes
+2025-04-03 10:28:21,985 - mcc_classifier.agent.Matheus - INFO - Performing tier1 classification for: Littys Cakes
+2025-04-03 10:28:31,026 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-03 10:28:31,034 - mcc_classifier.agent.Waki - INFO - Classifying merchant: Littys Cakes
+2025-04-03 10:28:31,039 - mcc_classifier.agent.Waki - INFO - Sending request to GPT for merchant: Littys Cakes
+2025-04-03 10:28:37,249 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-03 10:28:37,279 - mcc_classifier.agent.Waki - INFO - Classified 'Littys Cakes' as MCC 5462 - Bakeries with confidence 0.95
+2025-04-03 10:28:37,281 - mcc_classifier.agent.Rafa - INFO - Classifying merchant: William bryer
+2025-04-03 10:28:37,281 - mcc_classifier.agent.Rafa - INFO - Sending request to OpenAI for merchant: William bryer
+2025-04-03 10:28:43,675 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-03 10:28:43,678 - mcc_classifier.agent.Rafa - INFO - Classified 'William bryer' as MCC 1761 - Roofing and Siding, Sheet Metal Work Contractors
+2025-04-03 10:28:43,679 - mcc_classifier.agent.Matheus - INFO - Classifying merchant: William bryer
+2025-04-03 10:28:43,680 - mcc_classifier.evaluator - INFO - Agent Matheus doesn't support full data, falling back to basic parameters
+2025-04-03 10:28:43,680 - mcc_classifier.agent.Matheus - INFO - Classifying merchant: William bryer
+2025-04-03 10:28:43,681 - mcc_classifier.agent.Matheus - INFO - Performing tier1 classification for: William bryer
+2025-04-03 10:28:59,865 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-03 10:28:59,895 - mcc_classifier.agent.Waki - INFO - Classifying merchant: William bryer
+2025-04-03 10:28:59,903 - mcc_classifier.agent.Waki - INFO - Sending request to GPT for merchant: William bryer
+2025-04-03 10:29:05,946 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-03 10:29:05,992 - mcc_classifier.agent.Waki - INFO - Classified 'William bryer' as MCC 1761 - Roofing – Contractors, Sheet Metal Work – Contractors, Siding – Contractors with confidence 0.95
+2025-04-03 10:29:05,992 - mcc_classifier.agent.Rafa - INFO - Classifying merchant: Traversa Construction
+2025-04-03 10:29:05,992 - mcc_classifier.agent.Rafa - INFO - Sending request to OpenAI for merchant: Traversa Construction
+2025-04-03 10:29:09,856 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-03 10:29:09,864 - mcc_classifier.agent.Rafa - INFO - Classified 'Traversa Construction' as MCC 1771 - Concrete Work Contractors
+2025-04-03 10:29:09,865 - mcc_classifier.agent.Matheus - INFO - Classifying merchant: Traversa Construction
+2025-04-03 10:29:09,875 - mcc_classifier.evaluator - INFO - Agent Matheus doesn't support full data, falling back to basic parameters
+2025-04-03 10:29:09,876 - mcc_classifier.agent.Matheus - INFO - Classifying merchant: Traversa Construction
+2025-04-03 10:29:09,885 - mcc_classifier.agent.Matheus - INFO - Performing tier1 classification for: Traversa Construction
+2025-04-03 10:29:21,800 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-03 10:29:21,824 - mcc_classifier.agent.Matheus - INFO - Performing risk tier classification for: Traversa Construction
+2025-04-03 10:29:26,118 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-03 10:29:26,189 - mcc_classifier.agent.Waki - INFO - Classifying merchant: Traversa Construction
+2025-04-03 10:29:26,190 - mcc_classifier.agent.Waki - INFO - Sending request to GPT for merchant: Traversa Construction
+2025-04-03 10:29:34,910 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-03 10:29:34,952 - mcc_classifier.agent.Waki - INFO - Classified 'Traversa Construction' as MCC 1771 - Contractors – Concrete Work with confidence 0.95
+2025-04-03 10:29:35,022 - mcc_classifier.agent.Rafa - INFO - Classifying merchant:  Elite Service & Solution
+2025-04-03 10:29:35,046 - mcc_classifier.agent.Rafa - INFO - Sending request to OpenAI for merchant:  Elite Service & Solution
+2025-04-03 10:29:43,728 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-03 10:29:43,737 - mcc_classifier.agent.Rafa - INFO - Classified ' Elite Service & Solution' as MCC 1799 - Special Trade Contractors
+2025-04-03 10:29:43,743 - mcc_classifier.agent.Matheus - INFO - Classifying merchant:  Elite Service & Solution
+2025-04-03 10:29:43,748 - mcc_classifier.evaluator - INFO - Agent Matheus doesn't support full data, falling back to basic parameters
+2025-04-03 10:29:43,748 - mcc_classifier.agent.Matheus - INFO - Classifying merchant:  Elite Service & Solution
+2025-04-03 10:29:43,754 - mcc_classifier.agent.Matheus - INFO - Performing tier1 classification for:  Elite Service & Solution
+2025-04-03 10:29:59,438 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-03 10:29:59,450 - mcc_classifier.agent.Matheus - INFO - Performing risk tier classification for:  Elite Service & Solution
+2025-04-03 10:30:08,541 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-03 10:30:08,730 - mcc_classifier.agent.Waki - INFO - Classifying merchant:  Elite Service & Solution
+2025-04-03 10:30:08,732 - mcc_classifier.agent.Waki - INFO - Sending request to GPT for merchant:  Elite Service & Solution
+2025-04-03 10:30:22,397 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-03 10:30:22,464 - mcc_classifier.agent.Waki - INFO - Classified ' Elite Service & Solution' as MCC 1771 - Contractors – Concrete Work with confidence 0.9
+2025-04-03 10:30:22,465 - mcc_classifier.agent.Rafa - INFO - Classifying merchant: Frmthegroundupco
+2025-04-03 10:30:22,465 - mcc_classifier.agent.Rafa - INFO - Sending request to OpenAI for merchant: Frmthegroundupco
+2025-04-03 10:30:25,407 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-03 10:30:25,415 - mcc_classifier.agent.Rafa - INFO - Classified 'Frmthegroundupco' as MCC 1771 - Concrete Work Contractors
+2025-04-03 10:30:25,416 - mcc_classifier.agent.Matheus - INFO - Classifying merchant: Frmthegroundupco
+2025-04-03 10:30:25,417 - mcc_classifier.evaluator - INFO - Agent Matheus doesn't support full data, falling back to basic parameters
+2025-04-03 10:30:25,417 - mcc_classifier.agent.Matheus - INFO - Classifying merchant: Frmthegroundupco
+2025-04-03 10:30:25,421 - mcc_classifier.agent.Matheus - INFO - Performing tier1 classification for: Frmthegroundupco
+2025-04-03 10:30:33,879 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-03 10:30:33,897 - mcc_classifier.agent.Waki - INFO - Classifying merchant: Frmthegroundupco
+2025-04-03 10:30:33,899 - mcc_classifier.agent.Waki - INFO - Sending request to GPT for merchant: Frmthegroundupco
+2025-04-03 10:30:40,633 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-03 10:30:40,690 - mcc_classifier.agent.Waki - INFO - Classified 'Frmthegroundupco' as MCC 1771 - Contractors – Concrete Work with confidence 0.9
+2025-04-03 10:30:40,693 - mcc_classifier.agent.Rafa - INFO - Classifying merchant: Colon Co.
+2025-04-03 10:30:40,693 - mcc_classifier.agent.Rafa - INFO - Sending request to OpenAI for merchant: Colon Co.
+2025-04-03 10:30:45,637 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-03 10:30:45,641 - mcc_classifier.agent.Rafa - INFO - Classified 'Colon Co.' as MCC 1771 - Concrete Work Contractors
+2025-04-03 10:30:45,642 - mcc_classifier.agent.Matheus - INFO - Classifying merchant: Colon Co.
+2025-04-03 10:30:45,649 - mcc_classifier.evaluator - INFO - Agent Matheus doesn't support full data, falling back to basic parameters
+2025-04-03 10:30:45,649 - mcc_classifier.agent.Matheus - INFO - Classifying merchant: Colon Co.
+2025-04-03 10:30:45,651 - mcc_classifier.agent.Matheus - INFO - Performing tier1 classification for: Colon Co.
+2025-04-03 10:31:01,047 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-03 10:31:01,148 - mcc_classifier.agent.Waki - INFO - Classifying merchant: Colon Co.
+2025-04-03 10:31:01,149 - mcc_classifier.agent.Waki - INFO - Sending request to GPT for merchant: Colon Co.
+2025-04-03 10:31:08,860 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-03 10:31:08,880 - mcc_classifier.agent.Waki - INFO - Classified 'Colon Co.' as MCC 1771 - Contractors – Concrete Work with confidence 0.95
+2025-04-03 10:31:08,882 - mcc_classifier.agent.Rafa - INFO - Classifying merchant: Jordan
+2025-04-03 10:31:08,883 - mcc_classifier.agent.Rafa - INFO - Sending request to OpenAI for merchant: Jordan
+2025-04-03 10:31:14,509 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-03 10:31:14,551 - mcc_classifier.agent.Rafa - INFO - Classified 'Jordan' as MCC 5411 - Grocery Stores, Supermarkets
+2025-04-03 10:31:14,552 - mcc_classifier.agent.Matheus - INFO - Classifying merchant: Jordan
+2025-04-03 10:31:14,553 - mcc_classifier.evaluator - INFO - Agent Matheus doesn't support full data, falling back to basic parameters
+2025-04-03 10:31:14,553 - mcc_classifier.agent.Matheus - INFO - Classifying merchant: Jordan
+2025-04-03 10:31:14,557 - mcc_classifier.agent.Matheus - INFO - Performing tier1 classification for: Jordan
+2025-04-03 10:31:31,291 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-03 10:31:31,303 - mcc_classifier.agent.Waki - INFO - Classifying merchant: Jordan
+2025-04-03 10:31:31,305 - mcc_classifier.agent.Waki - INFO - Sending request to GPT for merchant: Jordan
+2025-04-03 10:31:37,621 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-03 10:31:37,663 - mcc_classifier.agent.Waki - INFO - Classified 'Jordan' as MCC 5411 - Grocery Stores, Supermarkets with confidence 0.9
+2025-04-03 10:31:37,665 - mcc_classifier.agent.Rafa - INFO - Classifying merchant: Thewhynotshow
+2025-04-03 10:31:37,668 - mcc_classifier.agent.Rafa - INFO - Sending request to OpenAI for merchant: Thewhynotshow
+2025-04-03 10:31:41,951 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-03 10:31:41,987 - mcc_classifier.agent.Rafa - INFO - Classified 'Thewhynotshow' as MCC 7399 - Other B2B Services
+2025-04-03 10:31:41,991 - mcc_classifier.agent.Matheus - INFO - Classifying merchant: Thewhynotshow
+2025-04-03 10:31:42,011 - mcc_classifier.evaluator - INFO - Agent Matheus doesn't support full data, falling back to basic parameters
+2025-04-03 10:31:42,012 - mcc_classifier.agent.Matheus - INFO - Classifying merchant: Thewhynotshow
+2025-04-03 10:31:42,013 - mcc_classifier.agent.Matheus - INFO - Performing tier1 classification for: Thewhynotshow
+2025-04-03 10:32:00,732 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-03 10:32:00,843 - mcc_classifier.agent.Waki - INFO - Classifying merchant: Thewhynotshow
+2025-04-03 10:32:00,843 - mcc_classifier.agent.Waki - INFO - Sending request to GPT for merchant: Thewhynotshow
+2025-04-03 10:32:13,665 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-03 10:32:13,671 - mcc_classifier.agent.Waki - INFO - Classified 'Thewhynotshow' as MCC 7221 - Photographic Studios with confidence 0.9
+2025-04-03 10:32:13,672 - mcc_classifier.agent.Rafa - INFO - Classifying merchant: Revere
+2025-04-03 10:32:13,672 - mcc_classifier.agent.Rafa - INFO - Sending request to OpenAI for merchant: Revere
+2025-04-03 10:32:16,549 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-03 10:32:16,556 - mcc_classifier.agent.Rafa - INFO - Classified 'Revere' as MCC 1799 - Special Trade Contractors not elsewhere classified
+2025-04-03 10:32:16,557 - mcc_classifier.agent.Matheus - INFO - Classifying merchant: Revere
+2025-04-03 10:32:16,567 - mcc_classifier.evaluator - INFO - Agent Matheus doesn't support full data, falling back to basic parameters
+2025-04-03 10:32:16,567 - mcc_classifier.agent.Matheus - INFO - Classifying merchant: Revere
+2025-04-03 10:32:16,568 - mcc_classifier.agent.Matheus - INFO - Performing tier1 classification for: Revere
+2025-04-03 10:32:23,322 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-03 10:32:23,395 - mcc_classifier.agent.Waki - INFO - Classifying merchant: Revere
+2025-04-03 10:32:23,395 - mcc_classifier.agent.Waki - INFO - Sending request to GPT for merchant: Revere
+2025-04-03 10:32:33,949 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-03 10:32:33,999 - mcc_classifier.agent.Waki - INFO - Classified 'Revere' as MCC 1799 - Contractors – Special Trade, Not Elsewhere Classified with confidence 0.9
+2025-04-03 10:32:34,000 - mcc_classifier.agent.Rafa - INFO - Classifying merchant: Adam Kingsley
+2025-04-03 10:32:34,000 - mcc_classifier.agent.Rafa - INFO - Sending request to OpenAI for merchant: Adam Kingsley
+2025-04-03 10:32:40,766 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-03 10:32:40,844 - mcc_classifier.agent.Rafa - INFO - Classified 'Adam Kingsley' as MCC 1799 - Contractors, Special Trade—not elsewhere classified
+2025-04-03 10:32:40,847 - mcc_classifier.agent.Matheus - INFO - Classifying merchant: Adam Kingsley
+2025-04-03 10:32:40,848 - mcc_classifier.evaluator - INFO - Agent Matheus doesn't support full data, falling back to basic parameters
+2025-04-03 10:32:40,848 - mcc_classifier.agent.Matheus - INFO - Classifying merchant: Adam Kingsley
+2025-04-03 10:32:40,857 - mcc_classifier.agent.Matheus - INFO - Performing tier1 classification for: Adam Kingsley
+2025-04-03 10:33:04,431 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-03 10:33:04,470 - mcc_classifier.agent.Waki - INFO - Classifying merchant: Adam Kingsley
+2025-04-03 10:33:04,472 - mcc_classifier.agent.Waki - INFO - Sending request to GPT for merchant: Adam Kingsley
+2025-04-03 10:33:18,559 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-03 10:33:18,744 - mcc_classifier.agent.Waki - INFO - Classified 'Adam Kingsley' as MCC 7299 - Miscellaneous Personal Services ( not elsewhere classifies) with confidence 0.6
+2025-04-03 10:33:18,744 - mcc_classifier.agent.Rafa - INFO - Classifying merchant: ALLHANDSONDECK
+2025-04-03 10:33:18,745 - mcc_classifier.agent.Rafa - INFO - Sending request to OpenAI for merchant: ALLHANDSONDECK
+2025-04-03 10:33:25,829 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-03 10:33:26,025 - mcc_classifier.agent.Rafa - INFO - Classified 'ALLHANDSONDECK' as MCC 1799 - Special Trade
+2025-04-03 10:33:26,026 - mcc_classifier.agent.Matheus - INFO - Classifying merchant: ALLHANDSONDECK
+2025-04-03 10:33:26,028 - mcc_classifier.evaluator - INFO - Agent Matheus doesn't support full data, falling back to basic parameters
+2025-04-03 10:33:26,028 - mcc_classifier.agent.Matheus - INFO - Classifying merchant: ALLHANDSONDECK
+2025-04-03 10:33:26,029 - mcc_classifier.agent.Matheus - INFO - Performing tier1 classification for: ALLHANDSONDECK
+2025-04-03 10:33:33,628 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-03 10:33:33,664 - mcc_classifier.agent.Waki - INFO - Classifying merchant: ALLHANDSONDECK
+2025-04-03 10:33:33,665 - mcc_classifier.agent.Waki - INFO - Sending request to GPT for merchant: ALLHANDSONDECK
+2025-04-03 10:33:41,327 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-03 10:33:41,343 - mcc_classifier.agent.Waki - INFO - Classified 'ALLHANDSONDECK' as MCC 5651 - Family Clothing Stores with confidence 0.9
+2025-04-03 10:33:41,344 - mcc_classifier.agent.Rafa - INFO - Classifying merchant: True Life Installs
+2025-04-03 10:33:41,348 - mcc_classifier.agent.Rafa - INFO - Sending request to OpenAI for merchant: True Life Installs
+2025-04-03 10:33:48,215 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-03 10:33:48,247 - mcc_classifier.agent.Rafa - INFO - Classified 'True Life Installs' as MCC 1799 - Contractors, Special Trade—not elsewhere classified
+2025-04-03 10:33:48,247 - mcc_classifier.agent.Matheus - INFO - Classifying merchant: True Life Installs
+2025-04-03 10:33:48,252 - mcc_classifier.evaluator - INFO - Agent Matheus doesn't support full data, falling back to basic parameters
+2025-04-03 10:33:48,252 - mcc_classifier.agent.Matheus - INFO - Classifying merchant: True Life Installs
+2025-04-03 10:33:48,259 - mcc_classifier.agent.Matheus - INFO - Performing tier1 classification for: True Life Installs
+2025-04-03 10:34:09,144 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-03 10:34:09,215 - mcc_classifier.agent.Matheus - INFO - Performing risk tier classification for: True Life Installs
+2025-04-03 10:34:34,410 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-03 10:34:34,452 - mcc_classifier.agent.Waki - INFO - Classifying merchant: True Life Installs
+2025-04-03 10:34:34,453 - mcc_classifier.agent.Waki - INFO - Sending request to GPT for merchant: True Life Installs
+2025-04-03 10:34:48,775 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-03 10:34:48,809 - mcc_classifier.agent.Waki - INFO - Classified 'True Life Installs' as MCC 1799 - Contractors – Special Trade, Not Elsewhere Classified with confidence 0.9
+2025-04-03 10:34:48,810 - mcc_classifier.agent.Rafa - INFO - Classifying merchant: Be-Nycee Productions
+2025-04-03 10:34:48,810 - mcc_classifier.agent.Rafa - INFO - Sending request to OpenAI for merchant: Be-Nycee Productions
+2025-04-03 10:34:52,886 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-03 10:34:52,893 - mcc_classifier.agent.Rafa - INFO - Classified 'Be-Nycee Productions' as MCC 7399 - Other B2B Services
+2025-04-03 10:34:52,893 - mcc_classifier.agent.Matheus - INFO - Classifying merchant: Be-Nycee Productions
+2025-04-03 10:34:52,896 - mcc_classifier.evaluator - INFO - Agent Matheus doesn't support full data, falling back to basic parameters
+2025-04-03 10:34:52,896 - mcc_classifier.agent.Matheus - INFO - Classifying merchant: Be-Nycee Productions
+2025-04-03 10:34:52,899 - mcc_classifier.agent.Matheus - INFO - Performing tier1 classification for: Be-Nycee Productions
+2025-04-03 10:35:08,644 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-03 10:35:08,727 - mcc_classifier.agent.Matheus - INFO - Performing risk tier classification for: Be-Nycee Productions
+2025-04-03 10:35:31,511 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-03 10:35:31,593 - mcc_classifier.agent.Waki - INFO - Classifying merchant: Be-Nycee Productions
+2025-04-03 10:35:31,596 - mcc_classifier.agent.Waki - INFO - Sending request to GPT for merchant: Be-Nycee Productions
+2025-04-03 10:35:39,362 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-03 10:35:39,383 - mcc_classifier.agent.Waki - INFO - Classified 'Be-Nycee Productions' as MCC 7922 - Theatrical Producers (Except Motion Pictures), Ticket Agencies with confidence 0.9
+2025-04-03 10:35:39,383 - mcc_classifier.agent.Rafa - INFO - Classifying merchant: MTS24HR LLC
+2025-04-03 10:35:39,383 - mcc_classifier.agent.Rafa - INFO - Sending request to OpenAI for merchant: MTS24HR LLC
+2025-04-03 10:35:45,998 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-03 10:35:46,041 - mcc_classifier.agent.Rafa - INFO - Classified 'MTS24HR LLC' as MCC 7549 - Towing Services
+2025-04-03 10:35:46,042 - mcc_classifier.agent.Matheus - INFO - Classifying merchant: MTS24HR LLC
+2025-04-03 10:35:46,045 - mcc_classifier.evaluator - INFO - Agent Matheus doesn't support full data, falling back to basic parameters
+2025-04-03 10:35:46,045 - mcc_classifier.agent.Matheus - INFO - Classifying merchant: MTS24HR LLC
+2025-04-03 10:35:46,046 - mcc_classifier.agent.Matheus - INFO - Performing tier1 classification for: MTS24HR LLC
+2025-04-03 10:36:02,070 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-03 10:36:02,145 - mcc_classifier.agent.Waki - INFO - Classifying merchant: MTS24HR LLC
+2025-04-03 10:36:02,147 - mcc_classifier.agent.Waki - INFO - Sending request to GPT for merchant: MTS24HR LLC
+2025-04-03 10:36:14,309 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-03 10:36:14,353 - mcc_classifier.agent.Waki - INFO - Classified 'MTS24HR LLC' as MCC 7549 - Towing Services with confidence 0.9
+2025-04-03 10:36:14,381 - mcc_classifier.agent.Rafa - INFO - Classifying merchant: RD TRAVELS 
+2025-04-03 10:36:14,382 - mcc_classifier.agent.Rafa - INFO - Sending request to OpenAI for merchant: RD TRAVELS 
+2025-04-03 10:36:21,578 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-03 10:36:21,609 - mcc_classifier.agent.Rafa - INFO - Classified 'RD TRAVELS ' as MCC 4789 - Transportation Services (Not Elsewhere Classified)
+2025-04-03 10:36:21,610 - mcc_classifier.agent.Matheus - INFO - Classifying merchant: RD TRAVELS 
+2025-04-03 10:36:21,611 - mcc_classifier.evaluator - INFO - Agent Matheus doesn't support full data, falling back to basic parameters
+2025-04-03 10:36:21,612 - mcc_classifier.agent.Matheus - INFO - Classifying merchant: RD TRAVELS 
+2025-04-03 10:36:21,614 - mcc_classifier.agent.Matheus - INFO - Performing tier1 classification for: RD TRAVELS 
+2025-04-03 10:36:43,895 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-03 10:36:44,032 - mcc_classifier.agent.Waki - INFO - Classifying merchant: RD TRAVELS 
+2025-04-03 10:36:44,032 - mcc_classifier.agent.Waki - INFO - Sending request to GPT for merchant: RD TRAVELS 
+2025-04-03 10:36:53,129 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-03 10:36:53,224 - mcc_classifier.agent.Waki - INFO - Classified 'RD TRAVELS ' as MCC 4722 - Travel Agencies and Tour Operations with confidence 0.9
+2025-04-03 10:36:53,225 - mcc_classifier.agent.Rafa - INFO - Classifying merchant: Vxm Llc
+2025-04-03 10:36:53,225 - mcc_classifier.agent.Rafa - INFO - Sending request to OpenAI for merchant: Vxm Llc
+2025-04-03 10:36:57,580 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-03 10:36:57,582 - mcc_classifier.agent.Rafa - INFO - Classified 'Vxm Llc' as MCC 7399 - Other B2B Services
+2025-04-03 10:36:57,583 - mcc_classifier.agent.Matheus - INFO - Classifying merchant: Vxm Llc
+2025-04-03 10:36:57,584 - mcc_classifier.evaluator - INFO - Agent Matheus doesn't support full data, falling back to basic parameters
+2025-04-03 10:36:57,584 - mcc_classifier.agent.Matheus - INFO - Classifying merchant: Vxm Llc
+2025-04-03 10:36:57,594 - mcc_classifier.agent.Matheus - INFO - Performing tier1 classification for: Vxm Llc
+2025-04-03 10:37:12,994 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-03 10:37:13,002 - mcc_classifier.agent.Matheus - INFO - Performing risk tier classification for: Vxm Llc
+2025-04-03 10:39:06,236 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-03 10:39:06,364 - mcc_classifier.agent.Waki - INFO - Classifying merchant: Vxm Llc
+2025-04-03 10:39:06,366 - mcc_classifier.agent.Waki - INFO - Sending request to GPT for merchant: Vxm Llc
+2025-04-03 10:39:15,503 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-03 10:39:15,564 - mcc_classifier.agent.Waki - INFO - Classified 'Vxm Llc' as MCC 4789 - Transportation Services, Not elsewhere classified) with confidence 0.95
+2025-04-03 10:39:15,564 - mcc_classifier.agent.Rafa - INFO - Classifying merchant: Mongolian House
+2025-04-03 10:39:15,567 - mcc_classifier.agent.Rafa - INFO - Sending request to OpenAI for merchant: Mongolian House
+2025-04-03 10:39:22,964 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-03 10:39:22,986 - mcc_classifier.agent.Rafa - INFO - Classified 'Mongolian House' as MCC 5812 - Restaurants
+2025-04-03 10:39:22,987 - mcc_classifier.agent.Matheus - INFO - Classifying merchant: Mongolian House
+2025-04-03 10:39:22,989 - mcc_classifier.evaluator - INFO - Agent Matheus doesn't support full data, falling back to basic parameters
+2025-04-03 10:39:22,989 - mcc_classifier.agent.Matheus - INFO - Classifying merchant: Mongolian House
+2025-04-03 10:39:23,000 - mcc_classifier.agent.Matheus - INFO - Performing tier1 classification for: Mongolian House
+2025-04-03 10:39:29,534 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-03 10:39:29,596 - mcc_classifier.agent.Waki - INFO - Classifying merchant: Mongolian House
+2025-04-03 10:39:29,596 - mcc_classifier.agent.Waki - INFO - Sending request to GPT for merchant: Mongolian House
+2025-04-03 10:39:37,659 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-03 10:39:37,669 - mcc_classifier.agent.Waki - INFO - Classified 'Mongolian House' as MCC 5499 - Misc. Food Stores – Convenience Stores and Specialty Markets with confidence 0.7
+2025-04-03 10:39:37,675 - mcc_classifier.agent.Rafa - INFO - Classifying merchant: Diaz Auto Body Collision 
+2025-04-03 10:39:37,675 - mcc_classifier.agent.Rafa - INFO - Sending request to OpenAI for merchant: Diaz Auto Body Collision 
+2025-04-03 10:39:41,599 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-03 10:39:41,687 - mcc_classifier.agent.Rafa - INFO - Classified 'Diaz Auto Body Collision ' as MCC 7531 - Automotive Body Repair Shops
+2025-04-03 10:39:41,691 - mcc_classifier.agent.Matheus - INFO - Classifying merchant: Diaz Auto Body Collision 
+2025-04-03 10:39:41,737 - mcc_classifier.evaluator - INFO - Agent Matheus doesn't support full data, falling back to basic parameters
+2025-04-03 10:39:41,744 - mcc_classifier.agent.Matheus - INFO - Classifying merchant: Diaz Auto Body Collision 
+2025-04-03 10:39:41,746 - mcc_classifier.agent.Matheus - INFO - Performing tier1 classification for: Diaz Auto Body Collision 
+2025-04-03 10:39:47,313 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-03 10:39:47,497 - mcc_classifier.agent.Waki - INFO - Classifying merchant: Diaz Auto Body Collision 
+2025-04-03 10:39:47,503 - mcc_classifier.agent.Waki - INFO - Sending request to GPT for merchant: Diaz Auto Body Collision 
+2025-04-03 10:39:54,277 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-03 10:39:54,284 - mcc_classifier.agent.Waki - INFO - Classified 'Diaz Auto Body Collision ' as MCC 7538 - Automotive Service Shops with confidence 0.95
+2025-04-03 10:39:54,284 - mcc_classifier.agent.Rafa - INFO - Classifying merchant: Izbicki Transport LLC
+2025-04-03 10:39:54,284 - mcc_classifier.agent.Rafa - INFO - Sending request to OpenAI for merchant: Izbicki Transport LLC
+2025-04-03 10:39:58,302 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-03 10:39:58,334 - mcc_classifier.agent.Rafa - INFO - Classified 'Izbicki Transport LLC' as MCC 4789 - Transportation Services (Not Elsewhere Classified)
+2025-04-03 10:39:58,335 - mcc_classifier.agent.Matheus - INFO - Classifying merchant: Izbicki Transport LLC
+2025-04-03 10:39:58,337 - mcc_classifier.evaluator - INFO - Agent Matheus doesn't support full data, falling back to basic parameters
+2025-04-03 10:39:58,337 - mcc_classifier.agent.Matheus - INFO - Classifying merchant: Izbicki Transport LLC
+2025-04-03 10:39:58,364 - mcc_classifier.agent.Matheus - INFO - Performing tier1 classification for: Izbicki Transport LLC
+2025-04-03 10:40:05,991 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-03 10:40:06,045 - mcc_classifier.agent.Waki - INFO - Classifying merchant: Izbicki Transport LLC
+2025-04-03 10:40:06,046 - mcc_classifier.agent.Waki - INFO - Sending request to GPT for merchant: Izbicki Transport LLC
+2025-04-03 10:40:13,818 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-03 10:40:14,043 - mcc_classifier.agent.Waki - INFO - Classified 'Izbicki Transport LLC' as MCC 4789 - Transportation Services, Not elsewhere classified) with confidence 0.7
+2025-04-03 10:40:14,043 - mcc_classifier.agent.Rafa - INFO - Classifying merchant: taxi.com
+2025-04-03 10:40:14,044 - mcc_classifier.agent.Rafa - INFO - Sending request to OpenAI for merchant: taxi.com
+2025-04-03 10:40:18,282 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-03 10:40:18,301 - mcc_classifier.agent.Rafa - INFO - Classified 'taxi.com' as MCC 4789 - Transportation Services (Not Elsewhere Classified)
+2025-04-03 10:40:18,302 - mcc_classifier.agent.Matheus - INFO - Classifying merchant: taxi.com
+2025-04-03 10:40:18,303 - mcc_classifier.evaluator - INFO - Agent Matheus doesn't support full data, falling back to basic parameters
+2025-04-03 10:40:18,303 - mcc_classifier.agent.Matheus - INFO - Classifying merchant: taxi.com
+2025-04-03 10:40:18,305 - mcc_classifier.agent.Matheus - INFO - Performing tier1 classification for: taxi.com
+2025-04-03 10:40:24,941 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-03 10:40:24,964 - mcc_classifier.agent.Waki - INFO - Classifying merchant: taxi.com
+2025-04-03 10:40:24,965 - mcc_classifier.agent.Waki - INFO - Sending request to GPT for merchant: taxi.com
+2025-04-03 10:40:34,030 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-03 10:40:34,106 - mcc_classifier.agent.Waki - INFO - Classified 'taxi.com' as MCC 4121 - Taxicabs and Limousines with confidence 0.95
+2025-04-03 10:40:34,138 - mcc_classifier.agent.Rafa - INFO - Classifying merchant: H&M  Transport 
+2025-04-03 10:40:34,139 - mcc_classifier.agent.Rafa - INFO - Sending request to OpenAI for merchant: H&M  Transport 
+2025-04-03 10:40:38,028 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-03 10:40:38,037 - mcc_classifier.agent.Rafa - INFO - Classified 'H&M  Transport ' as MCC 4789 - Transportation Services (Not Elsewhere Classified)
+2025-04-03 10:40:38,037 - mcc_classifier.agent.Matheus - INFO - Classifying merchant: H&M  Transport 
+2025-04-03 10:40:38,052 - mcc_classifier.evaluator - INFO - Agent Matheus doesn't support full data, falling back to basic parameters
+2025-04-03 10:40:38,052 - mcc_classifier.agent.Matheus - INFO - Classifying merchant: H&M  Transport 
+2025-04-03 10:40:38,066 - mcc_classifier.agent.Matheus - INFO - Performing tier1 classification for: H&M  Transport 
+2025-04-03 10:40:48,437 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-03 10:40:48,531 - mcc_classifier.agent.Waki - INFO - Classifying merchant: H&M  Transport 
+2025-04-03 10:40:48,532 - mcc_classifier.agent.Waki - INFO - Sending request to GPT for merchant: H&M  Transport 
+2025-04-03 10:41:00,688 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-03 10:41:00,762 - mcc_classifier.agent.Waki - INFO - Classified 'H&M  Transport ' as MCC 4789 - Transportation Services, Not elsewhere classified) with confidence 0.95
+2025-04-03 10:41:00,763 - mcc_classifier.agent.Rafa - INFO - Classifying merchant: Kinney Transporting
+2025-04-03 10:41:00,767 - mcc_classifier.agent.Rafa - INFO - Sending request to OpenAI for merchant: Kinney Transporting
+2025-04-03 10:41:04,156 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-03 10:41:04,157 - mcc_classifier.agent.Rafa - INFO - Classified 'Kinney Transporting' as MCC 4789 - Transportation Services (Not Elsewhere Classified)
+2025-04-03 10:41:04,159 - mcc_classifier.agent.Matheus - INFO - Classifying merchant: Kinney Transporting
+2025-04-03 10:41:04,162 - mcc_classifier.evaluator - INFO - Agent Matheus doesn't support full data, falling back to basic parameters
+2025-04-03 10:41:04,162 - mcc_classifier.agent.Matheus - INFO - Classifying merchant: Kinney Transporting
+2025-04-03 10:41:04,167 - mcc_classifier.agent.Matheus - INFO - Performing tier1 classification for: Kinney Transporting
+2025-04-03 10:41:15,728 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-03 10:41:15,754 - mcc_classifier.agent.Waki - INFO - Classifying merchant: Kinney Transporting
+2025-04-03 10:41:15,754 - mcc_classifier.agent.Waki - INFO - Sending request to GPT for merchant: Kinney Transporting
+2025-04-03 10:41:25,732 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-03 10:41:25,767 - mcc_classifier.agent.Waki - INFO - Classified 'Kinney Transporting' as MCC 4214 - Motor Freight Carriers, Moving and Storage Companies, Trucking – Local/Long Distance, Delivery Services – Local with confidence 0.9
+2025-04-03 10:41:25,767 - mcc_classifier.agent.Rafa - INFO - Classifying merchant: uber
+2025-04-03 10:41:25,768 - mcc_classifier.agent.Rafa - INFO - Sending request to OpenAI for merchant: uber
+2025-04-03 10:41:29,043 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-03 10:41:29,110 - mcc_classifier.agent.Rafa - INFO - Classified 'uber' as MCC 4789 - Transportation Services (Not Elsewhere Classified)
+2025-04-03 10:41:29,111 - mcc_classifier.agent.Matheus - INFO - Classifying merchant: uber
+2025-04-03 10:41:29,113 - mcc_classifier.evaluator - INFO - Agent Matheus doesn't support full data, falling back to basic parameters
+2025-04-03 10:41:29,116 - mcc_classifier.agent.Matheus - INFO - Classifying merchant: uber
+2025-04-03 10:41:29,117 - mcc_classifier.agent.Matheus - INFO - Performing tier1 classification for: uber
+2025-04-03 10:41:37,689 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-03 10:41:37,820 - mcc_classifier.agent.Waki - INFO - Classifying merchant: uber
+2025-04-03 10:41:37,820 - mcc_classifier.agent.Waki - INFO - Sending request to GPT for merchant: uber
+2025-04-03 10:41:46,069 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-03 10:41:46,140 - mcc_classifier.agent.Waki - INFO - Classified 'uber' as MCC 4121 - Taxicabs and Limousines with confidence 0.95
+2025-04-03 10:41:46,144 - mcc_classifier.agent.Rafa - INFO - Classifying merchant: Sandovals tours
+2025-04-03 10:41:46,146 - mcc_classifier.agent.Rafa - INFO - Sending request to OpenAI for merchant: Sandovals tours
+2025-04-03 10:41:50,747 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-03 10:41:50,881 - mcc_classifier.agent.Rafa - INFO - Classified 'Sandovals tours' as MCC 4722 - Travel Agencies and Tour Operators
+2025-04-03 10:41:50,929 - mcc_classifier.agent.Matheus - INFO - Classifying merchant: Sandovals tours
+2025-04-03 10:41:50,973 - mcc_classifier.evaluator - INFO - Agent Matheus doesn't support full data, falling back to basic parameters
+2025-04-03 10:41:50,974 - mcc_classifier.agent.Matheus - INFO - Classifying merchant: Sandovals tours
+2025-04-03 10:41:50,981 - mcc_classifier.agent.Matheus - INFO - Performing tier1 classification for: Sandovals tours
+2025-04-03 10:42:13,114 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-03 10:42:13,232 - mcc_classifier.agent.Matheus - INFO - Performing risk tier classification for: Sandovals tours
+2025-04-03 10:42:20,055 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-03 10:42:20,088 - mcc_classifier.agent.Waki - INFO - Classifying merchant: Sandovals tours
+2025-04-03 10:42:20,089 - mcc_classifier.agent.Waki - INFO - Sending request to GPT for merchant: Sandovals tours
+2025-04-03 10:42:27,219 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-03 10:42:27,387 - mcc_classifier.agent.Waki - INFO - Classified 'Sandovals tours' as MCC 4722 - Travel Agencies and Tour Operations with confidence 0.9
+2025-04-03 10:42:27,387 - mcc_classifier.agent.Rafa - INFO - Classifying merchant: Lamin Jammeh
+2025-04-03 10:42:27,387 - mcc_classifier.agent.Rafa - INFO - Sending request to OpenAI for merchant: Lamin Jammeh
+2025-04-03 10:42:33,098 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-03 10:42:33,103 - mcc_classifier.agent.Rafa - INFO - Classified 'Lamin Jammeh' as MCC 7299 - Other Services
+2025-04-03 10:42:33,104 - mcc_classifier.agent.Matheus - INFO - Classifying merchant: Lamin Jammeh
+2025-04-03 10:42:33,114 - mcc_classifier.evaluator - INFO - Agent Matheus doesn't support full data, falling back to basic parameters
+2025-04-03 10:42:33,114 - mcc_classifier.agent.Matheus - INFO - Classifying merchant: Lamin Jammeh
+2025-04-03 10:42:33,117 - mcc_classifier.agent.Matheus - INFO - Performing tier1 classification for: Lamin Jammeh
+2025-04-03 10:42:51,325 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-03 10:42:51,361 - mcc_classifier.agent.Waki - INFO - Classifying merchant: Lamin Jammeh
+2025-04-03 10:42:51,362 - mcc_classifier.agent.Waki - INFO - Sending request to GPT for merchant: Lamin Jammeh
+2025-04-03 10:43:01,898 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-03 10:43:01,906 - mcc_classifier.agent.Waki - INFO - Classified 'Lamin Jammeh' as MCC 4789 - Transportation Services, Not elsewhere classified) with confidence 0.6
+2025-04-03 10:43:01,906 - mcc_classifier.agent.Rafa - INFO - Classifying merchant: DC Transportation
+2025-04-03 10:43:01,906 - mcc_classifier.agent.Rafa - INFO - Sending request to OpenAI for merchant: DC Transportation
+2025-04-03 10:43:07,038 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-03 10:43:07,040 - mcc_classifier.agent.Rafa - INFO - Classified 'DC Transportation' as MCC 4789 - Transportation Services (Not Elsewhere Classified)
+2025-04-03 10:43:07,040 - mcc_classifier.agent.Matheus - INFO - Classifying merchant: DC Transportation
+2025-04-03 10:43:07,042 - mcc_classifier.evaluator - INFO - Agent Matheus doesn't support full data, falling back to basic parameters
+2025-04-03 10:43:07,042 - mcc_classifier.agent.Matheus - INFO - Classifying merchant: DC Transportation
+2025-04-03 10:43:07,044 - mcc_classifier.agent.Matheus - INFO - Performing tier1 classification for: DC Transportation
+2025-04-03 10:43:22,626 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-03 10:43:22,681 - mcc_classifier.agent.Waki - INFO - Classifying merchant: DC Transportation
+2025-04-03 10:43:22,688 - mcc_classifier.agent.Waki - INFO - Sending request to GPT for merchant: DC Transportation
+2025-04-03 10:43:28,529 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-03 10:43:28,588 - mcc_classifier.agent.Waki - INFO - Classified 'DC Transportation' as MCC 4789 - Transportation Services, Not elsewhere classified) with confidence 0.95
+2025-04-03 10:43:28,588 - mcc_classifier.agent.Rafa - INFO - Classifying merchant: D&R Airport Shuttle & Taxi
+2025-04-03 10:43:28,588 - mcc_classifier.agent.Rafa - INFO - Sending request to OpenAI for merchant: D&R Airport Shuttle & Taxi
+2025-04-03 10:43:35,301 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-03 10:43:35,360 - mcc_classifier.agent.Rafa - INFO - Classified 'D&R Airport Shuttle & Taxi' as MCC 4789 - Transportation Services (Not Elsewhere Classified)
+2025-04-03 10:43:35,362 - mcc_classifier.agent.Matheus - INFO - Classifying merchant: D&R Airport Shuttle & Taxi
+2025-04-03 10:43:35,367 - mcc_classifier.evaluator - INFO - Agent Matheus doesn't support full data, falling back to basic parameters
+2025-04-03 10:43:35,368 - mcc_classifier.agent.Matheus - INFO - Classifying merchant: D&R Airport Shuttle & Taxi
+2025-04-03 10:43:35,380 - mcc_classifier.agent.Matheus - INFO - Performing tier1 classification for: D&R Airport Shuttle & Taxi
+2025-04-03 10:43:43,763 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-03 10:43:43,798 - mcc_classifier.agent.Waki - INFO - Classifying merchant: D&R Airport Shuttle & Taxi
+2025-04-03 10:43:43,798 - mcc_classifier.agent.Waki - INFO - Sending request to GPT for merchant: D&R Airport Shuttle & Taxi
+2025-04-03 10:43:49,690 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-03 10:43:49,704 - mcc_classifier.agent.Waki - INFO - Classified 'D&R Airport Shuttle & Taxi' as MCC 4121 - Taxicabs and Limousines with confidence 0.95
+2025-04-03 10:43:49,705 - mcc_classifier.agent.Rafa - INFO - Classifying merchant: Executive Quality trucking
+2025-04-03 10:43:49,705 - mcc_classifier.agent.Rafa - INFO - Sending request to OpenAI for merchant: Executive Quality trucking
+2025-04-03 10:43:53,399 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-03 10:43:53,422 - mcc_classifier.agent.Rafa - INFO - Classified 'Executive Quality trucking' as MCC 4789 - Transportation Services (Not Elsewhere Classified)
+2025-04-03 10:43:53,422 - mcc_classifier.agent.Matheus - INFO - Classifying merchant: Executive Quality trucking
+2025-04-03 10:43:53,430 - mcc_classifier.evaluator - INFO - Agent Matheus doesn't support full data, falling back to basic parameters
+2025-04-03 10:43:53,431 - mcc_classifier.agent.Matheus - INFO - Classifying merchant: Executive Quality trucking
+2025-04-03 10:43:53,434 - mcc_classifier.agent.Matheus - INFO - Performing tier1 classification for: Executive Quality trucking
+2025-04-03 10:44:03,649 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-03 10:44:03,731 - mcc_classifier.agent.Waki - INFO - Classifying merchant: Executive Quality trucking
+2025-04-03 10:44:03,732 - mcc_classifier.agent.Waki - INFO - Sending request to GPT for merchant: Executive Quality trucking
+2025-04-03 10:44:13,488 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-03 10:44:13,541 - mcc_classifier.agent.Waki - INFO - Classified 'Executive Quality trucking' as MCC 4214 - Motor Freight Carriers, Moving and Storage Companies, Trucking – Local/Long Distance, Delivery Services – Local with confidence 0.95
+2025-04-03 10:44:13,541 - mcc_classifier.agent.Rafa - INFO - Classifying merchant: Quicksack
+2025-04-03 10:44:13,541 - mcc_classifier.agent.Rafa - INFO - Sending request to OpenAI for merchant: Quicksack
+2025-04-03 10:44:16,270 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-03 10:44:16,278 - mcc_classifier.agent.Rafa - INFO - Classified 'Quicksack' as MCC 5661 - Footwear
+2025-04-03 10:44:16,289 - mcc_classifier.agent.Matheus - INFO - Classifying merchant: Quicksack
+2025-04-03 10:44:16,298 - mcc_classifier.evaluator - INFO - Agent Matheus doesn't support full data, falling back to basic parameters
+2025-04-03 10:44:16,299 - mcc_classifier.agent.Matheus - INFO - Classifying merchant: Quicksack
+2025-04-03 10:44:16,299 - mcc_classifier.agent.Matheus - INFO - Performing tier1 classification for: Quicksack
+2025-04-03 10:44:23,437 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-03 10:44:23,483 - mcc_classifier.agent.Waki - INFO - Classifying merchant: Quicksack
+2025-04-03 10:44:23,490 - mcc_classifier.agent.Waki - INFO - Sending request to GPT for merchant: Quicksack
+2025-04-03 10:44:34,740 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-03 10:44:34,782 - mcc_classifier.agent.Waki - INFO - Classified 'Quicksack' as MCC 5661 - Shoe Stores with confidence 0.9
+2025-04-03 10:44:34,782 - mcc_classifier.agent.Rafa - INFO - Classifying merchant: VIP SERVICE
+2025-04-03 10:44:34,786 - mcc_classifier.agent.Rafa - INFO - Sending request to OpenAI for merchant: VIP SERVICE
+2025-04-03 10:44:38,589 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-03 10:44:38,596 - mcc_classifier.agent.Rafa - INFO - Classified 'VIP SERVICE' as MCC 4789 - Transportation Services (Not Elsewhere Classified)
+2025-04-03 10:44:38,598 - mcc_classifier.agent.Matheus - INFO - Classifying merchant: VIP SERVICE
+2025-04-03 10:44:38,599 - mcc_classifier.evaluator - INFO - Agent Matheus doesn't support full data, falling back to basic parameters
+2025-04-03 10:44:38,599 - mcc_classifier.agent.Matheus - INFO - Classifying merchant: VIP SERVICE
+2025-04-03 10:44:38,602 - mcc_classifier.agent.Matheus - INFO - Performing tier1 classification for: VIP SERVICE
+2025-04-03 10:45:03,567 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-03 10:45:03,615 - mcc_classifier.agent.Matheus - INFO - Performing risk tier classification for: VIP SERVICE
+2025-04-03 10:45:27,001 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-03 10:45:27,125 - mcc_classifier.agent.Matheus - INFO - Performing tier3 classification for: VIP SERVICE
+2025-04-03 10:45:49,631 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-03 10:45:49,687 - mcc_classifier.agent.Waki - INFO - Classifying merchant: VIP SERVICE
+2025-04-03 10:45:49,687 - mcc_classifier.agent.Waki - INFO - Sending request to GPT for merchant: VIP SERVICE
+2025-04-03 10:45:57,315 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-03 10:45:57,321 - mcc_classifier.agent.Waki - INFO - Classified 'VIP SERVICE' as MCC 4789 - Transportation Services, Not elsewhere classified) with confidence 0.9
+2025-04-03 10:45:57,322 - mcc_classifier.agent.Rafa - INFO - Classifying merchant: Lsb81 Transportation I.n.c
+2025-04-03 10:45:57,324 - mcc_classifier.agent.Rafa - INFO - Sending request to OpenAI for merchant: Lsb81 Transportation I.n.c
+2025-04-03 10:46:03,278 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-03 10:46:03,654 - mcc_classifier.agent.Rafa - INFO - Classified 'Lsb81 Transportation I.n.c' as MCC 4789 - Transportation Services (Not Elsewhere Classified)
+2025-04-03 10:46:03,673 - mcc_classifier.agent.Matheus - INFO - Classifying merchant: Lsb81 Transportation I.n.c
+2025-04-03 10:46:03,773 - mcc_classifier.evaluator - INFO - Agent Matheus doesn't support full data, falling back to basic parameters
+2025-04-03 10:46:03,773 - mcc_classifier.agent.Matheus - INFO - Classifying merchant: Lsb81 Transportation I.n.c
+2025-04-03 10:46:03,774 - mcc_classifier.agent.Matheus - INFO - Performing tier1 classification for: Lsb81 Transportation I.n.c
+2025-04-03 10:46:15,947 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-03 10:46:18,526 - mcc_classifier.agent.Waki - INFO - Classifying merchant: Lsb81 Transportation I.n.c
+2025-04-03 10:46:18,811 - mcc_classifier.agent.Waki - INFO - Sending request to GPT for merchant: Lsb81 Transportation I.n.c
+2025-04-03 10:46:26,839 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-03 10:46:26,900 - mcc_classifier.agent.Waki - INFO - Classified 'Lsb81 Transportation I.n.c' as MCC 4789 - Transportation Services, Not elsewhere classified) with confidence 0.7
+2025-04-03 10:46:26,901 - mcc_classifier.agent.Rafa - INFO - Classifying merchant: Gomez And Sons Transpotation LLC
+2025-04-03 10:46:26,901 - mcc_classifier.agent.Rafa - INFO - Sending request to OpenAI for merchant: Gomez And Sons Transpotation LLC
+2025-04-03 10:46:31,354 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-03 10:46:31,527 - mcc_classifier.agent.Rafa - INFO - Classified 'Gomez And Sons Transpotation LLC' as MCC 4789 - Transportation Services (Not Elsewhere Classified)
+2025-04-03 10:46:31,528 - mcc_classifier.agent.Matheus - INFO - Classifying merchant: Gomez And Sons Transpotation LLC
+2025-04-03 10:46:31,561 - mcc_classifier.evaluator - INFO - Agent Matheus doesn't support full data, falling back to basic parameters
+2025-04-03 10:46:31,561 - mcc_classifier.agent.Matheus - INFO - Classifying merchant: Gomez And Sons Transpotation LLC
+2025-04-03 10:46:31,562 - mcc_classifier.agent.Matheus - INFO - Performing tier1 classification for: Gomez And Sons Transpotation LLC
+2025-04-03 10:46:41,267 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-03 10:46:41,548 - mcc_classifier.agent.Waki - INFO - Classifying merchant: Gomez And Sons Transpotation LLC
+2025-04-03 10:46:41,548 - mcc_classifier.agent.Waki - INFO - Sending request to GPT for merchant: Gomez And Sons Transpotation LLC
+2025-04-03 10:46:49,210 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-03 10:46:49,259 - mcc_classifier.agent.Waki - INFO - Classified 'Gomez And Sons Transpotation LLC' as MCC 4789 - Transportation Services, Not elsewhere classified) with confidence 0.95
+2025-04-03 10:46:49,261 - mcc_classifier.agent.Rafa - INFO - Classifying merchant: Lincoln Transportation Llc
+2025-04-03 10:46:49,263 - mcc_classifier.agent.Rafa - INFO - Sending request to OpenAI for merchant: Lincoln Transportation Llc
+2025-04-03 10:46:53,415 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-03 10:46:53,422 - mcc_classifier.agent.Rafa - INFO - Classified 'Lincoln Transportation Llc' as MCC 4789 - Transportation Services (Not Elsewhere Classified)
+2025-04-03 10:46:53,424 - mcc_classifier.agent.Matheus - INFO - Classifying merchant: Lincoln Transportation Llc
+2025-04-03 10:46:53,427 - mcc_classifier.evaluator - INFO - Agent Matheus doesn't support full data, falling back to basic parameters
+2025-04-03 10:46:53,427 - mcc_classifier.agent.Matheus - INFO - Classifying merchant: Lincoln Transportation Llc
+2025-04-03 10:46:53,431 - mcc_classifier.agent.Matheus - INFO - Performing tier1 classification for: Lincoln Transportation Llc
+2025-04-03 10:47:02,168 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-03 10:47:02,184 - mcc_classifier.agent.Waki - INFO - Classifying merchant: Lincoln Transportation Llc
+2025-04-03 10:47:02,186 - mcc_classifier.agent.Waki - INFO - Sending request to GPT for merchant: Lincoln Transportation Llc
+2025-04-03 10:47:09,268 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-03 10:47:09,425 - mcc_classifier.agent.Waki - INFO - Classified 'Lincoln Transportation Llc' as MCC 4789 - Transportation Services, Not elsewhere classified) with confidence 0.95
+2025-04-03 10:47:09,462 - mcc_classifier.agent.Rafa - INFO - Classifying merchant: Coc Logistics
+2025-04-03 10:47:09,463 - mcc_classifier.agent.Rafa - INFO - Sending request to OpenAI for merchant: Coc Logistics
+2025-04-03 10:47:12,749 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-03 10:47:12,763 - mcc_classifier.agent.Rafa - INFO - Classified 'Coc Logistics' as MCC 4789 - Transportation Services (Not Elsewhere Classified)
+2025-04-03 10:47:12,764 - mcc_classifier.agent.Matheus - INFO - Classifying merchant: Coc Logistics
+2025-04-03 10:47:12,770 - mcc_classifier.evaluator - INFO - Agent Matheus doesn't support full data, falling back to basic parameters
+2025-04-03 10:47:12,770 - mcc_classifier.agent.Matheus - INFO - Classifying merchant: Coc Logistics
+2025-04-03 10:47:12,772 - mcc_classifier.agent.Matheus - INFO - Performing tier1 classification for: Coc Logistics
+2025-04-03 10:47:17,996 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-03 10:47:18,069 - mcc_classifier.agent.Waki - INFO - Classifying merchant: Coc Logistics
+2025-04-03 10:47:18,070 - mcc_classifier.agent.Waki - INFO - Sending request to GPT for merchant: Coc Logistics
+2025-04-03 10:47:25,954 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-03 10:47:26,001 - mcc_classifier.agent.Waki - INFO - Classified 'Coc Logistics' as MCC 4789 - Transportation Services, Not elsewhere classified) with confidence 0.95
+2025-04-03 10:47:26,008 - mcc_classifier.agent.Rafa - INFO - Classifying merchant: Ch Dhow
+2025-04-03 10:47:26,008 - mcc_classifier.agent.Rafa - INFO - Sending request to OpenAI for merchant: Ch Dhow
+2025-04-03 10:47:29,198 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-03 10:47:29,200 - mcc_classifier.agent.Rafa - INFO - Classified 'Ch Dhow' as MCC 4789 - Transportation Services (Not Elsewhere Classified)
+2025-04-03 10:47:29,200 - mcc_classifier.agent.Matheus - INFO - Classifying merchant: Ch Dhow
+2025-04-03 10:47:29,203 - mcc_classifier.evaluator - INFO - Agent Matheus doesn't support full data, falling back to basic parameters
+2025-04-03 10:47:29,203 - mcc_classifier.agent.Matheus - INFO - Classifying merchant: Ch Dhow
+2025-04-03 10:47:29,206 - mcc_classifier.agent.Matheus - INFO - Performing tier1 classification for: Ch Dhow
+2025-04-03 10:47:34,908 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-03 10:47:35,834 - mcc_classifier.agent.Waki - INFO - Classifying merchant: Ch Dhow
+2025-04-03 10:47:35,847 - mcc_classifier.agent.Waki - INFO - Sending request to GPT for merchant: Ch Dhow
+2025-04-03 10:47:46,370 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-03 10:47:46,421 - mcc_classifier.agent.Waki - INFO - Classified 'Ch Dhow' as MCC 4789 - Transportation Services, Not elsewhere classified) with confidence 0.9
+2025-04-03 10:47:46,424 - mcc_classifier.agent.Rafa - INFO - Classifying merchant: Oldson transportation
+2025-04-03 10:47:46,424 - mcc_classifier.agent.Rafa - INFO - Sending request to OpenAI for merchant: Oldson transportation
+2025-04-03 10:47:51,489 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-03 10:47:51,535 - mcc_classifier.agent.Rafa - INFO - Classified 'Oldson transportation' as MCC 4789 - Transportation Services (Not Elsewhere Classified)
+2025-04-03 10:47:51,535 - mcc_classifier.agent.Matheus - INFO - Classifying merchant: Oldson transportation
+2025-04-03 10:47:51,538 - mcc_classifier.evaluator - INFO - Agent Matheus doesn't support full data, falling back to basic parameters
+2025-04-03 10:47:51,538 - mcc_classifier.agent.Matheus - INFO - Classifying merchant: Oldson transportation
+2025-04-03 10:47:51,539 - mcc_classifier.agent.Matheus - INFO - Performing tier1 classification for: Oldson transportation
+2025-04-03 10:47:57,341 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-03 10:47:57,379 - mcc_classifier.agent.Waki - INFO - Classifying merchant: Oldson transportation
+2025-04-03 10:47:57,385 - mcc_classifier.agent.Waki - INFO - Sending request to GPT for merchant: Oldson transportation
+2025-04-03 10:48:04,503 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-03 10:48:04,518 - mcc_classifier.agent.Waki - INFO - Classified 'Oldson transportation' as MCC 4789 - Transportation Services, Not elsewhere classified) with confidence 0.95
+2025-04-03 10:48:04,518 - mcc_classifier.agent.Rafa - INFO - Classifying merchant: DropGo Express
+2025-04-03 10:48:04,518 - mcc_classifier.agent.Rafa - INFO - Sending request to OpenAI for merchant: DropGo Express
+2025-04-03 10:48:08,516 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-03 10:48:08,573 - mcc_classifier.agent.Rafa - INFO - Classified 'DropGo Express' as MCC 4789 - Transportation Services (Not Elsewhere Classified)
+2025-04-03 10:48:08,573 - mcc_classifier.agent.Matheus - INFO - Classifying merchant: DropGo Express
+2025-04-03 10:48:08,591 - mcc_classifier.evaluator - INFO - Agent Matheus doesn't support full data, falling back to basic parameters
+2025-04-03 10:48:08,591 - mcc_classifier.agent.Matheus - INFO - Classifying merchant: DropGo Express
+2025-04-03 10:48:08,596 - mcc_classifier.agent.Matheus - INFO - Performing tier1 classification for: DropGo Express
+2025-04-03 10:48:16,792 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-03 10:48:16,836 - mcc_classifier.agent.Waki - INFO - Classifying merchant: DropGo Express
+2025-04-03 10:48:16,840 - mcc_classifier.agent.Waki - INFO - Sending request to GPT for merchant: DropGo Express
+2025-04-03 10:48:23,896 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-03 10:48:23,902 - mcc_classifier.agent.Waki - INFO - Classified 'DropGo Express' as MCC 4789 - Transportation Services, Not elsewhere classified) with confidence 0.95
+2025-04-03 10:48:23,902 - mcc_classifier.agent.Rafa - INFO - Classifying merchant: Wild Force
+2025-04-03 10:48:23,902 - mcc_classifier.agent.Rafa - INFO - Sending request to OpenAI for merchant: Wild Force
+2025-04-03 10:48:29,341 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-03 10:48:29,352 - mcc_classifier.agent.Rafa - INFO - Classified 'Wild Force' as MCC 7399 - Other B2B Services
+2025-04-03 10:48:29,353 - mcc_classifier.agent.Matheus - INFO - Classifying merchant: Wild Force
+2025-04-03 10:48:29,358 - mcc_classifier.evaluator - INFO - Agent Matheus doesn't support full data, falling back to basic parameters
+2025-04-03 10:48:29,358 - mcc_classifier.agent.Matheus - INFO - Classifying merchant: Wild Force
+2025-04-03 10:48:29,371 - mcc_classifier.agent.Matheus - INFO - Performing tier1 classification for: Wild Force
+2025-04-03 10:48:41,421 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-03 10:48:41,429 - mcc_classifier.agent.Waki - INFO - Classifying merchant: Wild Force
+2025-04-03 10:48:41,430 - mcc_classifier.agent.Waki - INFO - Sending request to GPT for merchant: Wild Force
+2025-04-03 10:48:49,911 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-03 10:48:50,056 - mcc_classifier.agent.Waki - INFO - Classified 'Wild Force' as MCC 4789 - Transportation Services, Not elsewhere classified) with confidence 0.9
+2025-04-03 10:48:50,057 - mcc_classifier.agent.Rafa - INFO - Classifying merchant: Liban Mohamud
+2025-04-03 10:48:50,057 - mcc_classifier.agent.Rafa - INFO - Sending request to OpenAI for merchant: Liban Mohamud
+2025-04-03 10:48:59,618 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-03 10:48:59,632 - mcc_classifier.agent.Rafa - INFO - Classified 'Liban Mohamud' as MCC 7399 - Other Business to Business Services
+2025-04-03 10:48:59,633 - mcc_classifier.agent.Matheus - INFO - Classifying merchant: Liban Mohamud
+2025-04-03 10:48:59,648 - mcc_classifier.evaluator - INFO - Agent Matheus doesn't support full data, falling back to basic parameters
+2025-04-03 10:48:59,648 - mcc_classifier.agent.Matheus - INFO - Classifying merchant: Liban Mohamud
+2025-04-03 10:48:59,663 - mcc_classifier.agent.Matheus - INFO - Performing tier1 classification for: Liban Mohamud
+2025-04-03 10:49:10,803 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-03 10:49:10,808 - mcc_classifier.agent.Waki - INFO - Classifying merchant: Liban Mohamud
+2025-04-03 10:49:10,817 - mcc_classifier.agent.Waki - INFO - Sending request to GPT for merchant: Liban Mohamud
+2025-04-03 10:49:17,298 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-03 10:49:17,306 - mcc_classifier.agent.Waki - INFO - Classified 'Liban Mohamud' as MCC 4789 - Transportation Services, Not elsewhere classified) with confidence 0.9
+2025-04-03 10:49:17,306 - mcc_classifier.agent.Rafa - INFO - Classifying merchant: Boster Transportation
+2025-04-03 10:49:17,306 - mcc_classifier.agent.Rafa - INFO - Sending request to OpenAI for merchant: Boster Transportation
+2025-04-03 10:49:23,732 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-03 10:49:23,742 - mcc_classifier.agent.Rafa - INFO - Classified 'Boster Transportation' as MCC 4789 - Transportation Services (Not Elsewhere Classified)
+2025-04-03 10:49:23,742 - mcc_classifier.agent.Matheus - INFO - Classifying merchant: Boster Transportation
+2025-04-03 10:49:23,743 - mcc_classifier.evaluator - INFO - Agent Matheus doesn't support full data, falling back to basic parameters
+2025-04-03 10:49:23,743 - mcc_classifier.agent.Matheus - INFO - Classifying merchant: Boster Transportation
+2025-04-03 10:49:23,746 - mcc_classifier.agent.Matheus - INFO - Performing tier1 classification for: Boster Transportation
+2025-04-03 10:49:33,990 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-03 10:49:34,003 - mcc_classifier.agent.Waki - INFO - Classifying merchant: Boster Transportation
+2025-04-03 10:49:34,004 - mcc_classifier.agent.Waki - INFO - Sending request to GPT for merchant: Boster Transportation
+2025-04-03 10:49:39,587 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-03 10:49:39,597 - mcc_classifier.agent.Waki - INFO - Classified 'Boster Transportation' as MCC 4789 - Transportation Services, Not elsewhere classified) with confidence 0.95
+2025-04-03 10:49:39,598 - mcc_classifier.agent.Rafa - INFO - Classifying merchant: Swift Dispatch
+2025-04-03 10:49:39,599 - mcc_classifier.agent.Rafa - INFO - Sending request to OpenAI for merchant: Swift Dispatch
+2025-04-03 10:49:44,228 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-03 10:49:44,245 - mcc_classifier.agent.Rafa - INFO - Classified 'Swift Dispatch' as MCC 4789 - Transportation Services (Not Elsewhere Classified)
+2025-04-03 10:49:44,246 - mcc_classifier.agent.Matheus - INFO - Classifying merchant: Swift Dispatch
+2025-04-03 10:49:44,251 - mcc_classifier.evaluator - INFO - Agent Matheus doesn't support full data, falling back to basic parameters
+2025-04-03 10:49:44,253 - mcc_classifier.agent.Matheus - INFO - Classifying merchant: Swift Dispatch
+2025-04-03 10:49:44,259 - mcc_classifier.agent.Matheus - INFO - Performing tier1 classification for: Swift Dispatch
+2025-04-03 10:49:52,304 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-03 10:49:52,311 - mcc_classifier.agent.Waki - INFO - Classifying merchant: Swift Dispatch
+2025-04-03 10:49:52,323 - mcc_classifier.agent.Waki - INFO - Sending request to GPT for merchant: Swift Dispatch
+2025-04-03 10:49:59,176 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-03 10:49:59,189 - mcc_classifier.agent.Waki - INFO - Classified 'Swift Dispatch' as MCC 4214 - Motor Freight Carriers, Moving and Storage Companies, Trucking – Local/Long Distance, Delivery Services – Local with confidence 0.9
+2025-04-03 10:49:59,189 - mcc_classifier.agent.Rafa - INFO - Classifying merchant: Lowkey Shipping LLC
+2025-04-03 10:49:59,189 - mcc_classifier.agent.Rafa - INFO - Sending request to OpenAI for merchant: Lowkey Shipping LLC
+2025-04-03 10:50:03,207 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-03 10:50:03,215 - mcc_classifier.agent.Rafa - INFO - Classified 'Lowkey Shipping LLC' as MCC 4789 - Transportation Services (Not Elsewhere Classified)
+2025-04-03 10:50:03,218 - mcc_classifier.agent.Matheus - INFO - Classifying merchant: Lowkey Shipping LLC
+2025-04-03 10:50:03,220 - mcc_classifier.evaluator - INFO - Agent Matheus doesn't support full data, falling back to basic parameters
+2025-04-03 10:50:03,220 - mcc_classifier.agent.Matheus - INFO - Classifying merchant: Lowkey Shipping LLC
+2025-04-03 10:50:03,221 - mcc_classifier.agent.Matheus - INFO - Performing tier1 classification for: Lowkey Shipping LLC
+2025-04-03 10:50:09,879 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-03 10:50:09,902 - mcc_classifier.agent.Waki - INFO - Classifying merchant: Lowkey Shipping LLC
+2025-04-03 10:50:09,916 - mcc_classifier.agent.Waki - INFO - Sending request to GPT for merchant: Lowkey Shipping LLC
+2025-04-03 10:50:17,556 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-03 10:50:17,600 - mcc_classifier.agent.Waki - INFO - Classified 'Lowkey Shipping LLC' as MCC 4789 - Transportation Services, Not elsewhere classified) with confidence 0.95
+2025-04-03 10:50:17,600 - mcc_classifier.agent.Rafa - INFO - Classifying merchant: Stage Coach
+2025-04-03 10:50:17,601 - mcc_classifier.agent.Rafa - INFO - Sending request to OpenAI for merchant: Stage Coach
+2025-04-03 10:50:22,019 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-03 10:50:22,022 - mcc_classifier.agent.Rafa - INFO - Classified 'Stage Coach' as MCC 4789 - Transportation Services (Not Elsewhere Classified)
+2025-04-03 10:50:22,023 - mcc_classifier.agent.Matheus - INFO - Classifying merchant: Stage Coach
+2025-04-03 10:50:22,024 - mcc_classifier.evaluator - INFO - Agent Matheus doesn't support full data, falling back to basic parameters
+2025-04-03 10:50:22,024 - mcc_classifier.agent.Matheus - INFO - Classifying merchant: Stage Coach
+2025-04-03 10:50:22,025 - mcc_classifier.agent.Matheus - INFO - Performing tier1 classification for: Stage Coach
+2025-04-03 10:50:28,665 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-03 10:50:28,671 - mcc_classifier.agent.Waki - INFO - Classifying merchant: Stage Coach
+2025-04-03 10:50:28,672 - mcc_classifier.agent.Waki - INFO - Sending request to GPT for merchant: Stage Coach
+2025-04-03 10:50:35,608 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-03 10:50:35,621 - mcc_classifier.agent.Waki - INFO - Classified 'Stage Coach' as MCC 4789 - Transportation Services, Not elsewhere classified) with confidence 0.9
+2025-04-03 10:50:35,622 - mcc_classifier.agent.Rafa - INFO - Classifying merchant: 81
+2025-04-03 10:50:35,622 - mcc_classifier.agent.Rafa - INFO - Sending request to OpenAI for merchant: 81
+2025-04-03 10:50:39,207 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-03 10:50:39,217 - mcc_classifier.agent.Rafa - INFO - Classified '81' as MCC 7299 - Other Services
+2025-04-03 10:50:39,217 - mcc_classifier.agent.Matheus - INFO - Classifying merchant: 81
+2025-04-03 10:50:39,218 - mcc_classifier.evaluator - INFO - Agent Matheus doesn't support full data, falling back to basic parameters
+2025-04-03 10:50:39,218 - mcc_classifier.agent.Matheus - INFO - Classifying merchant: 81
+2025-04-03 10:50:39,220 - mcc_classifier.agent.Matheus - INFO - Performing tier1 classification for: 81
+2025-04-03 10:50:48,018 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-03 10:50:48,029 - mcc_classifier.agent.Waki - INFO - Classifying merchant: 81
+2025-04-03 10:50:48,030 - mcc_classifier.agent.Waki - INFO - Sending request to GPT for merchant: 81
+2025-04-03 10:50:54,979 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-03 10:50:54,983 - mcc_classifier.agent.Waki - INFO - Classified '81' as MCC 4789 - Transportation Services, Not elsewhere classified) with confidence 0.9
+2025-04-03 10:50:54,983 - mcc_classifier.agent.Rafa - INFO - Classifying merchant: Jimmy Elizalde
+2025-04-03 10:50:54,984 - mcc_classifier.agent.Rafa - INFO - Sending request to OpenAI for merchant: Jimmy Elizalde
+2025-04-03 10:51:00,039 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-03 10:51:00,051 - mcc_classifier.agent.Rafa - INFO - Classified 'Jimmy Elizalde' as MCC 7299 - Other Services
+2025-04-03 10:51:00,051 - mcc_classifier.agent.Matheus - INFO - Classifying merchant: Jimmy Elizalde
+2025-04-03 10:51:00,052 - mcc_classifier.evaluator - INFO - Agent Matheus doesn't support full data, falling back to basic parameters
+2025-04-03 10:51:00,052 - mcc_classifier.agent.Matheus - INFO - Classifying merchant: Jimmy Elizalde
+2025-04-03 10:51:00,054 - mcc_classifier.agent.Matheus - INFO - Performing tier1 classification for: Jimmy Elizalde
+2025-04-03 10:51:08,914 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-03 10:51:08,918 - mcc_classifier.agent.Waki - INFO - Classifying merchant: Jimmy Elizalde
+2025-04-03 10:51:08,918 - mcc_classifier.agent.Waki - INFO - Sending request to GPT for merchant: Jimmy Elizalde
+2025-04-03 10:51:18,162 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-03 10:51:18,166 - mcc_classifier.agent.Waki - INFO - Classified 'Jimmy Elizalde' as MCC 4789 - Transportation Services, Not elsewhere classified) with confidence 0.9
+2025-04-03 10:51:18,167 - mcc_classifier.agent.Rafa - INFO - Classifying merchant: Dorvilia Driver
+2025-04-03 10:51:18,167 - mcc_classifier.agent.Rafa - INFO - Sending request to OpenAI for merchant: Dorvilia Driver
+2025-04-03 10:51:22,783 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-03 10:51:22,793 - mcc_classifier.agent.Rafa - INFO - Classified 'Dorvilia Driver' as MCC 4789 - Transportation Services (Not Elsewhere Classified)
+2025-04-03 10:51:22,794 - mcc_classifier.agent.Matheus - INFO - Classifying merchant: Dorvilia Driver
+2025-04-03 10:51:22,800 - mcc_classifier.evaluator - INFO - Agent Matheus doesn't support full data, falling back to basic parameters
+2025-04-03 10:51:22,801 - mcc_classifier.agent.Matheus - INFO - Classifying merchant: Dorvilia Driver
+2025-04-03 10:51:22,802 - mcc_classifier.agent.Matheus - INFO - Performing tier1 classification for: Dorvilia Driver
+2025-04-03 10:51:33,671 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-03 10:51:33,689 - mcc_classifier.agent.Waki - INFO - Classifying merchant: Dorvilia Driver
+2025-04-03 10:51:33,691 - mcc_classifier.agent.Waki - INFO - Sending request to GPT for merchant: Dorvilia Driver
+2025-04-03 10:51:41,340 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-03 10:51:41,344 - mcc_classifier.agent.Waki - INFO - Classified 'Dorvilia Driver' as MCC 4789 - Transportation Services, Not elsewhere classified) with confidence 0.9
+2025-04-03 10:51:41,345 - mcc_classifier.agent.Rafa - INFO - Classifying merchant: Shoulder Tap Concierge Services, LLC
+2025-04-03 10:51:41,348 - mcc_classifier.agent.Rafa - INFO - Sending request to OpenAI for merchant: Shoulder Tap Concierge Services, LLC
+2025-04-03 10:51:46,056 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-03 10:51:46,059 - mcc_classifier.agent.Rafa - INFO - Classified 'Shoulder Tap Concierge Services, LLC' as MCC 7399 - Other B2B Services
+2025-04-03 10:51:46,059 - mcc_classifier.agent.Matheus - INFO - Classifying merchant: Shoulder Tap Concierge Services, LLC
+2025-04-03 10:51:46,066 - mcc_classifier.evaluator - INFO - Agent Matheus doesn't support full data, falling back to basic parameters
+2025-04-03 10:51:46,066 - mcc_classifier.agent.Matheus - INFO - Classifying merchant: Shoulder Tap Concierge Services, LLC
+2025-04-03 10:51:46,067 - mcc_classifier.agent.Matheus - INFO - Performing tier1 classification for: Shoulder Tap Concierge Services, LLC
+2025-04-03 10:52:01,411 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-03 10:52:01,415 - mcc_classifier.agent.Matheus - INFO - Performing risk tier classification for: Shoulder Tap Concierge Services, LLC
+2025-04-03 10:52:17,440 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-03 10:52:17,461 - mcc_classifier.agent.Waki - INFO - Classifying merchant: Shoulder Tap Concierge Services, LLC
+2025-04-03 10:52:17,461 - mcc_classifier.agent.Waki - INFO - Sending request to GPT for merchant: Shoulder Tap Concierge Services, LLC
+2025-04-03 10:52:25,333 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-03 10:52:25,336 - mcc_classifier.agent.Waki - INFO - Classified 'Shoulder Tap Concierge Services, LLC' as MCC 7299 - Miscellaneous Personal Services ( not elsewhere classifies) with confidence 0.9
+2025-04-03 10:52:25,336 - mcc_classifier.agent.Rafa - INFO - Classifying merchant: Mr Mechanico
+2025-04-03 10:52:25,336 - mcc_classifier.agent.Rafa - INFO - Sending request to OpenAI for merchant: Mr Mechanico
+2025-04-03 10:52:30,478 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-03 10:52:30,485 - mcc_classifier.agent.Rafa - INFO - Classified 'Mr Mechanico' as MCC 7538 - Auto Service Shops (Non-dealer)
+2025-04-03 10:52:30,636 - mcc_classifier.agent.Matheus - INFO - Classifying merchant: Mr Mechanico
+2025-04-03 10:52:30,656 - mcc_classifier.evaluator - INFO - Agent Matheus doesn't support full data, falling back to basic parameters
+2025-04-03 10:52:30,657 - mcc_classifier.agent.Matheus - INFO - Classifying merchant: Mr Mechanico
+2025-04-03 10:52:30,661 - mcc_classifier.agent.Matheus - INFO - Performing tier1 classification for: Mr Mechanico
+2025-04-03 10:52:37,513 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-03 10:52:37,530 - mcc_classifier.agent.Waki - INFO - Classifying merchant: Mr Mechanico
+2025-04-03 10:52:37,532 - mcc_classifier.agent.Waki - INFO - Sending request to GPT for merchant: Mr Mechanico
+2025-04-03 10:52:43,100 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-03 10:52:43,104 - mcc_classifier.agent.Waki - INFO - Classified 'Mr Mechanico' as MCC 7538 - Automotive Service Shops with confidence 0.9
+2025-04-03 10:52:43,105 - mcc_classifier.agent.Rafa - INFO - Classifying merchant: DP Airport Services
+2025-04-03 10:52:43,105 - mcc_classifier.agent.Rafa - INFO - Sending request to OpenAI for merchant: DP Airport Services
+2025-04-03 10:52:46,843 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-03 10:52:46,855 - mcc_classifier.agent.Rafa - INFO - Classified 'DP Airport Services' as MCC 4789 - Transportation Services (Not Elsewhere Classified)
+2025-04-03 10:52:46,856 - mcc_classifier.agent.Matheus - INFO - Classifying merchant: DP Airport Services
+2025-04-03 10:52:46,863 - mcc_classifier.evaluator - INFO - Agent Matheus doesn't support full data, falling back to basic parameters
+2025-04-03 10:52:46,863 - mcc_classifier.agent.Matheus - INFO - Classifying merchant: DP Airport Services
+2025-04-03 10:52:46,865 - mcc_classifier.agent.Matheus - INFO - Performing tier1 classification for: DP Airport Services
+2025-04-03 10:53:03,937 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-03 10:53:03,943 - mcc_classifier.agent.Waki - INFO - Classifying merchant: DP Airport Services
+2025-04-03 10:53:03,943 - mcc_classifier.agent.Waki - INFO - Sending request to GPT for merchant: DP Airport Services
+2025-04-03 10:53:14,554 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-03 10:53:14,581 - mcc_classifier.agent.Waki - INFO - Classified 'DP Airport Services' as MCC 4789 - Transportation Services, Not elsewhere classified) with confidence 0.9
+2025-04-03 10:53:14,587 - mcc_classifier.agent.Rafa - INFO - Classifying merchant:  Punctual Transport
+2025-04-03 10:53:14,593 - mcc_classifier.agent.Rafa - INFO - Sending request to OpenAI for merchant:  Punctual Transport
+2025-04-03 10:53:18,723 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-03 10:53:18,731 - mcc_classifier.agent.Rafa - INFO - Classified ' Punctual Transport' as MCC 4789 - Transportation Services (Not Elsewhere Classified)
+2025-04-03 10:53:18,732 - mcc_classifier.agent.Matheus - INFO - Classifying merchant:  Punctual Transport
+2025-04-03 10:53:18,750 - mcc_classifier.evaluator - INFO - Agent Matheus doesn't support full data, falling back to basic parameters
+2025-04-03 10:53:18,750 - mcc_classifier.agent.Matheus - INFO - Classifying merchant:  Punctual Transport
+2025-04-03 10:53:18,752 - mcc_classifier.agent.Matheus - INFO - Performing tier1 classification for:  Punctual Transport
+2025-04-03 10:53:25,635 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-03 10:53:25,669 - mcc_classifier.agent.Waki - INFO - Classifying merchant:  Punctual Transport
+2025-04-03 10:53:25,670 - mcc_classifier.agent.Waki - INFO - Sending request to GPT for merchant:  Punctual Transport
+2025-04-03 10:53:31,562 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-03 10:53:31,565 - mcc_classifier.agent.Waki - INFO - Classified ' Punctual Transport' as MCC 4789 - Transportation Services, Not elsewhere classified) with confidence 0.95
+2025-04-03 10:53:31,566 - mcc_classifier.agent.Rafa - INFO - Classifying merchant: Shuttle Driver
+2025-04-03 10:53:31,566 - mcc_classifier.agent.Rafa - INFO - Sending request to OpenAI for merchant: Shuttle Driver
+2025-04-03 10:53:35,557 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-03 10:53:35,568 - mcc_classifier.agent.Rafa - INFO - Classified 'Shuttle Driver' as MCC 4789 - Transportation Services (Not Elsewhere Classified)
+2025-04-03 10:53:35,571 - mcc_classifier.agent.Matheus - INFO - Classifying merchant: Shuttle Driver
+2025-04-03 10:53:35,573 - mcc_classifier.evaluator - INFO - Agent Matheus doesn't support full data, falling back to basic parameters
+2025-04-03 10:53:35,573 - mcc_classifier.agent.Matheus - INFO - Classifying merchant: Shuttle Driver
+2025-04-03 10:53:35,574 - mcc_classifier.agent.Matheus - INFO - Performing tier1 classification for: Shuttle Driver
+2025-04-03 10:53:41,323 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-03 10:53:41,339 - mcc_classifier.agent.Waki - INFO - Classifying merchant: Shuttle Driver
+2025-04-03 10:53:41,340 - mcc_classifier.agent.Waki - INFO - Sending request to GPT for merchant: Shuttle Driver
+2025-04-03 10:53:48,024 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-03 10:53:48,133 - mcc_classifier.agent.Waki - INFO - Classified 'Shuttle Driver' as MCC 4121 - Taxicabs and Limousines with confidence 0.9
+2025-04-03 10:53:48,133 - mcc_classifier.agent.Rafa - INFO - Classifying merchant: Picture Me This
+2025-04-03 10:53:48,133 - mcc_classifier.agent.Rafa - INFO - Sending request to OpenAI for merchant: Picture Me This
+2025-04-03 10:53:52,581 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-03 10:53:52,588 - mcc_classifier.agent.Rafa - INFO - Classified 'Picture Me This' as MCC 7221 - Photography
+2025-04-03 10:53:52,590 - mcc_classifier.agent.Matheus - INFO - Classifying merchant: Picture Me This
+2025-04-03 10:53:52,592 - mcc_classifier.evaluator - INFO - Agent Matheus doesn't support full data, falling back to basic parameters
+2025-04-03 10:53:52,592 - mcc_classifier.agent.Matheus - INFO - Classifying merchant: Picture Me This
+2025-04-03 10:53:52,595 - mcc_classifier.agent.Matheus - INFO - Performing tier1 classification for: Picture Me This
+2025-04-03 10:53:59,201 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-03 10:53:59,207 - mcc_classifier.agent.Waki - INFO - Classifying merchant: Picture Me This
+2025-04-03 10:53:59,208 - mcc_classifier.agent.Waki - INFO - Sending request to GPT for merchant: Picture Me This
+2025-04-03 10:54:05,623 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-03 10:54:05,635 - mcc_classifier.agent.Waki - INFO - Classified 'Picture Me This' as MCC 5946 - Camera and Photographic Supply Stores with confidence 0.9
+2025-04-03 10:54:05,636 - mcc_classifier.agent.Rafa - INFO - Classifying merchant: VisionsNHd
+2025-04-03 10:54:05,636 - mcc_classifier.agent.Rafa - INFO - Sending request to OpenAI for merchant: VisionsNHd
+2025-04-03 10:54:09,980 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-03 10:54:09,982 - mcc_classifier.agent.Rafa - INFO - Classified 'VisionsNHd' as MCC 5399 - Miscellaneous General Merchandise Stores
+2025-04-03 10:54:09,982 - mcc_classifier.agent.Matheus - INFO - Classifying merchant: VisionsNHd
+2025-04-03 10:54:09,983 - mcc_classifier.evaluator - INFO - Agent Matheus doesn't support full data, falling back to basic parameters
+2025-04-03 10:54:09,983 - mcc_classifier.agent.Matheus - INFO - Classifying merchant: VisionsNHd
+2025-04-03 10:54:09,985 - mcc_classifier.agent.Matheus - INFO - Performing tier1 classification for: VisionsNHd
+2025-04-03 10:54:24,150 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-03 10:54:24,180 - mcc_classifier.agent.Matheus - INFO - Performing risk tier classification for: VisionsNHd
+2025-04-03 10:54:58,603 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-03 10:54:58,624 - mcc_classifier.agent.Waki - INFO - Classifying merchant: VisionsNHd
+2025-04-03 10:54:58,625 - mcc_classifier.agent.Waki - INFO - Sending request to GPT for merchant: VisionsNHd
+2025-04-03 10:55:05,885 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-03 10:55:05,890 - mcc_classifier.agent.Waki - INFO - Classified 'VisionsNHd' as MCC 5399 - Misc. General Merchandise with confidence 0.7
+2025-04-03 10:55:05,890 - mcc_classifier.agent.Rafa - INFO - Classifying merchant: KSH INC
+2025-04-03 10:55:05,890 - mcc_classifier.agent.Rafa - INFO - Sending request to OpenAI for merchant: KSH INC
+2025-04-03 10:55:10,793 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-03 10:55:10,795 - mcc_classifier.agent.Rafa - INFO - Classified 'KSH INC' as MCC 5399 - Miscellaneous General Merchandise Stores
+2025-04-03 10:55:10,796 - mcc_classifier.agent.Matheus - INFO - Classifying merchant: KSH INC
+2025-04-03 10:55:10,797 - mcc_classifier.evaluator - INFO - Agent Matheus doesn't support full data, falling back to basic parameters
+2025-04-03 10:55:10,798 - mcc_classifier.agent.Matheus - INFO - Classifying merchant: KSH INC
+2025-04-03 10:55:10,801 - mcc_classifier.agent.Matheus - INFO - Performing tier1 classification for: KSH INC
+2025-04-03 10:55:29,291 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-03 10:55:29,297 - mcc_classifier.agent.Waki - INFO - Classifying merchant: KSH INC
+2025-04-03 10:55:29,297 - mcc_classifier.agent.Waki - INFO - Sending request to GPT for merchant: KSH INC
+2025-04-03 10:55:35,147 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-03 10:55:35,225 - mcc_classifier.agent.Waki - INFO - Classified 'KSH INC' as MCC 5399 - Misc. General Merchandise with confidence 0.7
+2025-04-03 10:55:35,226 - mcc_classifier.agent.Rafa - INFO - Classifying merchant: Awesome Deals 
+2025-04-03 10:55:35,226 - mcc_classifier.agent.Rafa - INFO - Sending request to OpenAI for merchant: Awesome Deals 
+2025-04-03 10:55:39,099 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-03 10:55:39,104 - mcc_classifier.agent.Rafa - INFO - Classified 'Awesome Deals ' as MCC 5399 - Miscellaneous General Merchandise Stores
+2025-04-03 10:55:39,104 - mcc_classifier.agent.Matheus - INFO - Classifying merchant: Awesome Deals 
+2025-04-03 10:55:39,106 - mcc_classifier.evaluator - INFO - Agent Matheus doesn't support full data, falling back to basic parameters
+2025-04-03 10:55:39,106 - mcc_classifier.agent.Matheus - INFO - Classifying merchant: Awesome Deals 
+2025-04-03 10:55:39,108 - mcc_classifier.agent.Matheus - INFO - Performing tier1 classification for: Awesome Deals 
+2025-04-03 10:55:51,895 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-03 10:55:51,900 - mcc_classifier.agent.Matheus - INFO - Performing risk tier classification for: Awesome Deals 
+2025-04-03 10:56:22,302 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-03 10:56:22,326 - mcc_classifier.agent.Waki - INFO - Classifying merchant: Awesome Deals 
+2025-04-03 10:56:22,326 - mcc_classifier.agent.Waki - INFO - Sending request to GPT for merchant: Awesome Deals 
+2025-04-03 10:56:32,289 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-03 10:56:32,298 - mcc_classifier.agent.Waki - INFO - Classified 'Awesome Deals ' as MCC 5399 - Misc. General Merchandise with confidence 0.9
+2025-04-03 10:56:32,299 - mcc_classifier.agent.Rafa - INFO - Classifying merchant: Sell anything
+2025-04-03 10:56:32,303 - mcc_classifier.agent.Rafa - INFO - Sending request to OpenAI for merchant: Sell anything
+2025-04-03 10:56:42,152 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-03 10:56:42,164 - mcc_classifier.agent.Rafa - INFO - Classified 'Sell anything' as MCC 5399 - Miscellaneous General Merchandise Stores
+2025-04-03 10:56:42,164 - mcc_classifier.agent.Matheus - INFO - Classifying merchant: Sell anything
+2025-04-03 10:56:42,167 - mcc_classifier.evaluator - INFO - Agent Matheus doesn't support full data, falling back to basic parameters
+2025-04-03 10:56:42,167 - mcc_classifier.agent.Matheus - INFO - Classifying merchant: Sell anything
+2025-04-03 10:56:42,175 - mcc_classifier.agent.Matheus - INFO - Performing tier1 classification for: Sell anything
+2025-04-03 10:56:54,791 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-03 10:56:54,795 - mcc_classifier.agent.Matheus - INFO - Performing risk tier classification for: Sell anything
+2025-04-03 10:57:29,991 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-03 10:57:30,001 - mcc_classifier.agent.Waki - INFO - Classifying merchant: Sell anything
+2025-04-03 10:57:30,010 - mcc_classifier.agent.Waki - INFO - Sending request to GPT for merchant: Sell anything
+2025-04-03 10:57:37,423 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-03 10:57:37,435 - mcc_classifier.agent.Waki - INFO - Classified 'Sell anything' as MCC 5399 - Misc. General Merchandise with confidence 0.9
+2025-04-03 10:57:37,436 - mcc_classifier.agent.Rafa - INFO - Classifying merchant: Sencerie
+2025-04-03 10:57:37,436 - mcc_classifier.agent.Rafa - INFO - Sending request to OpenAI for merchant: Sencerie
+2025-04-03 10:57:41,825 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-03 10:57:41,852 - mcc_classifier.agent.Rafa - INFO - Classified 'Sencerie' as MCC 7299 - Other Services
+2025-04-03 10:57:41,852 - mcc_classifier.agent.Matheus - INFO - Classifying merchant: Sencerie
+2025-04-03 10:57:41,854 - mcc_classifier.evaluator - INFO - Agent Matheus doesn't support full data, falling back to basic parameters
+2025-04-03 10:57:41,855 - mcc_classifier.agent.Matheus - INFO - Classifying merchant: Sencerie
+2025-04-03 10:57:41,856 - mcc_classifier.agent.Matheus - INFO - Performing tier1 classification for: Sencerie
+2025-04-03 10:57:56,091 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-03 10:57:56,168 - mcc_classifier.agent.Waki - INFO - Classifying merchant: Sencerie
+2025-04-03 10:57:56,169 - mcc_classifier.agent.Waki - INFO - Sending request to GPT for merchant: Sencerie
+2025-04-03 10:58:08,269 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-03 10:58:08,298 - mcc_classifier.agent.Waki - INFO - Classified 'Sencerie' as MCC 5399 - Misc. General Merchandise with confidence 0.9
+2025-04-03 10:58:08,298 - mcc_classifier.agent.Rafa - INFO - Classifying merchant: Macky Mays Garage Sale
+2025-04-03 10:58:08,302 - mcc_classifier.agent.Rafa - INFO - Sending request to OpenAI for merchant: Macky Mays Garage Sale
+2025-04-03 10:58:14,390 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-03 10:58:14,405 - mcc_classifier.agent.Rafa - INFO - Classified 'Macky Mays Garage Sale' as MCC 5999 - Miscellaneous Specialty Retail
+2025-04-03 10:58:14,406 - mcc_classifier.agent.Matheus - INFO - Classifying merchant: Macky Mays Garage Sale
+2025-04-03 10:58:14,410 - mcc_classifier.evaluator - INFO - Agent Matheus doesn't support full data, falling back to basic parameters
+2025-04-03 10:58:14,410 - mcc_classifier.agent.Matheus - INFO - Classifying merchant: Macky Mays Garage Sale
+2025-04-03 10:58:14,411 - mcc_classifier.agent.Matheus - INFO - Performing tier1 classification for: Macky Mays Garage Sale
+2025-04-03 10:58:23,412 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-03 10:58:23,610 - mcc_classifier.agent.Waki - INFO - Classifying merchant: Macky Mays Garage Sale
+2025-04-03 10:58:23,611 - mcc_classifier.agent.Waki - INFO - Sending request to GPT for merchant: Macky Mays Garage Sale
+2025-04-03 10:58:30,095 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-03 10:58:30,144 - mcc_classifier.agent.Waki - INFO - Classified 'Macky Mays Garage Sale' as MCC 5931 - Used Merchandise and Secondhand Stores with confidence 0.9
+2025-04-03 10:58:30,144 - mcc_classifier.agent.Rafa - INFO - Classifying merchant: Flex
+2025-04-03 10:58:30,145 - mcc_classifier.agent.Rafa - INFO - Sending request to OpenAI for merchant: Flex
+2025-04-03 10:58:34,260 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-03 10:58:34,264 - mcc_classifier.agent.Rafa - INFO - Classified 'Flex' as MCC 5399 - Miscellaneous General Merchandise Stores
+2025-04-03 10:58:34,264 - mcc_classifier.agent.Matheus - INFO - Classifying merchant: Flex
+2025-04-03 10:58:34,269 - mcc_classifier.evaluator - INFO - Agent Matheus doesn't support full data, falling back to basic parameters
+2025-04-03 10:58:34,269 - mcc_classifier.agent.Matheus - INFO - Classifying merchant: Flex
+2025-04-03 10:58:34,270 - mcc_classifier.agent.Matheus - INFO - Performing tier1 classification for: Flex
+2025-04-03 10:58:46,864 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-03 10:58:46,896 - mcc_classifier.agent.Matheus - INFO - Performing risk tier classification for: Flex
+2025-04-03 10:59:12,726 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-03 10:59:12,922 - mcc_classifier.agent.Waki - INFO - Classifying merchant: Flex
+2025-04-03 10:59:12,922 - mcc_classifier.agent.Waki - INFO - Sending request to GPT for merchant: Flex
+2025-04-03 10:59:20,876 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-03 10:59:20,898 - mcc_classifier.agent.Waki - INFO - Classified 'Flex' as MCC 5399 - Misc. General Merchandise with confidence 0.7
+2025-04-03 10:59:20,901 - mcc_classifier.agent.Rafa - INFO - Classifying merchant: Daniel D
+2025-04-03 10:59:20,901 - mcc_classifier.agent.Rafa - INFO - Sending request to OpenAI for merchant: Daniel D
+2025-04-03 10:59:24,858 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-03 10:59:24,865 - mcc_classifier.agent.Rafa - INFO - Classified 'Daniel D' as MCC 5399 - Other Retail
+2025-04-03 10:59:24,866 - mcc_classifier.agent.Matheus - INFO - Classifying merchant: Daniel D
+2025-04-03 10:59:24,873 - mcc_classifier.evaluator - INFO - Agent Matheus doesn't support full data, falling back to basic parameters
+2025-04-03 10:59:24,873 - mcc_classifier.agent.Matheus - INFO - Classifying merchant: Daniel D
+2025-04-03 10:59:24,876 - mcc_classifier.agent.Matheus - INFO - Performing tier1 classification for: Daniel D
+2025-04-03 10:59:36,918 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-03 10:59:37,044 - mcc_classifier.agent.Waki - INFO - Classifying merchant: Daniel D
+2025-04-03 10:59:37,045 - mcc_classifier.agent.Waki - INFO - Sending request to GPT for merchant: Daniel D
+2025-04-03 10:59:51,103 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-03 10:59:51,121 - mcc_classifier.agent.Waki - INFO - Classified 'Daniel D' as MCC 5399 - Misc. General Merchandise with confidence 0.8
+2025-04-03 10:59:51,122 - mcc_classifier.agent.Rafa - INFO - Classifying merchant: MYLT
+2025-04-03 10:59:51,122 - mcc_classifier.agent.Rafa - INFO - Sending request to OpenAI for merchant: MYLT
+2025-04-03 10:59:56,941 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-03 10:59:56,957 - mcc_classifier.agent.Rafa - INFO - Classified 'MYLT' as MCC 5399 - Miscellaneous General Merchandise Stores
+2025-04-03 10:59:56,957 - mcc_classifier.agent.Matheus - INFO - Classifying merchant: MYLT
+2025-04-03 10:59:57,054 - mcc_classifier.evaluator - INFO - Agent Matheus doesn't support full data, falling back to basic parameters
+2025-04-03 10:59:57,058 - mcc_classifier.agent.Matheus - INFO - Classifying merchant: MYLT
+2025-04-03 10:59:57,059 - mcc_classifier.agent.Matheus - INFO - Performing tier1 classification for: MYLT
+2025-04-03 11:00:03,189 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-03 11:00:03,496 - mcc_classifier.agent.Waki - INFO - Classifying merchant: MYLT
+2025-04-03 11:00:03,501 - mcc_classifier.agent.Waki - INFO - Sending request to GPT for merchant: MYLT
+2025-04-03 11:00:14,234 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-03 11:00:14,386 - mcc_classifier.agent.Waki - INFO - Classified 'MYLT' as MCC 5399 - Misc. General Merchandise with confidence 0.9
+2025-04-03 11:00:14,386 - mcc_classifier.agent.Rafa - INFO - Classifying merchant: Simplepurchase
+2025-04-03 11:00:14,386 - mcc_classifier.agent.Rafa - INFO - Sending request to OpenAI for merchant: Simplepurchase
+2025-04-03 11:00:19,130 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-03 11:00:19,139 - mcc_classifier.agent.Rafa - INFO - Classified 'Simplepurchase' as MCC 5399 - Miscellaneous General Merchandise Stores
+2025-04-03 11:00:19,140 - mcc_classifier.agent.Matheus - INFO - Classifying merchant: Simplepurchase
+2025-04-03 11:00:19,144 - mcc_classifier.evaluator - INFO - Agent Matheus doesn't support full data, falling back to basic parameters
+2025-04-03 11:00:19,145 - mcc_classifier.agent.Matheus - INFO - Classifying merchant: Simplepurchase
+2025-04-03 11:00:19,169 - mcc_classifier.agent.Matheus - INFO - Performing tier1 classification for: Simplepurchase
+2025-04-03 11:00:29,366 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-03 11:00:29,409 - mcc_classifier.agent.Waki - INFO - Classifying merchant: Simplepurchase
+2025-04-03 11:00:29,409 - mcc_classifier.agent.Waki - INFO - Sending request to GPT for merchant: Simplepurchase
+2025-04-03 11:00:42,273 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-03 11:00:42,321 - mcc_classifier.agent.Waki - INFO - Classified 'Simplepurchase' as MCC 5399 - Misc. General Merchandise with confidence 0.9
+2025-04-03 11:00:42,323 - mcc_classifier.agent.Rafa - INFO - Classifying merchant: Black Fox Inc.
+2025-04-03 11:00:42,324 - mcc_classifier.agent.Rafa - INFO - Sending request to OpenAI for merchant: Black Fox Inc.
+2025-04-03 11:00:45,684 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-03 11:00:45,690 - mcc_classifier.agent.Rafa - INFO - Classified 'Black Fox Inc.' as MCC 5399 - Miscellaneous General Merchandise Stores
+2025-04-03 11:00:45,690 - mcc_classifier.agent.Matheus - INFO - Classifying merchant: Black Fox Inc.
+2025-04-03 11:00:45,694 - mcc_classifier.evaluator - INFO - Agent Matheus doesn't support full data, falling back to basic parameters
+2025-04-03 11:00:45,694 - mcc_classifier.agent.Matheus - INFO - Classifying merchant: Black Fox Inc.
+2025-04-03 11:00:45,702 - mcc_classifier.agent.Matheus - INFO - Performing tier1 classification for: Black Fox Inc.
+2025-04-03 11:00:59,923 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-03 11:01:00,033 - mcc_classifier.agent.Matheus - INFO - Performing risk tier classification for: Black Fox Inc.
+2025-04-03 11:01:17,573 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-03 11:01:17,773 - mcc_classifier.agent.Waki - INFO - Classifying merchant: Black Fox Inc.
+2025-04-03 11:01:17,773 - mcc_classifier.agent.Waki - INFO - Sending request to GPT for merchant: Black Fox Inc.
+2025-04-03 11:01:24,065 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-03 11:01:24,075 - mcc_classifier.agent.Waki - INFO - Classified 'Black Fox Inc.' as MCC 5399 - Misc. General Merchandise with confidence 0.9
+2025-04-03 11:01:24,075 - mcc_classifier.agent.Rafa - INFO - Classifying merchant: Goods For Cheap
+2025-04-03 11:01:24,082 - mcc_classifier.agent.Rafa - INFO - Sending request to OpenAI for merchant: Goods For Cheap
+2025-04-03 11:01:28,230 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-03 11:01:28,237 - mcc_classifier.agent.Rafa - INFO - Classified 'Goods For Cheap' as MCC 5399 - Miscellaneous General Merchandise Stores
+2025-04-03 11:01:28,238 - mcc_classifier.agent.Matheus - INFO - Classifying merchant: Goods For Cheap
+2025-04-03 11:01:28,239 - mcc_classifier.evaluator - INFO - Agent Matheus doesn't support full data, falling back to basic parameters
+2025-04-03 11:01:28,239 - mcc_classifier.agent.Matheus - INFO - Classifying merchant: Goods For Cheap
+2025-04-03 11:01:28,240 - mcc_classifier.agent.Matheus - INFO - Performing tier1 classification for: Goods For Cheap
+2025-04-03 11:01:39,771 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-03 11:01:39,780 - mcc_classifier.agent.Waki - INFO - Classifying merchant: Goods For Cheap
+2025-04-03 11:01:39,780 - mcc_classifier.agent.Waki - INFO - Sending request to GPT for merchant: Goods For Cheap
+2025-04-03 11:01:50,377 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-03 11:01:50,384 - mcc_classifier.agent.Waki - INFO - Classified 'Goods For Cheap' as MCC 5399 - Misc. General Merchandise with confidence 0.9
+2025-04-03 11:01:50,386 - mcc_classifier.agent.Rafa - INFO - Classifying merchant: Planet Mattress Inc
+2025-04-03 11:01:50,387 - mcc_classifier.agent.Rafa - INFO - Sending request to OpenAI for merchant: Planet Mattress Inc
+2025-04-03 11:01:54,589 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-03 11:01:54,591 - mcc_classifier.agent.Rafa - INFO - Classified 'Planet Mattress Inc' as MCC 5712 - Furniture, Home Furnishings, and Equipment Stores, Except Appliances
+2025-04-03 11:01:54,591 - mcc_classifier.agent.Matheus - INFO - Classifying merchant: Planet Mattress Inc
+2025-04-03 11:01:54,592 - mcc_classifier.evaluator - INFO - Agent Matheus doesn't support full data, falling back to basic parameters
+2025-04-03 11:01:54,592 - mcc_classifier.agent.Matheus - INFO - Classifying merchant: Planet Mattress Inc
+2025-04-03 11:01:54,593 - mcc_classifier.agent.Matheus - INFO - Performing tier1 classification for: Planet Mattress Inc
+2025-04-03 11:02:02,451 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-03 11:02:02,456 - mcc_classifier.agent.Waki - INFO - Classifying merchant: Planet Mattress Inc
+2025-04-03 11:02:02,487 - mcc_classifier.agent.Waki - INFO - Sending request to GPT for merchant: Planet Mattress Inc
+2025-04-03 11:02:13,769 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-03 11:02:13,797 - mcc_classifier.agent.Waki - INFO - Classified 'Planet Mattress Inc' as MCC 5712 - Furniture, Home Furnishings, and Equipment Stores, ExceptAppliances with confidence 0.95
+2025-04-03 11:02:13,797 - mcc_classifier.agent.Rafa - INFO - Classifying merchant: SmartWay Enterprise LLC
+2025-04-03 11:02:13,798 - mcc_classifier.agent.Rafa - INFO - Sending request to OpenAI for merchant: SmartWay Enterprise LLC
+2025-04-03 11:02:16,653 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-03 11:02:16,664 - mcc_classifier.agent.Rafa - INFO - Classified 'SmartWay Enterprise LLC' as MCC 5399 - Miscellaneous General Merchandise Stores
+2025-04-03 11:02:16,666 - mcc_classifier.agent.Matheus - INFO - Classifying merchant: SmartWay Enterprise LLC
+2025-04-03 11:02:16,670 - mcc_classifier.evaluator - INFO - Agent Matheus doesn't support full data, falling back to basic parameters
+2025-04-03 11:02:16,670 - mcc_classifier.agent.Matheus - INFO - Classifying merchant: SmartWay Enterprise LLC
+2025-04-03 11:02:16,680 - mcc_classifier.agent.Matheus - INFO - Performing tier1 classification for: SmartWay Enterprise LLC
+2025-04-03 11:02:33,998 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-03 11:02:34,044 - mcc_classifier.agent.Matheus - INFO - Performing risk tier classification for: SmartWay Enterprise LLC
+2025-04-03 11:02:50,804 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-03 11:02:50,819 - mcc_classifier.agent.Waki - INFO - Classifying merchant: SmartWay Enterprise LLC
+2025-04-03 11:02:50,820 - mcc_classifier.agent.Waki - INFO - Sending request to GPT for merchant: SmartWay Enterprise LLC
+2025-04-03 11:02:58,093 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-03 11:02:58,097 - mcc_classifier.agent.Waki - INFO - Classified 'SmartWay Enterprise LLC' as MCC 5399 - Misc. General Merchandise with confidence 0.9
+2025-04-03 11:02:58,098 - mcc_classifier.agent.Rafa - INFO - Classifying merchant: Highgrams 
+2025-04-03 11:02:58,098 - mcc_classifier.agent.Rafa - INFO - Sending request to OpenAI for merchant: Highgrams 
+2025-04-03 11:03:02,227 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-03 11:03:02,274 - mcc_classifier.agent.Rafa - INFO - Classified 'Highgrams ' as MCC 5399 - Other Retail
+2025-04-03 11:03:02,275 - mcc_classifier.agent.Matheus - INFO - Classifying merchant: Highgrams 
+2025-04-03 11:03:02,278 - mcc_classifier.evaluator - INFO - Agent Matheus doesn't support full data, falling back to basic parameters
+2025-04-03 11:03:02,278 - mcc_classifier.agent.Matheus - INFO - Classifying merchant: Highgrams 
+2025-04-03 11:03:02,285 - mcc_classifier.agent.Matheus - INFO - Performing tier1 classification for: Highgrams 
+2025-04-03 11:03:13,792 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-03 11:03:13,953 - mcc_classifier.agent.Waki - INFO - Classifying merchant: Highgrams 
+2025-04-03 11:03:13,954 - mcc_classifier.agent.Waki - INFO - Sending request to GPT for merchant: Highgrams 
+2025-04-03 11:03:23,521 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-03 11:03:23,556 - mcc_classifier.agent.Waki - INFO - Classified 'Highgrams ' as MCC 5399 - Misc. General Merchandise with confidence 0.7
+2025-04-03 11:03:23,559 - mcc_classifier.agent.Rafa - INFO - Classifying merchant: Software Solutions
+2025-04-03 11:03:23,560 - mcc_classifier.agent.Rafa - INFO - Sending request to OpenAI for merchant: Software Solutions
+2025-04-03 11:03:26,456 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-03 11:03:26,461 - mcc_classifier.agent.Rafa - INFO - Classified 'Software Solutions' as MCC 5732 - Electronics Stores
+2025-04-03 11:03:26,462 - mcc_classifier.agent.Matheus - INFO - Classifying merchant: Software Solutions
+2025-04-03 11:03:26,463 - mcc_classifier.evaluator - INFO - Agent Matheus doesn't support full data, falling back to basic parameters
+2025-04-03 11:03:26,464 - mcc_classifier.agent.Matheus - INFO - Classifying merchant: Software Solutions
+2025-04-03 11:03:26,468 - mcc_classifier.agent.Matheus - INFO - Performing tier1 classification for: Software Solutions
+2025-04-03 11:03:37,359 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-03 11:03:37,395 - mcc_classifier.agent.Waki - INFO - Classifying merchant: Software Solutions
+2025-04-03 11:03:37,395 - mcc_classifier.agent.Waki - INFO - Sending request to GPT for merchant: Software Solutions
+2025-04-03 11:03:44,304 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-03 11:03:44,313 - mcc_classifier.agent.Waki - INFO - Classified 'Software Solutions' as MCC 5045 - Computers, Computer Peripheral Equipment, Software with confidence 0.95
+2025-04-03 11:03:44,314 - mcc_classifier.agent.Rafa - INFO - Classifying merchant: Saveurs Tropical LLC
+2025-04-03 11:03:44,314 - mcc_classifier.agent.Rafa - INFO - Sending request to OpenAI for merchant: Saveurs Tropical LLC
+2025-04-03 11:03:48,474 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-03 11:03:48,477 - mcc_classifier.agent.Rafa - INFO - Classified 'Saveurs Tropical LLC' as MCC 5411 - Grocery Stores, Supermarkets
+2025-04-03 11:03:48,480 - mcc_classifier.agent.Matheus - INFO - Classifying merchant: Saveurs Tropical LLC
+2025-04-03 11:03:48,493 - mcc_classifier.evaluator - INFO - Agent Matheus doesn't support full data, falling back to basic parameters
+2025-04-03 11:03:48,493 - mcc_classifier.agent.Matheus - INFO - Classifying merchant: Saveurs Tropical LLC
+2025-04-03 11:03:48,495 - mcc_classifier.agent.Matheus - INFO - Performing tier1 classification for: Saveurs Tropical LLC
+2025-04-03 11:03:54,651 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-03 11:03:54,668 - mcc_classifier.agent.Waki - INFO - Classifying merchant: Saveurs Tropical LLC
+2025-04-03 11:03:54,669 - mcc_classifier.agent.Waki - INFO - Sending request to GPT for merchant: Saveurs Tropical LLC
+2025-04-03 11:04:05,256 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-03 11:04:05,336 - mcc_classifier.agent.Waki - INFO - Classified 'Saveurs Tropical LLC' as MCC 5411 - Grocery Stores, Supermarkets with confidence 0.9
+2025-04-03 11:04:05,337 - mcc_classifier.agent.Rafa - INFO - Classifying merchant: Sweet Tart
+2025-04-03 11:04:05,338 - mcc_classifier.agent.Rafa - INFO - Sending request to OpenAI for merchant: Sweet Tart
+2025-04-03 11:04:08,789 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-03 11:04:08,790 - mcc_classifier.agent.Rafa - INFO - Classified 'Sweet Tart' as MCC 5499 - Specialized Confections and Candy Store
+2025-04-03 11:04:08,791 - mcc_classifier.agent.Matheus - INFO - Classifying merchant: Sweet Tart
+2025-04-03 11:04:08,793 - mcc_classifier.evaluator - INFO - Agent Matheus doesn't support full data, falling back to basic parameters
+2025-04-03 11:04:08,793 - mcc_classifier.agent.Matheus - INFO - Classifying merchant: Sweet Tart
+2025-04-03 11:04:08,795 - mcc_classifier.agent.Matheus - INFO - Performing tier1 classification for: Sweet Tart
+2025-04-03 11:04:14,347 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-03 11:04:14,359 - mcc_classifier.agent.Waki - INFO - Classifying merchant: Sweet Tart
+2025-04-03 11:04:14,360 - mcc_classifier.agent.Waki - INFO - Sending request to GPT for merchant: Sweet Tart
+2025-04-03 11:04:22,111 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-03 11:04:22,122 - mcc_classifier.agent.Waki - INFO - Classified 'Sweet Tart' as MCC 5499 - Misc. Food Stores – Convenience Stores and Specialty Markets with confidence 0.9
+2025-04-03 11:04:22,124 - mcc_classifier.agent.Rafa - INFO - Classifying merchant: Candy
+2025-04-03 11:04:22,124 - mcc_classifier.agent.Rafa - INFO - Sending request to OpenAI for merchant: Candy
+2025-04-03 11:04:27,984 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-03 11:04:28,010 - mcc_classifier.agent.Rafa - INFO - Classified 'Candy' as MCC 5499 - Miscellaneous Food Stores – Convenience Stores and Specialty Markets
+2025-04-03 11:04:28,011 - mcc_classifier.agent.Matheus - INFO - Classifying merchant: Candy
+2025-04-03 11:04:28,013 - mcc_classifier.evaluator - INFO - Agent Matheus doesn't support full data, falling back to basic parameters
+2025-04-03 11:04:28,013 - mcc_classifier.agent.Matheus - INFO - Classifying merchant: Candy
+2025-04-03 11:04:28,014 - mcc_classifier.agent.Matheus - INFO - Performing tier1 classification for: Candy
+2025-04-03 11:04:40,282 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-03 11:04:40,292 - mcc_classifier.agent.Waki - INFO - Classifying merchant: Candy
+2025-04-03 11:04:40,293 - mcc_classifier.agent.Waki - INFO - Sending request to GPT for merchant: Candy
+2025-04-03 11:04:47,794 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-03 11:04:47,814 - mcc_classifier.agent.Waki - INFO - Classified 'Candy' as MCC 5441 - Candy, Nut, and Confectionery Stores with confidence 0.95
+2025-04-03 11:04:47,815 - mcc_classifier.agent.Rafa - INFO - Classifying merchant: La Bella Fluers
+2025-04-03 11:04:47,815 - mcc_classifier.agent.Rafa - INFO - Sending request to OpenAI for merchant: La Bella Fluers
+2025-04-03 11:04:52,210 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-03 11:04:52,214 - mcc_classifier.agent.Rafa - INFO - Classified 'La Bella Fluers' as MCC 5992 - Florists
+2025-04-03 11:04:52,214 - mcc_classifier.agent.Matheus - INFO - Classifying merchant: La Bella Fluers
+2025-04-03 11:04:52,215 - mcc_classifier.evaluator - INFO - Agent Matheus doesn't support full data, falling back to basic parameters
+2025-04-03 11:04:52,215 - mcc_classifier.agent.Matheus - INFO - Classifying merchant: La Bella Fluers
+2025-04-03 11:04:52,220 - mcc_classifier.agent.Matheus - INFO - Performing tier1 classification for: La Bella Fluers
+2025-04-03 11:05:04,835 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-03 11:05:04,845 - mcc_classifier.agent.Waki - INFO - Classifying merchant: La Bella Fluers
+2025-04-03 11:05:04,846 - mcc_classifier.agent.Waki - INFO - Sending request to GPT for merchant: La Bella Fluers
+2025-04-03 11:05:09,910 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-03 11:05:09,915 - mcc_classifier.agent.Waki - INFO - Classified 'La Bella Fluers' as MCC 5992 - Florists with confidence 0.95
+2025-04-03 11:05:09,915 - mcc_classifier.agent.Rafa - INFO - Classifying merchant:  Mohammed Mohammed
+2025-04-03 11:05:09,915 - mcc_classifier.agent.Rafa - INFO - Sending request to OpenAI for merchant:  Mohammed Mohammed
+2025-04-03 11:05:13,538 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-03 11:05:13,558 - mcc_classifier.agent.Rafa - INFO - Classified ' Mohammed Mohammed' as MCC 5499 - Miscellaneous Food Stores – Convenience Stores and Specialty Markets
+2025-04-03 11:05:13,559 - mcc_classifier.agent.Matheus - INFO - Classifying merchant:  Mohammed Mohammed
+2025-04-03 11:05:13,561 - mcc_classifier.evaluator - INFO - Agent Matheus doesn't support full data, falling back to basic parameters
+2025-04-03 11:05:13,561 - mcc_classifier.agent.Matheus - INFO - Classifying merchant:  Mohammed Mohammed
+2025-04-03 11:05:13,561 - mcc_classifier.agent.Matheus - INFO - Performing tier1 classification for:  Mohammed Mohammed
+2025-04-03 11:05:27,513 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-03 11:05:27,564 - mcc_classifier.agent.Waki - INFO - Classifying merchant:  Mohammed Mohammed
+2025-04-03 11:05:27,565 - mcc_classifier.agent.Waki - INFO - Sending request to GPT for merchant:  Mohammed Mohammed
+2025-04-03 11:05:35,326 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-03 11:05:35,362 - mcc_classifier.agent.Waki - INFO - Classified ' Mohammed Mohammed' as MCC 5499 - Misc. Food Stores – Convenience Stores and Specialty Markets with confidence 0.9
+2025-04-03 11:05:35,362 - mcc_classifier.agent.Rafa - INFO - Classifying merchant: Nikki Byrd Glizzy
+2025-04-03 11:05:35,363 - mcc_classifier.agent.Rafa - INFO - Sending request to OpenAI for merchant: Nikki Byrd Glizzy
+2025-04-03 11:05:41,873 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-03 11:05:41,882 - mcc_classifier.agent.Rafa - INFO - Classified 'Nikki Byrd Glizzy' as MCC 5499 - Miscellaneous Food Stores – Convenience Stores and Specialty Markets
+2025-04-03 11:05:41,888 - mcc_classifier.agent.Matheus - INFO - Classifying merchant: Nikki Byrd Glizzy
+2025-04-03 11:05:41,891 - mcc_classifier.evaluator - INFO - Agent Matheus doesn't support full data, falling back to basic parameters
+2025-04-03 11:05:41,891 - mcc_classifier.agent.Matheus - INFO - Classifying merchant: Nikki Byrd Glizzy
+2025-04-03 11:05:41,892 - mcc_classifier.agent.Matheus - INFO - Performing tier1 classification for: Nikki Byrd Glizzy
+2025-04-03 11:05:50,825 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-03 11:05:51,108 - mcc_classifier.agent.Waki - INFO - Classifying merchant: Nikki Byrd Glizzy
+2025-04-03 11:05:51,108 - mcc_classifier.agent.Waki - INFO - Sending request to GPT for merchant: Nikki Byrd Glizzy
+2025-04-03 11:06:00,074 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-03 11:06:00,081 - mcc_classifier.agent.Waki - INFO - Classified 'Nikki Byrd Glizzy' as MCC 5499 - Misc. Food Stores – Convenience Stores and Specialty Markets with confidence 0.9
+2025-04-03 11:06:00,081 - mcc_classifier.agent.Rafa - INFO - Classifying merchant: Savior Of Dinner LLC
+2025-04-03 11:06:00,081 - mcc_classifier.agent.Rafa - INFO - Sending request to OpenAI for merchant: Savior Of Dinner LLC
+2025-04-03 11:06:04,127 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-03 11:06:04,129 - mcc_classifier.agent.Rafa - INFO - Classified 'Savior Of Dinner LLC' as MCC 5499 - Miscellaneous Food Stores – Convenience Stores and Specialty Markets
+2025-04-03 11:06:04,129 - mcc_classifier.agent.Matheus - INFO - Classifying merchant: Savior Of Dinner LLC
+2025-04-03 11:06:04,130 - mcc_classifier.evaluator - INFO - Agent Matheus doesn't support full data, falling back to basic parameters
+2025-04-03 11:06:04,130 - mcc_classifier.agent.Matheus - INFO - Classifying merchant: Savior Of Dinner LLC
+2025-04-03 11:06:04,132 - mcc_classifier.agent.Matheus - INFO - Performing tier1 classification for: Savior Of Dinner LLC
+2025-04-03 11:06:08,853 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-03 11:06:08,879 - mcc_classifier.agent.Waki - INFO - Classifying merchant: Savior Of Dinner LLC
+2025-04-03 11:06:08,879 - mcc_classifier.agent.Waki - INFO - Sending request to GPT for merchant: Savior Of Dinner LLC
+2025-04-03 11:06:16,863 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-03 11:06:17,010 - mcc_classifier.agent.Waki - INFO - Classified 'Savior Of Dinner LLC' as MCC 5499 - Misc. Food Stores – Convenience Stores and Specialty Markets with confidence 0.9
+2025-04-03 11:06:17,011 - mcc_classifier.agent.Rafa - INFO - Classifying merchant: LIMECOCO COOKIES 
+2025-04-03 11:06:17,011 - mcc_classifier.agent.Rafa - INFO - Sending request to OpenAI for merchant: LIMECOCO COOKIES 
+2025-04-03 11:06:23,089 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-03 11:06:23,875 - mcc_classifier.agent.Rafa - INFO - Classified 'LIMECOCO COOKIES ' as MCC 5499 - Miscellaneous Food Stores – Convenience Stores and Specialty Markets
+2025-04-03 11:06:23,876 - mcc_classifier.agent.Matheus - INFO - Classifying merchant: LIMECOCO COOKIES 
+2025-04-03 11:06:23,878 - mcc_classifier.evaluator - INFO - Agent Matheus doesn't support full data, falling back to basic parameters
+2025-04-03 11:06:23,878 - mcc_classifier.agent.Matheus - INFO - Classifying merchant: LIMECOCO COOKIES 
+2025-04-03 11:06:23,879 - mcc_classifier.agent.Matheus - INFO - Performing tier1 classification for: LIMECOCO COOKIES 
+2025-04-03 11:06:32,739 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-03 11:06:33,496 - mcc_classifier.agent.Waki - INFO - Classifying merchant: LIMECOCO COOKIES 
+2025-04-03 11:06:33,497 - mcc_classifier.agent.Waki - INFO - Sending request to GPT for merchant: LIMECOCO COOKIES 
+2025-04-03 11:06:43,595 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-03 11:06:43,707 - mcc_classifier.agent.Waki - INFO - Classified 'LIMECOCO COOKIES ' as MCC 5462 - Bakeries with confidence 0.9
+2025-04-03 11:06:43,899 - mcc_classifier.data_handler - INFO - Writing 101 rows to output/custom_test_merchants_comparison_20250403_101504.csv
+2025-04-03 11:06:45,833 - mcc_classifier.data_handler - INFO - Successfully wrote data to output/custom_test_merchants_comparison_20250403_101504.csv
+2025-04-03 11:06:45,847 - mcc_classifier.evaluator - INFO - Evaluation complete. Results written to output/custom_test_merchants_comparison_20250403_101504.csv

@@ -1,0 +1,9 @@
+# Core dependencies
+pandas>=1.0.0
+numpy>=1.18.0
+openai>=1.0.0
+pydantic>=2.0.0
+
+# For testing
+pytest>=6.0.0
+pytest-cov>=2.10.0 

@@ -1,0 +1,13 @@
+2025-04-02 16:43:33,688 - root - INFO - Logging configured for MCC Classifier
+2025-04-02 16:43:33,689 - mcc_classifier.agent_factory - INFO - Creating all agents
+2025-04-02 16:43:33,758 - mcc_classifier.agent.Rafa - INFO - OpenAI client initialized successfully.
+2025-04-02 16:43:33,763 - mcc_classifier.agent.Matheus - INFO - OpenAI client initialized successfully.
+2025-04-02 16:43:33,786 - mcc_classifier.agent.Waki - INFO - Loaded 981 MCC codes from CSV file
+2025-04-02 16:43:33,792 - mcc_classifier.agent.Waki - INFO - OpenAI client initialized successfully.
+2025-04-02 16:43:33,793 - mcc_classifier.evaluator - INFO - Initialized MCC evaluator with 3 agents
+2025-04-02 16:43:33,793 - mcc_classifier.agent_factory - INFO - Creating all agents
+2025-04-02 16:43:33,802 - mcc_classifier.agent.Rafa - INFO - OpenAI client initialized successfully.
+2025-04-02 16:43:33,813 - mcc_classifier.agent.Matheus - INFO - OpenAI client initialized successfully.
+2025-04-02 16:43:33,840 - mcc_classifier.agent.Waki - INFO - Loaded 981 MCC codes from CSV file
+2025-04-02 16:43:33,850 - mcc_classifier.agent.Waki - INFO - OpenAI client initialized successfully.
+2025-04-02 16:43:33,850 - mcc_classifier.evaluator - INFO - Initialized MCC evaluator with 3 agents

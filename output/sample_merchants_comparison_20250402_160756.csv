@@ -1,0 +1,12 @@
+Merchant Name,Legal Name,Actual MCC,MCC Description,Rafa's suggested MCC,Rafa's MCC description,Rafa's confidence,Rafa's match,Matheus's suggested MCC,Matheus's MCC description,Matheus's confidence,Matheus's match,Waki's suggested MCC,Waki's MCC description,Waki's confidence,Waki's match
+Walmart Supercentre,Walmart Inc.,5411,Grocery Stores,5311,Department Stores,0.85,No,5411,"Grocery Stores, Supermarkets",1.0,Yes,5311,Department Stores,0.95,No
+Amazon,Amazon.com Inc.,5964,Direct Marketing - Catalog Merchants,5399,Other Retail,0.85,No,5812,"Eating Places, Restaurants",1.0,No,5311,Department Stores,0.95,No
+Starbucks Coffee,Starbucks Corporation,5814,Fast Food Restaurants,5812,Restaurants,0.85,No,5812,"Eating Places, Restaurants",1.0,No,5812,Eating places and Restaurants,0.95,No
+Best Buy,Best Buy Co. Inc.,5732,Electronics Stores,5732,Electronics Stores,0.85,Yes,5732,Electronics Stores,0.99,Yes,5732,Electronic Sales,0.95,Yes
+Chevron Gas Station,Chevron Corporation,5541,Service Stations,5541,Gas & Fuel,0.85,Yes,5541,Gas & Fuel,1.0,Yes,5541,Service Stations ( with or without ancillary services),0.95,Yes
+CVS Pharmacy,CVS Health,5912,Drug Stores and Pharmacies,5912,Drug Stores and Pharmacies,0.7,Yes,5912,Drug Stores and Pharmacies,0.99,Yes,5912,Drug Stores and Pharmacies,0.95,Yes
+Home Depot,The Home Depot Inc.,5200,Home Supply Warehouse Stores,5200,Home Supply Warehouse Stores,0.95,Yes,5812,"Eating Places, Restaurants",1.0,No,5200,Home Supply Warehouse Stores,0.95,Yes
+McDonald's,McDonald's Corporation,5814,Fast Food Restaurants,5814,Fast Food,0.85,Yes,5812,"Eating Places, Restaurants",1.0,No,5814,Fast Food Restaurants,0.95,Yes
+Apple Store,Apple Inc.,5732,Electronics Stores,5732,Electronics Stores,0.85,Yes,5732,Electronics Stores,1.0,Yes,5732,Electronic Sales,0.95,Yes
+Target,Target Corporation,5411,Grocery Stores ,5311,Department Stores,0.85,No,5812,"Eating Places, Restaurants",1.0,No,5311,Department Stores,0.95,No
+SUMMARY,,,,,,,Accuracy: 60.00%,,,,Accuracy: 50.00%,,,,Accuracy: 60.00%

@@ -1,0 +1,12 @@
+Merchant Name,Legal Name,Actual MCC,MCC Description,Rafa's suggested MCC,Rafa's MCC description,Rafa's confidence,Rafa's match,Matheus's suggested MCC,Matheus's MCC description,Matheus's confidence,Matheus's match,Waki's suggested MCC,Waki's MCC description,Waki's confidence,Waki's match
+Gap Clothing Store,Gap Inc.,5651,Apparel,5651,Apparel,0.85,Yes,5651,Apparel,0.95,Yes,5411,"Grocery Stores, Supermarkets",0.95,No
+Taco Bell,Taco Bell Corp.,5814,Fast Food Restaurants,5814,Fast Food,0.85,Yes,5812,"Eating Places, Restaurants",1.0,No,5411,"Grocery Stores, Supermarkets",0.95,No
+Ace Hardware,Ace Hardware Corporation,5251,Hardware,5251,Hardware,0.95,Yes,5812,"Eating Places, Restaurants",1.0,No,5411,"Grocery Stores, Supermarkets",0.95,No
+Staples Office Supplies,Staples Inc.,5943,Office & Stationery,5943,Office & Stationery,0.85,Yes,5943,Office & Stationery,0.95,Yes,5411,"Grocery Stores, Supermarkets",0.95,No
+The Cheesecake Factory,The Cheesecake Factory Inc.,5812,Restaurants,5812,Restaurants,0.95,Yes,5812,"Eating Places, Restaurants",1.0,Yes,5411,"Grocery Stores, Supermarkets",0.95,No
+AutoZone,AutoZone Inc.,5533,Auto Parts,5533,Auto Parts,0.85,Yes,5812,"Eating Places, Restaurants",1.0,No,5411,"Grocery Stores, Supermarkets",0.95,No
+Holiday Inn Express,InterContinental Hotels Group,7011,Hotels & Lodging,7011,Hotels & Lodging,0.95,Yes,7011,Hotels & Lodging,1.0,Yes,5411,"Grocery Stores, Supermarkets",0.95,No
+Massage Envy,Massage Envy Franchising LLC,7298,Health and Beauty Spas,7298,Health and Beauty Spas,0.95,Yes,5812,"Eating Places, Restaurants",1.0,No,5411,"Grocery Stores, Supermarkets",0.95,No
+Whole Foods Market,Amazon.com Inc.,5411,Grocery Stores,5411,"Grocery Stores, Supermarkets",0.85,Yes,5411,"Grocery Stores, Supermarkets",1.0,Yes,5411,"Grocery Stores, Supermarkets",0.95,Yes
+Michaels Arts and Crafts,The Michaels Companies Inc.,5970,Arts & Crafts ,5970,Arts & Crafts,0.95,Yes,5970,Arts & Crafts,0.95,Yes,5411,"Grocery Stores, Supermarkets",0.95,No
+SUMMARY,,,,,,,Accuracy: 100.00%,,,,Accuracy: 60.00%,,,,Accuracy: 10.00%

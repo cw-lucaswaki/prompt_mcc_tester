@@ -1,0 +1,251 @@
+2025-04-02 15:29:19,872 - root - INFO - Logging configured for MCC Classifier
+2025-04-02 15:29:19,872 - mcc_classifier.agent_factory - INFO - Creating all agents
+2025-04-02 15:29:19,950 - mcc_classifier.agent.Rafa - INFO - OpenAI client initialized successfully.
+2025-04-02 15:29:19,958 - mcc_classifier.agent.Matheus - INFO - OpenAI client initialized successfully.
+2025-04-02 15:29:19,958 - mcc_classifier.evaluator - INFO - Initialized MCC evaluator with 3 agents
+2025-04-02 15:29:19,958 - mcc_classifier.evaluator - INFO - Starting evaluation with input file: data/sample_merchants.csv
+2025-04-02 15:29:19,958 - mcc_classifier.data_handler - INFO - Reading data from data/sample_merchants.csv
+2025-04-02 15:29:19,963 - mcc_classifier.data_handler - INFO - Successfully read 10 rows from data/sample_merchants.csv
+2025-04-02 15:29:19,963 - mcc_classifier.evaluator - INFO - Read 10 merchants from input file
+2025-04-02 15:29:19,963 - mcc_classifier.agent.Rafa - INFO - Classifying merchant: Walmart Supercentre
+2025-04-02 15:29:19,963 - mcc_classifier.agent.Rafa - INFO - Sending request to OpenAI for merchant: Walmart Supercentre
+2025-04-02 15:29:23,130 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-02 15:29:23,160 - mcc_classifier.agent.Matheus - INFO - Classifying merchant: Walmart Supercentre
+2025-04-02 15:29:23,160 - mcc_classifier.agent.Matheus - INFO - Performing tier1 classification for: Walmart Supercentre
+2025-04-02 15:29:24,244 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 400 Bad Request"
+2025-04-02 15:29:24,244 - mcc_classifier.agent.Matheus - ERROR - Error in tier1 classification: Error code: 400 - {'error': {'message': "Invalid parameter: 'response_format' of type 'json_schema' is not supported with this model. Learn more about supported models at the Structured Outputs guide: https://platform.openai.com/docs/guides/structured-outputs", 'type': 'invalid_request_error', 'param': None, 'code': None}}
+2025-04-02 15:29:24,244 - mcc_classifier.agent.Matheus - INFO - Using fallback classification for: Walmart Supercentre
+2025-04-02 15:29:24,244 - mcc_classifier.agent.Waki - INFO - Classifying merchant: Walmart Supercentre
+2025-04-02 15:29:24,244 - mcc_classifier.agent.Rafa - INFO - Classifying merchant: Amazon
+2025-04-02 15:29:24,244 - mcc_classifier.agent.Rafa - INFO - Sending request to OpenAI for merchant: Amazon
+2025-04-02 15:29:27,540 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-02 15:29:27,544 - mcc_classifier.agent.Matheus - INFO - Classifying merchant: Amazon
+2025-04-02 15:29:27,544 - mcc_classifier.agent.Matheus - INFO - Performing tier1 classification for: Amazon
+2025-04-02 15:29:27,805 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 400 Bad Request"
+2025-04-02 15:29:27,805 - mcc_classifier.agent.Matheus - ERROR - Error in tier1 classification: Error code: 400 - {'error': {'message': "Invalid parameter: 'response_format' of type 'json_schema' is not supported with this model. Learn more about supported models at the Structured Outputs guide: https://platform.openai.com/docs/guides/structured-outputs", 'type': 'invalid_request_error', 'param': None, 'code': None}}
+2025-04-02 15:29:27,805 - mcc_classifier.agent.Matheus - INFO - Using fallback classification for: Amazon
+2025-04-02 15:29:27,805 - mcc_classifier.agent.Waki - INFO - Classifying merchant: Amazon
+2025-04-02 15:29:27,806 - mcc_classifier.agent.Rafa - INFO - Classifying merchant: Starbucks Coffee
+2025-04-02 15:29:27,806 - mcc_classifier.agent.Rafa - INFO - Sending request to OpenAI for merchant: Starbucks Coffee
+2025-04-02 15:29:29,935 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-02 15:29:29,951 - mcc_classifier.agent.Matheus - INFO - Classifying merchant: Starbucks Coffee
+2025-04-02 15:29:29,951 - mcc_classifier.agent.Matheus - INFO - Performing tier1 classification for: Starbucks Coffee
+2025-04-02 15:29:30,207 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 400 Bad Request"
+2025-04-02 15:29:30,208 - mcc_classifier.agent.Matheus - ERROR - Error in tier1 classification: Error code: 400 - {'error': {'message': "Invalid parameter: 'response_format' of type 'json_schema' is not supported with this model. Learn more about supported models at the Structured Outputs guide: https://platform.openai.com/docs/guides/structured-outputs", 'type': 'invalid_request_error', 'param': None, 'code': None}}
+2025-04-02 15:29:30,208 - mcc_classifier.agent.Matheus - INFO - Using fallback classification for: Starbucks Coffee
+2025-04-02 15:29:30,208 - mcc_classifier.agent.Waki - INFO - Classifying merchant: Starbucks Coffee
+2025-04-02 15:29:30,208 - mcc_classifier.agent.Rafa - INFO - Classifying merchant: Best Buy
+2025-04-02 15:29:30,208 - mcc_classifier.agent.Rafa - INFO - Sending request to OpenAI for merchant: Best Buy
+2025-04-02 15:29:33,316 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-02 15:29:33,381 - mcc_classifier.agent.Matheus - INFO - Classifying merchant: Best Buy
+2025-04-02 15:29:33,382 - mcc_classifier.agent.Matheus - INFO - Performing tier1 classification for: Best Buy
+2025-04-02 15:29:33,768 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 400 Bad Request"
+2025-04-02 15:29:33,768 - mcc_classifier.agent.Matheus - ERROR - Error in tier1 classification: Error code: 400 - {'error': {'message': "Invalid parameter: 'response_format' of type 'json_schema' is not supported with this model. Learn more about supported models at the Structured Outputs guide: https://platform.openai.com/docs/guides/structured-outputs", 'type': 'invalid_request_error', 'param': None, 'code': None}}
+2025-04-02 15:29:33,768 - mcc_classifier.agent.Matheus - INFO - Using fallback classification for: Best Buy
+2025-04-02 15:29:33,768 - mcc_classifier.agent.Waki - INFO - Classifying merchant: Best Buy
+2025-04-02 15:29:33,768 - mcc_classifier.agent.Rafa - INFO - Classifying merchant: Chevron Gas Station
+2025-04-02 15:29:33,768 - mcc_classifier.agent.Rafa - INFO - Sending request to OpenAI for merchant: Chevron Gas Station
+2025-04-02 15:29:35,533 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-02 15:29:35,534 - mcc_classifier.agent.Matheus - INFO - Classifying merchant: Chevron Gas Station
+2025-04-02 15:29:35,534 - mcc_classifier.agent.Matheus - INFO - Performing tier1 classification for: Chevron Gas Station
+2025-04-02 15:29:35,767 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 400 Bad Request"
+2025-04-02 15:29:35,767 - mcc_classifier.agent.Matheus - ERROR - Error in tier1 classification: Error code: 400 - {'error': {'message': "Invalid parameter: 'response_format' of type 'json_schema' is not supported with this model. Learn more about supported models at the Structured Outputs guide: https://platform.openai.com/docs/guides/structured-outputs", 'type': 'invalid_request_error', 'param': None, 'code': None}}
+2025-04-02 15:29:35,767 - mcc_classifier.agent.Matheus - INFO - Using fallback classification for: Chevron Gas Station
+2025-04-02 15:29:35,767 - mcc_classifier.agent.Waki - INFO - Classifying merchant: Chevron Gas Station
+2025-04-02 15:29:35,767 - mcc_classifier.agent.Rafa - INFO - Classifying merchant: CVS Pharmacy
+2025-04-02 15:29:35,767 - mcc_classifier.agent.Rafa - INFO - Sending request to OpenAI for merchant: CVS Pharmacy
+2025-04-02 15:29:38,787 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-02 15:29:38,787 - mcc_classifier.agent.Matheus - INFO - Classifying merchant: CVS Pharmacy
+2025-04-02 15:29:38,787 - mcc_classifier.agent.Matheus - INFO - Performing tier1 classification for: CVS Pharmacy
+2025-04-02 15:29:39,225 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 400 Bad Request"
+2025-04-02 15:29:39,226 - mcc_classifier.agent.Matheus - ERROR - Error in tier1 classification: Error code: 400 - {'error': {'message': "Invalid parameter: 'response_format' of type 'json_schema' is not supported with this model. Learn more about supported models at the Structured Outputs guide: https://platform.openai.com/docs/guides/structured-outputs", 'type': 'invalid_request_error', 'param': None, 'code': None}}
+2025-04-02 15:29:39,226 - mcc_classifier.agent.Matheus - INFO - Using fallback classification for: CVS Pharmacy
+2025-04-02 15:29:39,226 - mcc_classifier.agent.Waki - INFO - Classifying merchant: CVS Pharmacy
+2025-04-02 15:29:39,226 - mcc_classifier.agent.Rafa - INFO - Classifying merchant: Home Depot
+2025-04-02 15:29:39,226 - mcc_classifier.agent.Rafa - INFO - Sending request to OpenAI for merchant: Home Depot
+2025-04-02 15:29:43,652 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-02 15:29:43,653 - mcc_classifier.agent.Matheus - INFO - Classifying merchant: Home Depot
+2025-04-02 15:29:43,653 - mcc_classifier.agent.Matheus - INFO - Performing tier1 classification for: Home Depot
+2025-04-02 15:29:44,125 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 400 Bad Request"
+2025-04-02 15:29:44,126 - mcc_classifier.agent.Matheus - ERROR - Error in tier1 classification: Error code: 400 - {'error': {'message': "Invalid parameter: 'response_format' of type 'json_schema' is not supported with this model. Learn more about supported models at the Structured Outputs guide: https://platform.openai.com/docs/guides/structured-outputs", 'type': 'invalid_request_error', 'param': None, 'code': None}}
+2025-04-02 15:29:44,126 - mcc_classifier.agent.Matheus - INFO - Using fallback classification for: Home Depot
+2025-04-02 15:29:44,126 - mcc_classifier.agent.Matheus - INFO - Performing risk tier classification for: Home Depot
+2025-04-02 15:29:44,343 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 400 Bad Request"
+2025-04-02 15:29:44,344 - mcc_classifier.agent.Matheus - ERROR - Error in risk tier classification: Error code: 400 - {'error': {'message': "Invalid parameter: 'response_format' of type 'json_schema' is not supported with this model. Learn more about supported models at the Structured Outputs guide: https://platform.openai.com/docs/guides/structured-outputs", 'type': 'invalid_request_error', 'param': None, 'code': None}}
+2025-04-02 15:29:44,344 - mcc_classifier.agent.Matheus - INFO - Using fallback classification for: Home Depot
+2025-04-02 15:29:44,344 - mcc_classifier.agent.Matheus - INFO - Performing tier3 classification for: Home Depot
+2025-04-02 15:29:44,609 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 400 Bad Request"
+2025-04-02 15:29:44,610 - mcc_classifier.agent.Matheus - ERROR - Error in tier3 classification: Error code: 400 - {'error': {'message': "Invalid parameter: 'response_format' of type 'json_schema' is not supported with this model. Learn more about supported models at the Structured Outputs guide: https://platform.openai.com/docs/guides/structured-outputs", 'type': 'invalid_request_error', 'param': None, 'code': None}}
+2025-04-02 15:29:44,610 - mcc_classifier.agent.Matheus - INFO - Using fallback classification for: Home Depot
+2025-04-02 15:29:44,610 - mcc_classifier.agent.Waki - INFO - Classifying merchant: Home Depot
+2025-04-02 15:29:44,610 - mcc_classifier.agent.Rafa - INFO - Classifying merchant: McDonald's
+2025-04-02 15:29:44,610 - mcc_classifier.agent.Rafa - INFO - Sending request to OpenAI for merchant: McDonald's
+2025-04-02 15:29:46,640 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-02 15:29:46,642 - mcc_classifier.agent.Matheus - INFO - Classifying merchant: McDonald's
+2025-04-02 15:29:46,642 - mcc_classifier.agent.Matheus - INFO - Performing tier1 classification for: McDonald's
+2025-04-02 15:29:46,937 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 400 Bad Request"
+2025-04-02 15:29:46,937 - mcc_classifier.agent.Matheus - ERROR - Error in tier1 classification: Error code: 400 - {'error': {'message': "Invalid parameter: 'response_format' of type 'json_schema' is not supported with this model. Learn more about supported models at the Structured Outputs guide: https://platform.openai.com/docs/guides/structured-outputs", 'type': 'invalid_request_error', 'param': None, 'code': None}}
+2025-04-02 15:29:46,937 - mcc_classifier.agent.Matheus - INFO - Using fallback classification for: McDonald's
+2025-04-02 15:29:46,937 - mcc_classifier.agent.Waki - INFO - Classifying merchant: McDonald's
+2025-04-02 15:29:46,938 - mcc_classifier.agent.Rafa - INFO - Classifying merchant: Apple Store
+2025-04-02 15:29:46,938 - mcc_classifier.agent.Rafa - INFO - Sending request to OpenAI for merchant: Apple Store
+2025-04-02 15:29:50,615 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-02 15:29:50,622 - mcc_classifier.agent.Matheus - INFO - Classifying merchant: Apple Store
+2025-04-02 15:29:50,623 - mcc_classifier.agent.Matheus - INFO - Performing tier1 classification for: Apple Store
+2025-04-02 15:29:50,939 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 400 Bad Request"
+2025-04-02 15:29:50,940 - mcc_classifier.agent.Matheus - ERROR - Error in tier1 classification: Error code: 400 - {'error': {'message': "Invalid parameter: 'response_format' of type 'json_schema' is not supported with this model. Learn more about supported models at the Structured Outputs guide: https://platform.openai.com/docs/guides/structured-outputs", 'type': 'invalid_request_error', 'param': None, 'code': None}}
+2025-04-02 15:29:50,940 - mcc_classifier.agent.Matheus - INFO - Using fallback classification for: Apple Store
+2025-04-02 15:29:50,940 - mcc_classifier.agent.Waki - INFO - Classifying merchant: Apple Store
+2025-04-02 15:29:50,940 - mcc_classifier.agent.Rafa - INFO - Classifying merchant: Target
+2025-04-02 15:29:50,940 - mcc_classifier.agent.Rafa - INFO - Sending request to OpenAI for merchant: Target
+2025-04-02 15:29:53,572 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-02 15:29:53,580 - mcc_classifier.agent.Matheus - INFO - Classifying merchant: Target
+2025-04-02 15:29:53,580 - mcc_classifier.agent.Matheus - INFO - Performing tier1 classification for: Target
+2025-04-02 15:29:54,013 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 400 Bad Request"
+2025-04-02 15:29:54,014 - mcc_classifier.agent.Matheus - ERROR - Error in tier1 classification: Error code: 400 - {'error': {'message': "Invalid parameter: 'response_format' of type 'json_schema' is not supported with this model. Learn more about supported models at the Structured Outputs guide: https://platform.openai.com/docs/guides/structured-outputs", 'type': 'invalid_request_error', 'param': None, 'code': None}}
+2025-04-02 15:29:54,014 - mcc_classifier.agent.Matheus - INFO - Using fallback classification for: Target
+2025-04-02 15:29:54,014 - mcc_classifier.agent.Waki - INFO - Classifying merchant: Target
+2025-04-02 15:29:54,014 - mcc_classifier.data_handler - INFO - Writing 11 rows to output/sample_merchants_comparison_20250402_152919.csv
+2025-04-02 15:29:54,020 - mcc_classifier.data_handler - INFO - Successfully wrote data to output/sample_merchants_comparison_20250402_152919.csv
+2025-04-02 15:29:54,020 - mcc_classifier.evaluator - INFO - Evaluation complete. Results written to output/sample_merchants_comparison_20250402_152919.csv
+2025-04-02 15:29:54,021 - mcc_classifier.agent_factory - INFO - Creating all agents
+2025-04-02 15:29:54,034 - mcc_classifier.agent.Rafa - INFO - OpenAI client initialized successfully.
+2025-04-02 15:29:54,045 - mcc_classifier.agent.Matheus - INFO - OpenAI client initialized successfully.
+2025-04-02 15:29:54,046 - mcc_classifier.evaluator - INFO - Initialized MCC evaluator with 3 agents
+2025-04-02 15:29:54,046 - mcc_classifier.evaluator - INFO - Starting evaluation with input file: data/custom_test_merchants.csv
+2025-04-02 15:29:54,046 - mcc_classifier.data_handler - INFO - Reading data from data/custom_test_merchants.csv
+2025-04-02 15:29:54,050 - mcc_classifier.data_handler - INFO - Successfully read 10 rows from data/custom_test_merchants.csv
+2025-04-02 15:29:54,050 - mcc_classifier.evaluator - INFO - Read 10 merchants from input file
+2025-04-02 15:29:54,050 - mcc_classifier.agent.Rafa - INFO - Classifying merchant: Gap Clothing Store
+2025-04-02 15:29:54,050 - mcc_classifier.agent.Rafa - INFO - Sending request to OpenAI for merchant: Gap Clothing Store
+2025-04-02 15:29:57,206 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-02 15:29:57,214 - mcc_classifier.agent.Matheus - INFO - Classifying merchant: Gap Clothing Store
+2025-04-02 15:29:57,214 - mcc_classifier.agent.Matheus - INFO - Performing tier1 classification for: Gap Clothing Store
+2025-04-02 15:29:57,506 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 400 Bad Request"
+2025-04-02 15:29:57,506 - mcc_classifier.agent.Matheus - ERROR - Error in tier1 classification: Error code: 400 - {'error': {'message': "Invalid parameter: 'response_format' of type 'json_schema' is not supported with this model. Learn more about supported models at the Structured Outputs guide: https://platform.openai.com/docs/guides/structured-outputs", 'type': 'invalid_request_error', 'param': None, 'code': None}}
+2025-04-02 15:29:57,506 - mcc_classifier.agent.Matheus - INFO - Using fallback classification for: Gap Clothing Store
+2025-04-02 15:29:57,506 - mcc_classifier.agent.Matheus - INFO - Performing risk tier classification for: Gap Clothing Store
+2025-04-02 15:29:57,815 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 400 Bad Request"
+2025-04-02 15:29:57,815 - mcc_classifier.agent.Matheus - ERROR - Error in risk tier classification: Error code: 400 - {'error': {'message': "Invalid parameter: 'response_format' of type 'json_schema' is not supported with this model. Learn more about supported models at the Structured Outputs guide: https://platform.openai.com/docs/guides/structured-outputs", 'type': 'invalid_request_error', 'param': None, 'code': None}}
+2025-04-02 15:29:57,815 - mcc_classifier.agent.Matheus - INFO - Using fallback classification for: Gap Clothing Store
+2025-04-02 15:29:57,815 - mcc_classifier.agent.Matheus - INFO - Performing tier3 classification for: Gap Clothing Store
+2025-04-02 15:29:58,092 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 400 Bad Request"
+2025-04-02 15:29:58,093 - mcc_classifier.agent.Matheus - ERROR - Error in tier3 classification: Error code: 400 - {'error': {'message': "Invalid parameter: 'response_format' of type 'json_schema' is not supported with this model. Learn more about supported models at the Structured Outputs guide: https://platform.openai.com/docs/guides/structured-outputs", 'type': 'invalid_request_error', 'param': None, 'code': None}}
+2025-04-02 15:29:58,094 - mcc_classifier.agent.Matheus - INFO - Using fallback classification for: Gap Clothing Store
+2025-04-02 15:29:58,094 - mcc_classifier.agent.Waki - INFO - Classifying merchant: Gap Clothing Store
+2025-04-02 15:29:58,094 - mcc_classifier.agent.Rafa - INFO - Classifying merchant: Taco Bell
+2025-04-02 15:29:58,094 - mcc_classifier.agent.Rafa - INFO - Sending request to OpenAI for merchant: Taco Bell
+2025-04-02 15:30:00,849 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-02 15:30:00,855 - mcc_classifier.agent.Matheus - INFO - Classifying merchant: Taco Bell
+2025-04-02 15:30:00,855 - mcc_classifier.agent.Matheus - INFO - Performing tier1 classification for: Taco Bell
+2025-04-02 15:30:01,076 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 400 Bad Request"
+2025-04-02 15:30:01,077 - mcc_classifier.agent.Matheus - ERROR - Error in tier1 classification: Error code: 400 - {'error': {'message': "Invalid parameter: 'response_format' of type 'json_schema' is not supported with this model. Learn more about supported models at the Structured Outputs guide: https://platform.openai.com/docs/guides/structured-outputs", 'type': 'invalid_request_error', 'param': None, 'code': None}}
+2025-04-02 15:30:01,077 - mcc_classifier.agent.Matheus - INFO - Using fallback classification for: Taco Bell
+2025-04-02 15:30:01,077 - mcc_classifier.agent.Waki - INFO - Classifying merchant: Taco Bell
+2025-04-02 15:30:01,077 - mcc_classifier.agent.Rafa - INFO - Classifying merchant: Ace Hardware
+2025-04-02 15:30:01,077 - mcc_classifier.agent.Rafa - INFO - Sending request to OpenAI for merchant: Ace Hardware
+2025-04-02 15:30:02,784 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-02 15:30:02,785 - mcc_classifier.agent.Matheus - INFO - Classifying merchant: Ace Hardware
+2025-04-02 15:30:02,785 - mcc_classifier.agent.Matheus - INFO - Performing tier1 classification for: Ace Hardware
+2025-04-02 15:30:03,023 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 400 Bad Request"
+2025-04-02 15:30:03,023 - mcc_classifier.agent.Matheus - ERROR - Error in tier1 classification: Error code: 400 - {'error': {'message': "Invalid parameter: 'response_format' of type 'json_schema' is not supported with this model. Learn more about supported models at the Structured Outputs guide: https://platform.openai.com/docs/guides/structured-outputs", 'type': 'invalid_request_error', 'param': None, 'code': None}}
+2025-04-02 15:30:03,023 - mcc_classifier.agent.Matheus - INFO - Using fallback classification for: Ace Hardware
+2025-04-02 15:30:03,023 - mcc_classifier.agent.Matheus - INFO - Performing risk tier classification for: Ace Hardware
+2025-04-02 15:30:03,247 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 400 Bad Request"
+2025-04-02 15:30:03,247 - mcc_classifier.agent.Matheus - ERROR - Error in risk tier classification: Error code: 400 - {'error': {'message': "Invalid parameter: 'response_format' of type 'json_schema' is not supported with this model. Learn more about supported models at the Structured Outputs guide: https://platform.openai.com/docs/guides/structured-outputs", 'type': 'invalid_request_error', 'param': None, 'code': None}}
+2025-04-02 15:30:03,247 - mcc_classifier.agent.Matheus - INFO - Using fallback classification for: Ace Hardware
+2025-04-02 15:30:03,247 - mcc_classifier.agent.Matheus - INFO - Performing tier3 classification for: Ace Hardware
+2025-04-02 15:30:03,622 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 400 Bad Request"
+2025-04-02 15:30:03,622 - mcc_classifier.agent.Matheus - ERROR - Error in tier3 classification: Error code: 400 - {'error': {'message': "Invalid parameter: 'response_format' of type 'json_schema' is not supported with this model. Learn more about supported models at the Structured Outputs guide: https://platform.openai.com/docs/guides/structured-outputs", 'type': 'invalid_request_error', 'param': None, 'code': None}}
+2025-04-02 15:30:03,623 - mcc_classifier.agent.Matheus - INFO - Using fallback classification for: Ace Hardware
+2025-04-02 15:30:03,623 - mcc_classifier.agent.Waki - INFO - Classifying merchant: Ace Hardware
+2025-04-02 15:30:03,623 - mcc_classifier.agent.Rafa - INFO - Classifying merchant: Staples Office Supplies
+2025-04-02 15:30:03,623 - mcc_classifier.agent.Rafa - INFO - Sending request to OpenAI for merchant: Staples Office Supplies
+2025-04-02 15:30:06,007 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-02 15:30:06,007 - mcc_classifier.agent.Matheus - INFO - Classifying merchant: Staples Office Supplies
+2025-04-02 15:30:06,007 - mcc_classifier.agent.Matheus - INFO - Performing tier1 classification for: Staples Office Supplies
+2025-04-02 15:30:06,455 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 400 Bad Request"
+2025-04-02 15:30:06,455 - mcc_classifier.agent.Matheus - ERROR - Error in tier1 classification: Error code: 400 - {'error': {'message': "Invalid parameter: 'response_format' of type 'json_schema' is not supported with this model. Learn more about supported models at the Structured Outputs guide: https://platform.openai.com/docs/guides/structured-outputs", 'type': 'invalid_request_error', 'param': None, 'code': None}}
+2025-04-02 15:30:06,455 - mcc_classifier.agent.Matheus - INFO - Using fallback classification for: Staples Office Supplies
+2025-04-02 15:30:06,455 - mcc_classifier.agent.Matheus - INFO - Performing risk tier classification for: Staples Office Supplies
+2025-04-02 15:30:06,733 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 400 Bad Request"
+2025-04-02 15:30:06,734 - mcc_classifier.agent.Matheus - ERROR - Error in risk tier classification: Error code: 400 - {'error': {'message': "Invalid parameter: 'response_format' of type 'json_schema' is not supported with this model. Learn more about supported models at the Structured Outputs guide: https://platform.openai.com/docs/guides/structured-outputs", 'type': 'invalid_request_error', 'param': None, 'code': None}}
+2025-04-02 15:30:06,734 - mcc_classifier.agent.Matheus - INFO - Using fallback classification for: Staples Office Supplies
+2025-04-02 15:30:06,734 - mcc_classifier.agent.Matheus - INFO - Performing tier3 classification for: Staples Office Supplies
+2025-04-02 15:30:06,989 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 400 Bad Request"
+2025-04-02 15:30:06,990 - mcc_classifier.agent.Matheus - ERROR - Error in tier3 classification: Error code: 400 - {'error': {'message': "Invalid parameter: 'response_format' of type 'json_schema' is not supported with this model. Learn more about supported models at the Structured Outputs guide: https://platform.openai.com/docs/guides/structured-outputs", 'type': 'invalid_request_error', 'param': None, 'code': None}}
+2025-04-02 15:30:06,990 - mcc_classifier.agent.Matheus - INFO - Using fallback classification for: Staples Office Supplies
+2025-04-02 15:30:06,990 - mcc_classifier.agent.Waki - INFO - Classifying merchant: Staples Office Supplies
+2025-04-02 15:30:06,990 - mcc_classifier.agent.Rafa - INFO - Classifying merchant: The Cheesecake Factory
+2025-04-02 15:30:06,990 - mcc_classifier.agent.Rafa - INFO - Sending request to OpenAI for merchant: The Cheesecake Factory
+2025-04-02 15:30:11,540 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-02 15:30:11,549 - mcc_classifier.agent.Matheus - INFO - Classifying merchant: The Cheesecake Factory
+2025-04-02 15:30:11,549 - mcc_classifier.agent.Matheus - INFO - Performing tier1 classification for: The Cheesecake Factory
+2025-04-02 15:30:11,965 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 400 Bad Request"
+2025-04-02 15:30:11,965 - mcc_classifier.agent.Matheus - ERROR - Error in tier1 classification: Error code: 400 - {'error': {'message': "Invalid parameter: 'response_format' of type 'json_schema' is not supported with this model. Learn more about supported models at the Structured Outputs guide: https://platform.openai.com/docs/guides/structured-outputs", 'type': 'invalid_request_error', 'param': None, 'code': None}}
+2025-04-02 15:30:11,965 - mcc_classifier.agent.Matheus - INFO - Using fallback classification for: The Cheesecake Factory
+2025-04-02 15:30:11,965 - mcc_classifier.agent.Waki - INFO - Classifying merchant: The Cheesecake Factory
+2025-04-02 15:30:11,965 - mcc_classifier.agent.Rafa - INFO - Classifying merchant: AutoZone
+2025-04-02 15:30:11,965 - mcc_classifier.agent.Rafa - INFO - Sending request to OpenAI for merchant: AutoZone
+2025-04-02 15:30:14,906 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-02 15:30:14,910 - mcc_classifier.agent.Matheus - INFO - Classifying merchant: AutoZone
+2025-04-02 15:30:14,910 - mcc_classifier.agent.Matheus - INFO - Performing tier1 classification for: AutoZone
+2025-04-02 15:30:15,133 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 400 Bad Request"
+2025-04-02 15:30:15,134 - mcc_classifier.agent.Matheus - ERROR - Error in tier1 classification: Error code: 400 - {'error': {'message': "Invalid parameter: 'response_format' of type 'json_schema' is not supported with this model. Learn more about supported models at the Structured Outputs guide: https://platform.openai.com/docs/guides/structured-outputs", 'type': 'invalid_request_error', 'param': None, 'code': None}}
+2025-04-02 15:30:15,134 - mcc_classifier.agent.Matheus - INFO - Using fallback classification for: AutoZone
+2025-04-02 15:30:15,134 - mcc_classifier.agent.Matheus - INFO - Performing risk tier classification for: AutoZone
+2025-04-02 15:30:15,354 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 400 Bad Request"
+2025-04-02 15:30:15,354 - mcc_classifier.agent.Matheus - ERROR - Error in risk tier classification: Error code: 400 - {'error': {'message': "Invalid parameter: 'response_format' of type 'json_schema' is not supported with this model. Learn more about supported models at the Structured Outputs guide: https://platform.openai.com/docs/guides/structured-outputs", 'type': 'invalid_request_error', 'param': None, 'code': None}}
+2025-04-02 15:30:15,354 - mcc_classifier.agent.Matheus - INFO - Using fallback classification for: AutoZone
+2025-04-02 15:30:15,355 - mcc_classifier.agent.Matheus - INFO - Performing tier3 classification for: AutoZone
+2025-04-02 15:30:15,637 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 400 Bad Request"
+2025-04-02 15:30:15,637 - mcc_classifier.agent.Matheus - ERROR - Error in tier3 classification: Error code: 400 - {'error': {'message': "Invalid parameter: 'response_format' of type 'json_schema' is not supported with this model. Learn more about supported models at the Structured Outputs guide: https://platform.openai.com/docs/guides/structured-outputs", 'type': 'invalid_request_error', 'param': None, 'code': None}}
+2025-04-02 15:30:15,638 - mcc_classifier.agent.Matheus - INFO - Using fallback classification for: AutoZone
+2025-04-02 15:30:15,638 - mcc_classifier.agent.Waki - INFO - Classifying merchant: AutoZone
+2025-04-02 15:30:15,638 - mcc_classifier.agent.Rafa - INFO - Classifying merchant: Holiday Inn Express
+2025-04-02 15:30:15,638 - mcc_classifier.agent.Rafa - INFO - Sending request to OpenAI for merchant: Holiday Inn Express
+2025-04-02 15:30:18,955 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-02 15:30:18,961 - mcc_classifier.agent.Matheus - INFO - Classifying merchant: Holiday Inn Express
+2025-04-02 15:30:18,961 - mcc_classifier.agent.Matheus - INFO - Performing tier1 classification for: Holiday Inn Express
+2025-04-02 15:30:19,303 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 400 Bad Request"
+2025-04-02 15:30:19,304 - mcc_classifier.agent.Matheus - ERROR - Error in tier1 classification: Error code: 400 - {'error': {'message': "Invalid parameter: 'response_format' of type 'json_schema' is not supported with this model. Learn more about supported models at the Structured Outputs guide: https://platform.openai.com/docs/guides/structured-outputs", 'type': 'invalid_request_error', 'param': None, 'code': None}}
+2025-04-02 15:30:19,304 - mcc_classifier.agent.Matheus - INFO - Using fallback classification for: Holiday Inn Express
+2025-04-02 15:30:19,304 - mcc_classifier.agent.Waki - INFO - Classifying merchant: Holiday Inn Express
+2025-04-02 15:30:19,304 - mcc_classifier.agent.Rafa - INFO - Classifying merchant: Massage Envy
+2025-04-02 15:30:19,304 - mcc_classifier.agent.Rafa - INFO - Sending request to OpenAI for merchant: Massage Envy
+2025-04-02 15:30:22,593 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-02 15:30:22,594 - mcc_classifier.agent.Matheus - INFO - Classifying merchant: Massage Envy
+2025-04-02 15:30:22,594 - mcc_classifier.agent.Matheus - INFO - Performing tier1 classification for: Massage Envy
+2025-04-02 15:30:22,806 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 400 Bad Request"
+2025-04-02 15:30:22,807 - mcc_classifier.agent.Matheus - ERROR - Error in tier1 classification: Error code: 400 - {'error': {'message': "Invalid parameter: 'response_format' of type 'json_schema' is not supported with this model. Learn more about supported models at the Structured Outputs guide: https://platform.openai.com/docs/guides/structured-outputs", 'type': 'invalid_request_error', 'param': None, 'code': None}}
+2025-04-02 15:30:22,807 - mcc_classifier.agent.Matheus - INFO - Using fallback classification for: Massage Envy
+2025-04-02 15:30:22,807 - mcc_classifier.agent.Waki - INFO - Classifying merchant: Massage Envy
+2025-04-02 15:30:22,807 - mcc_classifier.agent.Rafa - INFO - Classifying merchant: Whole Foods Market
+2025-04-02 15:30:22,807 - mcc_classifier.agent.Rafa - INFO - Sending request to OpenAI for merchant: Whole Foods Market
+2025-04-02 15:30:28,782 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-02 15:30:28,794 - mcc_classifier.agent.Matheus - INFO - Classifying merchant: Whole Foods Market
+2025-04-02 15:30:28,794 - mcc_classifier.agent.Matheus - INFO - Performing tier1 classification for: Whole Foods Market
+2025-04-02 15:30:29,145 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 400 Bad Request"
+2025-04-02 15:30:29,145 - mcc_classifier.agent.Matheus - ERROR - Error in tier1 classification: Error code: 400 - {'error': {'message': "Invalid parameter: 'response_format' of type 'json_schema' is not supported with this model. Learn more about supported models at the Structured Outputs guide: https://platform.openai.com/docs/guides/structured-outputs", 'type': 'invalid_request_error', 'param': None, 'code': None}}
+2025-04-02 15:30:29,145 - mcc_classifier.agent.Matheus - INFO - Using fallback classification for: Whole Foods Market
+2025-04-02 15:30:29,146 - mcc_classifier.agent.Matheus - INFO - Performing risk tier classification for: Whole Foods Market
+2025-04-02 15:30:29,424 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 400 Bad Request"
+2025-04-02 15:30:29,425 - mcc_classifier.agent.Matheus - ERROR - Error in risk tier classification: Error code: 400 - {'error': {'message': "Invalid parameter: 'response_format' of type 'json_schema' is not supported with this model. Learn more about supported models at the Structured Outputs guide: https://platform.openai.com/docs/guides/structured-outputs", 'type': 'invalid_request_error', 'param': None, 'code': None}}
+2025-04-02 15:30:29,425 - mcc_classifier.agent.Matheus - INFO - Using fallback classification for: Whole Foods Market
+2025-04-02 15:30:29,425 - mcc_classifier.agent.Matheus - INFO - Performing tier3 classification for: Whole Foods Market
+2025-04-02 15:30:29,763 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 400 Bad Request"
+2025-04-02 15:30:29,764 - mcc_classifier.agent.Matheus - ERROR - Error in tier3 classification: Error code: 400 - {'error': {'message': "Invalid parameter: 'response_format' of type 'json_schema' is not supported with this model. Learn more about supported models at the Structured Outputs guide: https://platform.openai.com/docs/guides/structured-outputs", 'type': 'invalid_request_error', 'param': None, 'code': None}}
+2025-04-02 15:30:29,764 - mcc_classifier.agent.Matheus - INFO - Using fallback classification for: Whole Foods Market
+2025-04-02 15:30:29,764 - mcc_classifier.agent.Waki - INFO - Classifying merchant: Whole Foods Market
+2025-04-02 15:30:29,764 - mcc_classifier.agent.Rafa - INFO - Classifying merchant: Michaels Arts and Crafts
+2025-04-02 15:30:29,764 - mcc_classifier.agent.Rafa - INFO - Sending request to OpenAI for merchant: Michaels Arts and Crafts
+2025-04-02 15:30:32,429 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-02 15:30:32,430 - mcc_classifier.agent.Matheus - INFO - Classifying merchant: Michaels Arts and Crafts
+2025-04-02 15:30:32,430 - mcc_classifier.agent.Matheus - INFO - Performing tier1 classification for: Michaels Arts and Crafts
+2025-04-02 15:30:32,701 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 400 Bad Request"
+2025-04-02 15:30:32,701 - mcc_classifier.agent.Matheus - ERROR - Error in tier1 classification: Error code: 400 - {'error': {'message': "Invalid parameter: 'response_format' of type 'json_schema' is not supported with this model. Learn more about supported models at the Structured Outputs guide: https://platform.openai.com/docs/guides/structured-outputs", 'type': 'invalid_request_error', 'param': None, 'code': None}}
+2025-04-02 15:30:32,701 - mcc_classifier.agent.Matheus - INFO - Using fallback classification for: Michaels Arts and Crafts
+2025-04-02 15:30:32,701 - mcc_classifier.agent.Waki - INFO - Classifying merchant: Michaels Arts and Crafts
+2025-04-02 15:30:32,702 - mcc_classifier.data_handler - INFO - Writing 11 rows to output/custom_test_merchants_comparison_20250402_152954.csv
+2025-04-02 15:30:32,703 - mcc_classifier.data_handler - INFO - Successfully wrote data to output/custom_test_merchants_comparison_20250402_152954.csv
+2025-04-02 15:30:32,703 - mcc_classifier.evaluator - INFO - Evaluation complete. Results written to output/custom_test_merchants_comparison_20250402_152954.csv

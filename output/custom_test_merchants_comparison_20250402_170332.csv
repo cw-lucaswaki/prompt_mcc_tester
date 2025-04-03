@@ -1,0 +1,15 @@
+Merchant Name,Legal Name,Actual MCC,MCC Description,Rafa's suggested MCC,Rafa's MCC description,Rafa's confidence,Rafa's match,Matheus's suggested MCC,Matheus's MCC description,Matheus's confidence,Matheus's match,Waki's suggested MCC,Waki's MCC description,Waki's confidence,Waki's match
+Uncledino Construction L.L.C.,DINO UTEE DAVIES,1520,General Contractors—Residential and Commercial,1520,General Contractors,0.95,Yes,1520,General Contractors,0.9,Yes,1520,General Contractors-Residential and Commercial,0.95,Yes
+Kjs Warehouse,JOSHUA MARK LEE THOMPSON,5999,Fast Food Restaurants F,5200,Home Supply Warehouse Stores,0.85,No,5200,Home Supply Warehouse Stores,0.85,No,5200,Home Supply Warehouse Stores,0.8,No
+Colon Co.,JUSTIN COLON,1771,Concrete Work Contractors,7299,Other Services,0.85,No,5812,"Eating Places, Restaurants",1.0,No,1771,Contractors – Concrete Work,0.95,Yes
+Plumbing Near Me ,GABI ABAYEV,7299,Other Services—not elsewhere classified,1711,HVAC & Plumbing,0.95,No,1711,HVAC & Plumbing,0.95,No,1520,General Contractors-Residential and Commercial,0.95,No
+Diversified Consulting,KENNETH MEGAL REESE,7392,Other Services—not elsewhere classified,7399,Other B2B Services,0.85,No,7399,Other B2B Services,0.95,No,7392,"Management, Consulting, and Public Relations Services",0.95,Yes
+Moolashop ,ROBERTO LAMOUR,5970,"Artist Supply Stores, Craft Shops",5399,Other Retail,0.85,No,5812,"Eating Places, Restaurants",0.95,No,5970,Artist's Supply and Craft Shops,0.8,Yes
+Phx Juice Bar,LAKI LAMAR SYPH,5812,Eating Places and Restaurants F,5812,Restaurants,0.85,Yes,5812,"Eating Places, Restaurants",1.0,Yes,5812,Eating places and Restaurants,0.95,Yes
+Shuttle Driver,JOEY LEE YORK,4789,Transportation Services (Not Elsewhere Classified),4789,Transportation,0.95,Yes,4789,Transportation,0.95,Yes,4121,Taxicabs and Limousines,0.95,No
+Williams Auto Mall And Repair,BLAKE ALEXANDER WILLIAMS,5533,Automotive Parts and Accessories Stores,7538,Automobile Service and Repair Shops,0.95,No,7699,Repair Shops & Services,0.9,No,5511,"Car and Truck Dealers (New and Used) Sales, Service, Repairs, Parts, and Leasing",0.95,No
+Rolland Schitts,CHRISTOPHER SCOTT ELLIOTT,5931,"Artist Supply Stores, Craft Shops",7399,Other B2B Services,0.85,No,5812,"Eating Places, Restaurants",0.8,No,5970,Artist's Supply and Craft Shops,0.8,No
+Maui Tours,VALERIE KAY FERNANDEZ,3203,Transportation Services (Not Elsewhere Classified),4789,Transportation,0.95,No,4722,Travel Agencies and Tour Operators,0.9,No,4722,Travel Agencies and Tour Operations,0.95,No
+Keth.J,KETHELEINE JUSTE,7299,Other Services—not elsewhere classified,7299,Other Services,0.85,Yes,5812,"Eating Places, Restaurants",1.0,No,7230,Barber and Beauty Shops,0.6,No
+Speedy Road Service LLC,JERRY TARRELL YOUNG,7549,Towing Services,7549,Towing,0.95,Yes,7549,Towing,0.9,Yes,7549,Towing Services,0.95,Yes
+SUMMARY,,,,,,,Accuracy: 38.46%,,,,Accuracy: 30.77%,,,,Accuracy: 46.15%

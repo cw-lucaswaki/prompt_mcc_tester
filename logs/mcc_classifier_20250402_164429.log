@@ -1,0 +1,25 @@
+2025-04-02 16:44:29,584 - root - INFO - Logging configured for MCC Classifier
+2025-04-02 16:44:29,584 - mcc_classifier.agent_factory - INFO - Creating all agents
+2025-04-02 16:44:29,660 - mcc_classifier.agent.Rafa - INFO - OpenAI client initialized successfully.
+2025-04-02 16:44:29,665 - mcc_classifier.agent.Matheus - INFO - OpenAI client initialized successfully.
+2025-04-02 16:44:29,683 - mcc_classifier.agent.Waki - INFO - Loaded 981 MCC codes from CSV file
+2025-04-02 16:44:29,689 - mcc_classifier.agent.Waki - INFO - OpenAI client initialized successfully.
+2025-04-02 16:44:29,689 - mcc_classifier.evaluator - INFO - Initialized MCC evaluator with 3 agents
+2025-04-02 16:44:29,689 - mcc_classifier.evaluator - INFO - Starting evaluation with input file: data/sample_merchants.csv
+2025-04-02 16:44:29,689 - mcc_classifier.data_handler - INFO - Reading data from data/sample_merchants.csv
+2025-04-02 16:44:29,692 - mcc_classifier.data_handler - INFO - Successfully read 10 rows from data/sample_merchants.csv
+2025-04-02 16:44:29,692 - mcc_classifier.evaluator - INFO - Read 10 merchants from input file
+2025-04-02 16:44:29,692 - mcc_classifier.evaluator - ERROR - Error classifying merchant Walmart Supercentre with agent Rafa: RafaAgent.classify() got an unexpected keyword argument 'original_mcc_code'
+2025-04-02 16:44:29,692 - mcc_classifier.evaluator - ERROR - Error classifying merchant Walmart Supercentre with agent Matheus: MatheusAgent.classify() got an unexpected keyword argument 'original_mcc_code'
+2025-04-02 16:44:29,692 - mcc_classifier.agent.Waki - INFO - Classifying merchant: Walmart Supercentre
+2025-04-02 16:44:29,692 - mcc_classifier.agent.Waki - INFO - Sending request to GPT for merchant: Walmart Supercentre
+2025-04-02 16:44:36,255 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-02 16:44:36,260 - mcc_classifier.evaluator - ERROR - Error classifying merchant Amazon with agent Rafa: RafaAgent.classify() got an unexpected keyword argument 'original_mcc_code'
+2025-04-02 16:44:36,260 - mcc_classifier.evaluator - ERROR - Error classifying merchant Amazon with agent Matheus: MatheusAgent.classify() got an unexpected keyword argument 'original_mcc_code'
+2025-04-02 16:44:36,260 - mcc_classifier.agent.Waki - INFO - Classifying merchant: Amazon
+2025-04-02 16:44:36,260 - mcc_classifier.agent.Waki - INFO - Sending request to GPT for merchant: Amazon
+2025-04-02 16:44:42,599 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-02 16:44:42,604 - mcc_classifier.evaluator - ERROR - Error classifying merchant Starbucks Coffee with agent Rafa: RafaAgent.classify() got an unexpected keyword argument 'original_mcc_code'
+2025-04-02 16:44:42,604 - mcc_classifier.evaluator - ERROR - Error classifying merchant Starbucks Coffee with agent Matheus: MatheusAgent.classify() got an unexpected keyword argument 'original_mcc_code'
+2025-04-02 16:44:42,604 - mcc_classifier.agent.Waki - INFO - Classifying merchant: Starbucks Coffee
+2025-04-02 16:44:42,604 - mcc_classifier.agent.Waki - INFO - Sending request to GPT for merchant: Starbucks Coffee

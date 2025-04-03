@@ -1,0 +1,207 @@
+2025-04-02 15:49:23,099 - root - INFO - Logging configured for MCC Classifier
+2025-04-02 15:49:23,099 - mcc_classifier.agent_factory - INFO - Creating all agents
+2025-04-02 15:49:23,129 - mcc_classifier.agent.Rafa - INFO - OpenAI client initialized successfully.
+2025-04-02 15:49:23,136 - mcc_classifier.agent.Matheus - INFO - OpenAI client initialized successfully.
+2025-04-02 15:49:23,197 - mcc_classifier.agent.Waki - INFO - Loaded 981 MCC codes from CSV file
+2025-04-02 15:49:23,203 - mcc_classifier.agent.Waki - INFO - OpenAI client initialized successfully.
+2025-04-02 15:49:23,203 - mcc_classifier.evaluator - INFO - Initialized MCC evaluator with 3 agents
+2025-04-02 15:49:23,203 - mcc_classifier.evaluator - INFO - Starting evaluation with input file: data/sample_merchants.csv
+2025-04-02 15:49:23,203 - mcc_classifier.data_handler - INFO - Reading data from data/sample_merchants.csv
+2025-04-02 15:49:23,206 - mcc_classifier.data_handler - INFO - Successfully read 10 rows from data/sample_merchants.csv
+2025-04-02 15:49:23,206 - mcc_classifier.evaluator - INFO - Read 10 merchants from input file
+2025-04-02 15:49:23,206 - mcc_classifier.agent.Rafa - INFO - Classifying merchant: Walmart Supercentre
+2025-04-02 15:49:23,206 - mcc_classifier.agent.Rafa - INFO - Sending request to OpenAI for merchant: Walmart Supercentre
+2025-04-02 15:49:26,235 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-02 15:49:26,243 - mcc_classifier.agent.Matheus - INFO - Classifying merchant: Walmart Supercentre
+2025-04-02 15:49:26,243 - mcc_classifier.agent.Matheus - INFO - Performing tier1 classification for: Walmart Supercentre
+2025-04-02 15:49:32,874 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-02 15:49:32,879 - mcc_classifier.agent.Waki - INFO - Classifying merchant: Walmart Supercentre
+2025-04-02 15:49:32,879 - mcc_classifier.agent.Waki - INFO - Sending request to GPT for merchant: Walmart Supercentre
+2025-04-02 15:49:38,907 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-02 15:49:38,910 - mcc_classifier.agent.Rafa - INFO - Classifying merchant: Amazon
+2025-04-02 15:49:38,910 - mcc_classifier.agent.Rafa - INFO - Sending request to OpenAI for merchant: Amazon
+2025-04-02 15:49:41,309 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-02 15:49:41,310 - mcc_classifier.agent.Matheus - INFO - Classifying merchant: Amazon
+2025-04-02 15:49:41,310 - mcc_classifier.agent.Matheus - INFO - Performing tier1 classification for: Amazon
+2025-04-02 15:49:51,396 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-02 15:49:51,398 - mcc_classifier.agent.Waki - INFO - Classifying merchant: Amazon
+2025-04-02 15:49:51,398 - mcc_classifier.agent.Waki - INFO - Sending request to GPT for merchant: Amazon
+2025-04-02 15:49:59,186 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-02 15:49:59,196 - mcc_classifier.agent.Rafa - INFO - Classifying merchant: Starbucks Coffee
+2025-04-02 15:49:59,197 - mcc_classifier.agent.Rafa - INFO - Sending request to OpenAI for merchant: Starbucks Coffee
+2025-04-02 15:50:03,641 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-02 15:50:03,650 - mcc_classifier.agent.Matheus - INFO - Classifying merchant: Starbucks Coffee
+2025-04-02 15:50:03,650 - mcc_classifier.agent.Matheus - INFO - Performing tier1 classification for: Starbucks Coffee
+2025-04-02 15:50:06,757 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-02 15:50:06,758 - mcc_classifier.agent.Waki - INFO - Classifying merchant: Starbucks Coffee
+2025-04-02 15:50:06,758 - mcc_classifier.agent.Waki - INFO - Sending request to GPT for merchant: Starbucks Coffee
+2025-04-02 15:50:17,054 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-02 15:50:17,055 - mcc_classifier.agent.Rafa - INFO - Classifying merchant: Best Buy
+2025-04-02 15:50:17,055 - mcc_classifier.agent.Rafa - INFO - Sending request to OpenAI for merchant: Best Buy
+2025-04-02 15:50:19,716 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-02 15:50:19,717 - mcc_classifier.agent.Matheus - INFO - Classifying merchant: Best Buy
+2025-04-02 15:50:19,717 - mcc_classifier.agent.Matheus - INFO - Performing tier1 classification for: Best Buy
+2025-04-02 15:50:25,876 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-02 15:50:25,877 - mcc_classifier.agent.Waki - INFO - Classifying merchant: Best Buy
+2025-04-02 15:50:25,877 - mcc_classifier.agent.Waki - INFO - Sending request to GPT for merchant: Best Buy
+2025-04-02 15:50:31,898 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-02 15:50:31,898 - mcc_classifier.agent.Rafa - INFO - Classifying merchant: Chevron Gas Station
+2025-04-02 15:50:31,898 - mcc_classifier.agent.Rafa - INFO - Sending request to OpenAI for merchant: Chevron Gas Station
+2025-04-02 15:50:35,384 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-02 15:50:35,385 - mcc_classifier.agent.Matheus - INFO - Classifying merchant: Chevron Gas Station
+2025-04-02 15:50:35,385 - mcc_classifier.agent.Matheus - INFO - Performing tier1 classification for: Chevron Gas Station
+2025-04-02 15:50:48,019 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-02 15:50:48,052 - mcc_classifier.agent.Waki - INFO - Classifying merchant: Chevron Gas Station
+2025-04-02 15:50:48,052 - mcc_classifier.agent.Waki - INFO - Sending request to GPT for merchant: Chevron Gas Station
+2025-04-02 15:50:58,853 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-02 15:50:58,855 - mcc_classifier.agent.Rafa - INFO - Classifying merchant: CVS Pharmacy
+2025-04-02 15:50:58,855 - mcc_classifier.agent.Rafa - INFO - Sending request to OpenAI for merchant: CVS Pharmacy
+2025-04-02 15:51:04,144 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-02 15:51:04,201 - mcc_classifier.agent.Matheus - INFO - Classifying merchant: CVS Pharmacy
+2025-04-02 15:51:04,201 - mcc_classifier.agent.Matheus - INFO - Performing tier1 classification for: CVS Pharmacy
+2025-04-02 15:51:11,098 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-02 15:51:11,101 - mcc_classifier.agent.Waki - INFO - Classifying merchant: CVS Pharmacy
+2025-04-02 15:51:11,101 - mcc_classifier.agent.Waki - INFO - Sending request to GPT for merchant: CVS Pharmacy
+2025-04-02 15:51:19,313 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-02 15:51:19,314 - mcc_classifier.agent.Rafa - INFO - Classifying merchant: Home Depot
+2025-04-02 15:51:19,314 - mcc_classifier.agent.Rafa - INFO - Sending request to OpenAI for merchant: Home Depot
+2025-04-02 15:51:22,322 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-02 15:51:22,334 - mcc_classifier.agent.Matheus - INFO - Classifying merchant: Home Depot
+2025-04-02 15:51:22,334 - mcc_classifier.agent.Matheus - INFO - Performing tier1 classification for: Home Depot
+2025-04-02 15:51:32,361 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-02 15:51:32,361 - mcc_classifier.agent.Waki - INFO - Classifying merchant: Home Depot
+2025-04-02 15:51:32,361 - mcc_classifier.agent.Waki - INFO - Sending request to GPT for merchant: Home Depot
+2025-04-02 15:51:44,097 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-02 15:51:44,097 - mcc_classifier.agent.Rafa - INFO - Classifying merchant: McDonald's
+2025-04-02 15:51:44,097 - mcc_classifier.agent.Rafa - INFO - Sending request to OpenAI for merchant: McDonald's
+2025-04-02 15:51:46,776 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-02 15:51:46,776 - mcc_classifier.agent.Matheus - INFO - Classifying merchant: McDonald's
+2025-04-02 15:51:46,776 - mcc_classifier.agent.Matheus - INFO - Performing tier1 classification for: McDonald's
+2025-04-02 15:51:54,278 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-02 15:51:54,279 - mcc_classifier.agent.Waki - INFO - Classifying merchant: McDonald's
+2025-04-02 15:51:54,279 - mcc_classifier.agent.Waki - INFO - Sending request to GPT for merchant: McDonald's
+2025-04-02 15:52:00,137 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-02 15:52:00,142 - mcc_classifier.agent.Rafa - INFO - Classifying merchant: Apple Store
+2025-04-02 15:52:00,142 - mcc_classifier.agent.Rafa - INFO - Sending request to OpenAI for merchant: Apple Store
+2025-04-02 15:52:03,363 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-02 15:52:03,366 - mcc_classifier.agent.Matheus - INFO - Classifying merchant: Apple Store
+2025-04-02 15:52:03,366 - mcc_classifier.agent.Matheus - INFO - Performing tier1 classification for: Apple Store
+2025-04-02 15:52:12,913 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-02 15:52:12,914 - mcc_classifier.agent.Waki - INFO - Classifying merchant: Apple Store
+2025-04-02 15:52:12,914 - mcc_classifier.agent.Waki - INFO - Sending request to GPT for merchant: Apple Store
+2025-04-02 15:52:21,867 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-02 15:52:21,874 - mcc_classifier.agent.Rafa - INFO - Classifying merchant: Target
+2025-04-02 15:52:21,874 - mcc_classifier.agent.Rafa - INFO - Sending request to OpenAI for merchant: Target
+2025-04-02 15:52:24,645 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-02 15:52:24,648 - mcc_classifier.agent.Matheus - INFO - Classifying merchant: Target
+2025-04-02 15:52:24,648 - mcc_classifier.agent.Matheus - INFO - Performing tier1 classification for: Target
+2025-04-02 15:52:29,312 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-02 15:52:29,315 - mcc_classifier.agent.Waki - INFO - Classifying merchant: Target
+2025-04-02 15:52:29,315 - mcc_classifier.agent.Waki - INFO - Sending request to GPT for merchant: Target
+2025-04-02 15:52:34,682 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-02 15:52:34,683 - mcc_classifier.data_handler - INFO - Writing 11 rows to output/sample_merchants_comparison_20250402_154923.csv
+2025-04-02 15:52:34,702 - mcc_classifier.data_handler - INFO - Successfully wrote data to output/sample_merchants_comparison_20250402_154923.csv
+2025-04-02 15:52:34,702 - mcc_classifier.evaluator - INFO - Evaluation complete. Results written to output/sample_merchants_comparison_20250402_154923.csv
+2025-04-02 15:52:34,703 - mcc_classifier.agent_factory - INFO - Creating all agents
+2025-04-02 15:52:34,718 - mcc_classifier.agent.Rafa - INFO - OpenAI client initialized successfully.
+2025-04-02 15:52:34,730 - mcc_classifier.agent.Matheus - INFO - OpenAI client initialized successfully.
+2025-04-02 15:52:34,749 - mcc_classifier.agent.Waki - INFO - Loaded 981 MCC codes from CSV file
+2025-04-02 15:52:34,755 - mcc_classifier.agent.Waki - INFO - OpenAI client initialized successfully.
+2025-04-02 15:52:34,755 - mcc_classifier.evaluator - INFO - Initialized MCC evaluator with 3 agents
+2025-04-02 15:52:34,755 - mcc_classifier.evaluator - INFO - Starting evaluation with input file: data/custom_test_merchants.csv
+2025-04-02 15:52:34,755 - mcc_classifier.data_handler - INFO - Reading data from data/custom_test_merchants.csv
+2025-04-02 15:52:34,757 - mcc_classifier.data_handler - INFO - Successfully read 10 rows from data/custom_test_merchants.csv
+2025-04-02 15:52:34,757 - mcc_classifier.evaluator - INFO - Read 10 merchants from input file
+2025-04-02 15:52:34,757 - mcc_classifier.agent.Rafa - INFO - Classifying merchant: Gap Clothing Store
+2025-04-02 15:52:34,757 - mcc_classifier.agent.Rafa - INFO - Sending request to OpenAI for merchant: Gap Clothing Store
+2025-04-02 15:52:38,677 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-02 15:52:38,678 - mcc_classifier.agent.Matheus - INFO - Classifying merchant: Gap Clothing Store
+2025-04-02 15:52:38,678 - mcc_classifier.agent.Matheus - INFO - Performing tier1 classification for: Gap Clothing Store
+2025-04-02 15:52:50,763 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-02 15:52:50,764 - mcc_classifier.agent.Waki - INFO - Classifying merchant: Gap Clothing Store
+2025-04-02 15:52:50,765 - mcc_classifier.agent.Waki - INFO - Sending request to GPT for merchant: Gap Clothing Store
+2025-04-02 15:52:57,531 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-02 15:52:57,533 - mcc_classifier.agent.Rafa - INFO - Classifying merchant: Taco Bell
+2025-04-02 15:52:57,533 - mcc_classifier.agent.Rafa - INFO - Sending request to OpenAI for merchant: Taco Bell
+2025-04-02 15:53:02,019 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-02 15:53:02,020 - mcc_classifier.agent.Matheus - INFO - Classifying merchant: Taco Bell
+2025-04-02 15:53:02,020 - mcc_classifier.agent.Matheus - INFO - Performing tier1 classification for: Taco Bell
+2025-04-02 15:53:08,729 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-02 15:53:08,730 - mcc_classifier.agent.Waki - INFO - Classifying merchant: Taco Bell
+2025-04-02 15:53:08,730 - mcc_classifier.agent.Waki - INFO - Sending request to GPT for merchant: Taco Bell
+2025-04-02 15:53:16,258 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-02 15:53:16,259 - mcc_classifier.agent.Rafa - INFO - Classifying merchant: Ace Hardware
+2025-04-02 15:53:16,259 - mcc_classifier.agent.Rafa - INFO - Sending request to OpenAI for merchant: Ace Hardware
+2025-04-02 15:53:18,133 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-02 15:53:18,135 - mcc_classifier.agent.Matheus - INFO - Classifying merchant: Ace Hardware
+2025-04-02 15:53:18,135 - mcc_classifier.agent.Matheus - INFO - Performing tier1 classification for: Ace Hardware
+2025-04-02 15:53:29,486 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-02 15:53:29,491 - mcc_classifier.agent.Waki - INFO - Classifying merchant: Ace Hardware
+2025-04-02 15:53:29,491 - mcc_classifier.agent.Waki - INFO - Sending request to GPT for merchant: Ace Hardware
+2025-04-02 15:53:35,955 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-02 15:53:35,955 - mcc_classifier.agent.Rafa - INFO - Classifying merchant: Staples Office Supplies
+2025-04-02 15:53:35,955 - mcc_classifier.agent.Rafa - INFO - Sending request to OpenAI for merchant: Staples Office Supplies
+2025-04-02 15:53:40,323 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-02 15:53:40,324 - mcc_classifier.agent.Matheus - INFO - Classifying merchant: Staples Office Supplies
+2025-04-02 15:53:40,325 - mcc_classifier.agent.Matheus - INFO - Performing tier1 classification for: Staples Office Supplies
+2025-04-02 15:53:51,228 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-02 15:53:51,232 - mcc_classifier.agent.Waki - INFO - Classifying merchant: Staples Office Supplies
+2025-04-02 15:53:51,232 - mcc_classifier.agent.Waki - INFO - Sending request to GPT for merchant: Staples Office Supplies
+2025-04-02 15:53:56,808 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-02 15:53:56,809 - mcc_classifier.agent.Rafa - INFO - Classifying merchant: The Cheesecake Factory
+2025-04-02 15:53:56,809 - mcc_classifier.agent.Rafa - INFO - Sending request to OpenAI for merchant: The Cheesecake Factory
+2025-04-02 15:54:02,509 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-02 15:54:02,519 - mcc_classifier.agent.Matheus - INFO - Classifying merchant: The Cheesecake Factory
+2025-04-02 15:54:02,519 - mcc_classifier.agent.Matheus - INFO - Performing tier1 classification for: The Cheesecake Factory
+2025-04-02 15:54:06,489 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-02 15:54:06,489 - mcc_classifier.agent.Waki - INFO - Classifying merchant: The Cheesecake Factory
+2025-04-02 15:54:06,490 - mcc_classifier.agent.Waki - INFO - Sending request to GPT for merchant: The Cheesecake Factory
+2025-04-02 15:54:16,685 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-02 15:54:16,687 - mcc_classifier.agent.Rafa - INFO - Classifying merchant: AutoZone
+2025-04-02 15:54:16,687 - mcc_classifier.agent.Rafa - INFO - Sending request to OpenAI for merchant: AutoZone
+2025-04-02 15:54:19,515 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-02 15:54:19,516 - mcc_classifier.agent.Matheus - INFO - Classifying merchant: AutoZone
+2025-04-02 15:54:19,516 - mcc_classifier.agent.Matheus - INFO - Performing tier1 classification for: AutoZone
+2025-04-02 15:54:25,940 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-02 15:54:25,943 - mcc_classifier.agent.Waki - INFO - Classifying merchant: AutoZone
+2025-04-02 15:54:25,943 - mcc_classifier.agent.Waki - INFO - Sending request to GPT for merchant: AutoZone
+2025-04-02 15:54:34,584 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-02 15:54:34,586 - mcc_classifier.agent.Rafa - INFO - Classifying merchant: Holiday Inn Express
+2025-04-02 15:54:34,586 - mcc_classifier.agent.Rafa - INFO - Sending request to OpenAI for merchant: Holiday Inn Express
+2025-04-02 15:54:38,200 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-02 15:54:38,202 - mcc_classifier.agent.Matheus - INFO - Classifying merchant: Holiday Inn Express
+2025-04-02 15:54:38,202 - mcc_classifier.agent.Matheus - INFO - Performing tier1 classification for: Holiday Inn Express
+2025-04-02 15:54:42,984 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-02 15:54:42,985 - mcc_classifier.agent.Waki - INFO - Classifying merchant: Holiday Inn Express
+2025-04-02 15:54:42,985 - mcc_classifier.agent.Waki - INFO - Sending request to GPT for merchant: Holiday Inn Express
+2025-04-02 15:54:53,952 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-02 15:54:53,956 - mcc_classifier.agent.Rafa - INFO - Classifying merchant: Massage Envy
+2025-04-02 15:54:53,956 - mcc_classifier.agent.Rafa - INFO - Sending request to OpenAI for merchant: Massage Envy
+2025-04-02 15:55:12,382 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-02 15:55:12,383 - mcc_classifier.agent.Matheus - INFO - Classifying merchant: Massage Envy
+2025-04-02 15:55:12,383 - mcc_classifier.agent.Matheus - INFO - Performing tier1 classification for: Massage Envy
+2025-04-02 15:55:26,923 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-02 15:55:26,924 - mcc_classifier.agent.Waki - INFO - Classifying merchant: Massage Envy
+2025-04-02 15:55:26,924 - mcc_classifier.agent.Waki - INFO - Sending request to GPT for merchant: Massage Envy
+2025-04-02 15:55:33,815 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-02 15:55:33,819 - mcc_classifier.agent.Rafa - INFO - Classifying merchant: Whole Foods Market
+2025-04-02 15:55:33,820 - mcc_classifier.agent.Rafa - INFO - Sending request to OpenAI for merchant: Whole Foods Market
+2025-04-02 15:55:37,264 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-02 15:55:37,266 - mcc_classifier.agent.Matheus - INFO - Classifying merchant: Whole Foods Market
+2025-04-02 15:55:37,266 - mcc_classifier.agent.Matheus - INFO - Performing tier1 classification for: Whole Foods Market
+2025-04-02 15:55:44,766 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-02 15:55:44,769 - mcc_classifier.agent.Waki - INFO - Classifying merchant: Whole Foods Market
+2025-04-02 15:55:44,769 - mcc_classifier.agent.Waki - INFO - Sending request to GPT for merchant: Whole Foods Market
+2025-04-02 15:55:50,885 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-02 15:55:50,896 - mcc_classifier.agent.Rafa - INFO - Classifying merchant: Michaels Arts and Crafts
+2025-04-02 15:55:50,896 - mcc_classifier.agent.Rafa - INFO - Sending request to OpenAI for merchant: Michaels Arts and Crafts
+2025-04-02 15:55:52,960 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-02 15:55:52,962 - mcc_classifier.agent.Matheus - INFO - Classifying merchant: Michaels Arts and Crafts
+2025-04-02 15:55:52,962 - mcc_classifier.agent.Matheus - INFO - Performing tier1 classification for: Michaels Arts and Crafts
+2025-04-02 15:55:58,048 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-02 15:55:58,049 - mcc_classifier.agent.Waki - INFO - Classifying merchant: Michaels Arts and Crafts
+2025-04-02 15:55:58,050 - mcc_classifier.agent.Waki - INFO - Sending request to GPT for merchant: Michaels Arts and Crafts
+2025-04-02 15:56:06,761 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-02 15:56:06,765 - mcc_classifier.data_handler - INFO - Writing 11 rows to output/custom_test_merchants_comparison_20250402_155234.csv
+2025-04-02 15:56:06,771 - mcc_classifier.data_handler - INFO - Successfully wrote data to output/custom_test_merchants_comparison_20250402_155234.csv
+2025-04-02 15:56:06,772 - mcc_classifier.evaluator - INFO - Evaluation complete. Results written to output/custom_test_merchants_comparison_20250402_155234.csv

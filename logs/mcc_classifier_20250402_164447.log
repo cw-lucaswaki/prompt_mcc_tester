@@ -1,0 +1,54 @@
+2025-04-02 16:44:47,211 - root - INFO - Logging configured for MCC Classifier
+2025-04-02 16:44:47,211 - mcc_classifier.agent_factory - INFO - Creating all agents
+2025-04-02 16:44:47,262 - mcc_classifier.agent.Rafa - INFO - OpenAI client initialized successfully.
+2025-04-02 16:44:47,269 - mcc_classifier.agent.Matheus - INFO - OpenAI client initialized successfully.
+2025-04-02 16:44:47,288 - mcc_classifier.agent.Waki - INFO - Loaded 981 MCC codes from CSV file
+2025-04-02 16:44:47,294 - mcc_classifier.agent.Waki - INFO - OpenAI client initialized successfully.
+2025-04-02 16:44:47,294 - mcc_classifier.evaluator - INFO - Initialized MCC evaluator with 3 agents
+2025-04-02 16:44:47,294 - mcc_classifier.evaluator - INFO - Starting evaluation with input file: data/custom_test_merchants.csv
+2025-04-02 16:44:47,294 - mcc_classifier.data_handler - INFO - Reading data from data/custom_test_merchants.csv
+2025-04-02 16:44:47,296 - mcc_classifier.data_handler - INFO - Successfully read 8 rows from data/custom_test_merchants.csv
+2025-04-02 16:44:47,296 - mcc_classifier.evaluator - INFO - Read 8 merchants from input file
+2025-04-02 16:44:47,296 - mcc_classifier.evaluator - ERROR - Error classifying merchant Flawless Luxury Detailers with agent Rafa: RafaAgent.classify() got an unexpected keyword argument 'original_mcc_code'
+2025-04-02 16:44:47,296 - mcc_classifier.evaluator - ERROR - Error classifying merchant Flawless Luxury Detailers with agent Matheus: MatheusAgent.classify() got an unexpected keyword argument 'original_mcc_code'
+2025-04-02 16:44:47,296 - mcc_classifier.agent.Waki - INFO - Classifying merchant: Flawless Luxury Detailers
+2025-04-02 16:44:47,296 - mcc_classifier.agent.Waki - INFO - Sending request to GPT for merchant: Flawless Luxury Detailers
+2025-04-02 16:44:54,720 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-02 16:44:54,724 - mcc_classifier.evaluator - ERROR - Error classifying merchant Littys Cakes with agent Rafa: RafaAgent.classify() got an unexpected keyword argument 'original_mcc_code'
+2025-04-02 16:44:54,724 - mcc_classifier.evaluator - ERROR - Error classifying merchant Littys Cakes with agent Matheus: MatheusAgent.classify() got an unexpected keyword argument 'original_mcc_code'
+2025-04-02 16:44:54,724 - mcc_classifier.agent.Waki - INFO - Classifying merchant: Littys Cakes
+2025-04-02 16:44:54,724 - mcc_classifier.agent.Waki - INFO - Sending request to GPT for merchant: Littys Cakes
+2025-04-02 16:45:00,853 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-02 16:45:00,854 - mcc_classifier.evaluator - ERROR - Error classifying merchant Don garcia gutters with agent Rafa: RafaAgent.classify() got an unexpected keyword argument 'original_mcc_code'
+2025-04-02 16:45:00,854 - mcc_classifier.evaluator - ERROR - Error classifying merchant Don garcia gutters with agent Matheus: MatheusAgent.classify() got an unexpected keyword argument 'original_mcc_code'
+2025-04-02 16:45:00,854 - mcc_classifier.agent.Waki - INFO - Classifying merchant: Don garcia gutters
+2025-04-02 16:45:00,854 - mcc_classifier.agent.Waki - INFO - Sending request to GPT for merchant: Don garcia gutters
+2025-04-02 16:45:07,882 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-02 16:45:07,883 - mcc_classifier.evaluator - ERROR - Error classifying merchant Izbicki Transport LLC with agent Rafa: RafaAgent.classify() got an unexpected keyword argument 'original_mcc_code'
+2025-04-02 16:45:07,883 - mcc_classifier.evaluator - ERROR - Error classifying merchant Izbicki Transport LLC with agent Matheus: MatheusAgent.classify() got an unexpected keyword argument 'original_mcc_code'
+2025-04-02 16:45:07,883 - mcc_classifier.agent.Waki - INFO - Classifying merchant: Izbicki Transport LLC
+2025-04-02 16:45:07,883 - mcc_classifier.agent.Waki - INFO - Sending request to GPT for merchant: Izbicki Transport LLC
+2025-04-02 16:45:14,194 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-02 16:45:14,196 - mcc_classifier.evaluator - ERROR - Error classifying merchant Forever Crafted  with agent Rafa: RafaAgent.classify() got an unexpected keyword argument 'original_mcc_code'
+2025-04-02 16:45:14,196 - mcc_classifier.evaluator - ERROR - Error classifying merchant Forever Crafted  with agent Matheus: MatheusAgent.classify() got an unexpected keyword argument 'original_mcc_code'
+2025-04-02 16:45:14,196 - mcc_classifier.agent.Waki - INFO - Classifying merchant: Forever Crafted 
+2025-04-02 16:45:14,196 - mcc_classifier.agent.Waki - INFO - Sending request to GPT for merchant: Forever Crafted 
+2025-04-02 16:45:43,885 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-02 16:45:43,891 - mcc_classifier.evaluator - ERROR - Error classifying merchant VisionsNHd with agent Rafa: RafaAgent.classify() got an unexpected keyword argument 'original_mcc_code'
+2025-04-02 16:45:43,891 - mcc_classifier.evaluator - ERROR - Error classifying merchant VisionsNHd with agent Matheus: MatheusAgent.classify() got an unexpected keyword argument 'original_mcc_code'
+2025-04-02 16:45:43,891 - mcc_classifier.agent.Waki - INFO - Classifying merchant: VisionsNHd
+2025-04-02 16:45:43,891 - mcc_classifier.agent.Waki - INFO - Sending request to GPT for merchant: VisionsNHd
+2025-04-02 16:45:49,805 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-02 16:45:49,806 - mcc_classifier.evaluator - ERROR - Error classifying merchant taxi.com with agent Rafa: RafaAgent.classify() got an unexpected keyword argument 'original_mcc_code'
+2025-04-02 16:45:49,807 - mcc_classifier.evaluator - ERROR - Error classifying merchant taxi.com with agent Matheus: MatheusAgent.classify() got an unexpected keyword argument 'original_mcc_code'
+2025-04-02 16:45:49,807 - mcc_classifier.agent.Waki - INFO - Classifying merchant: taxi.com
+2025-04-02 16:45:49,807 - mcc_classifier.agent.Waki - INFO - Sending request to GPT for merchant: taxi.com
+2025-04-02 16:45:57,664 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-02 16:45:57,664 - mcc_classifier.evaluator - ERROR - Error classifying merchant C Collectibles  with agent Rafa: RafaAgent.classify() got an unexpected keyword argument 'original_mcc_code'
+2025-04-02 16:45:57,664 - mcc_classifier.evaluator - ERROR - Error classifying merchant C Collectibles  with agent Matheus: MatheusAgent.classify() got an unexpected keyword argument 'original_mcc_code'
+2025-04-02 16:45:57,665 - mcc_classifier.agent.Waki - INFO - Classifying merchant: C Collectibles 
+2025-04-02 16:45:57,665 - mcc_classifier.agent.Waki - INFO - Sending request to GPT for merchant: C Collectibles 
+2025-04-02 16:46:03,811 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-02 16:46:03,812 - mcc_classifier.data_handler - INFO - Writing 9 rows to output/custom_test_merchants_comparison_20250402_164447.csv
+2025-04-02 16:46:03,819 - mcc_classifier.data_handler - INFO - Successfully wrote data to output/custom_test_merchants_comparison_20250402_164447.csv
+2025-04-02 16:46:03,819 - mcc_classifier.evaluator - INFO - Evaluation complete. Results written to output/custom_test_merchants_comparison_20250402_164447.csv

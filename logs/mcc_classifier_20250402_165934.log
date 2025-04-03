@@ -1,0 +1,106 @@
+2025-04-02 16:59:34,764 - root - INFO - Logging configured for MCC Classifier
+2025-04-02 16:59:34,764 - mcc_classifier.agent_factory - INFO - Creating all agents
+2025-04-02 16:59:34,824 - mcc_classifier.agent.Rafa - INFO - OpenAI client initialized successfully.
+2025-04-02 16:59:34,836 - mcc_classifier.agent.Matheus - INFO - OpenAI client initialized successfully.
+2025-04-02 16:59:34,860 - mcc_classifier.agent.Waki - INFO - Loaded 981 MCC codes from CSV file
+2025-04-02 16:59:34,868 - mcc_classifier.agent.Waki - INFO - OpenAI client initialized successfully.
+2025-04-02 16:59:34,868 - mcc_classifier.evaluator - INFO - Initialized MCC evaluator with 3 agents
+2025-04-02 16:59:34,868 - mcc_classifier.evaluator - INFO - Starting evaluation with input file: data/custom_test_merchants.csv
+2025-04-02 16:59:34,868 - mcc_classifier.data_handler - INFO - Reading data from data/custom_test_merchants.csv
+2025-04-02 16:59:34,871 - mcc_classifier.data_handler - INFO - Successfully read 8 rows from data/custom_test_merchants.csv
+2025-04-02 16:59:34,871 - mcc_classifier.evaluator - INFO - Read 8 merchants from input file
+2025-04-02 16:59:34,871 - mcc_classifier.evaluator - INFO - Agent Rafa doesn't support full data, falling back to basic parameters
+2025-04-02 16:59:34,871 - mcc_classifier.agent.Rafa - INFO - Classifying merchant: Flawless Luxury Detailers
+2025-04-02 16:59:34,871 - mcc_classifier.agent.Rafa - INFO - Sending request to OpenAI for merchant: Flawless Luxury Detailers
+2025-04-02 16:59:38,204 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-02 16:59:38,208 - mcc_classifier.evaluator - INFO - Agent Matheus doesn't support full data, falling back to basic parameters
+2025-04-02 16:59:38,208 - mcc_classifier.agent.Matheus - INFO - Classifying merchant: Flawless Luxury Detailers
+2025-04-02 16:59:38,208 - mcc_classifier.agent.Matheus - INFO - Performing tier1 classification for: Flawless Luxury Detailers
+2025-04-02 16:59:44,670 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-02 16:59:44,676 - mcc_classifier.agent.Waki - INFO - Classifying merchant: Flawless Luxury Detailers
+2025-04-02 16:59:44,676 - mcc_classifier.agent.Waki - INFO - Sending request to GPT for merchant: Flawless Luxury Detailers
+2025-04-02 16:59:51,737 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-02 16:59:51,738 - mcc_classifier.evaluator - INFO - Agent Rafa doesn't support full data, falling back to basic parameters
+2025-04-02 16:59:51,738 - mcc_classifier.agent.Rafa - INFO - Classifying merchant: Littys Cakes
+2025-04-02 16:59:51,738 - mcc_classifier.agent.Rafa - INFO - Sending request to OpenAI for merchant: Littys Cakes
+2025-04-02 16:59:54,400 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-02 16:59:54,400 - mcc_classifier.evaluator - INFO - Agent Matheus doesn't support full data, falling back to basic parameters
+2025-04-02 16:59:54,400 - mcc_classifier.agent.Matheus - INFO - Classifying merchant: Littys Cakes
+2025-04-02 16:59:54,400 - mcc_classifier.agent.Matheus - INFO - Performing tier1 classification for: Littys Cakes
+2025-04-02 17:00:01,983 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-02 17:00:01,985 - mcc_classifier.agent.Waki - INFO - Classifying merchant: Littys Cakes
+2025-04-02 17:00:01,985 - mcc_classifier.agent.Waki - INFO - Sending request to GPT for merchant: Littys Cakes
+2025-04-02 17:00:16,136 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-02 17:00:16,143 - mcc_classifier.evaluator - INFO - Agent Rafa doesn't support full data, falling back to basic parameters
+2025-04-02 17:00:16,143 - mcc_classifier.agent.Rafa - INFO - Classifying merchant: Don garcia gutters
+2025-04-02 17:00:16,144 - mcc_classifier.agent.Rafa - INFO - Sending request to OpenAI for merchant: Don garcia gutters
+2025-04-02 17:00:19,217 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-02 17:00:19,218 - mcc_classifier.evaluator - INFO - Agent Matheus doesn't support full data, falling back to basic parameters
+2025-04-02 17:00:19,218 - mcc_classifier.agent.Matheus - INFO - Classifying merchant: Don garcia gutters
+2025-04-02 17:00:19,218 - mcc_classifier.agent.Matheus - INFO - Performing tier1 classification for: Don garcia gutters
+2025-04-02 17:00:25,561 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-02 17:00:25,561 - mcc_classifier.agent.Waki - INFO - Classifying merchant: Don garcia gutters
+2025-04-02 17:00:25,562 - mcc_classifier.agent.Waki - INFO - Sending request to GPT for merchant: Don garcia gutters
+2025-04-02 17:00:38,779 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-02 17:00:38,790 - mcc_classifier.evaluator - INFO - Agent Rafa doesn't support full data, falling back to basic parameters
+2025-04-02 17:00:38,790 - mcc_classifier.agent.Rafa - INFO - Classifying merchant: Izbicki Transport LLC
+2025-04-02 17:00:38,790 - mcc_classifier.agent.Rafa - INFO - Sending request to OpenAI for merchant: Izbicki Transport LLC
+2025-04-02 17:00:40,888 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-02 17:00:40,891 - mcc_classifier.evaluator - INFO - Agent Matheus doesn't support full data, falling back to basic parameters
+2025-04-02 17:00:40,891 - mcc_classifier.agent.Matheus - INFO - Classifying merchant: Izbicki Transport LLC
+2025-04-02 17:00:40,891 - mcc_classifier.agent.Matheus - INFO - Performing tier1 classification for: Izbicki Transport LLC
+2025-04-02 17:00:45,395 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-02 17:00:45,397 - mcc_classifier.agent.Waki - INFO - Classifying merchant: Izbicki Transport LLC
+2025-04-02 17:00:45,397 - mcc_classifier.agent.Waki - INFO - Sending request to GPT for merchant: Izbicki Transport LLC
+2025-04-02 17:00:55,861 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-02 17:00:55,866 - mcc_classifier.evaluator - INFO - Agent Rafa doesn't support full data, falling back to basic parameters
+2025-04-02 17:00:55,866 - mcc_classifier.agent.Rafa - INFO - Classifying merchant: Forever Crafted 
+2025-04-02 17:00:55,866 - mcc_classifier.agent.Rafa - INFO - Sending request to OpenAI for merchant: Forever Crafted 
+2025-04-02 17:00:58,940 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-02 17:00:58,955 - mcc_classifier.evaluator - INFO - Agent Matheus doesn't support full data, falling back to basic parameters
+2025-04-02 17:00:58,955 - mcc_classifier.agent.Matheus - INFO - Classifying merchant: Forever Crafted 
+2025-04-02 17:00:58,955 - mcc_classifier.agent.Matheus - INFO - Performing tier1 classification for: Forever Crafted 
+2025-04-02 17:01:11,919 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-02 17:01:11,920 - mcc_classifier.agent.Waki - INFO - Classifying merchant: Forever Crafted 
+2025-04-02 17:01:11,920 - mcc_classifier.agent.Waki - INFO - Sending request to GPT for merchant: Forever Crafted 
+2025-04-02 17:01:21,853 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-02 17:01:21,855 - mcc_classifier.evaluator - INFO - Agent Rafa doesn't support full data, falling back to basic parameters
+2025-04-02 17:01:21,855 - mcc_classifier.agent.Rafa - INFO - Classifying merchant: VisionsNHd
+2025-04-02 17:01:21,855 - mcc_classifier.agent.Rafa - INFO - Sending request to OpenAI for merchant: VisionsNHd
+2025-04-02 17:01:26,765 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-02 17:01:26,767 - mcc_classifier.evaluator - INFO - Agent Matheus doesn't support full data, falling back to basic parameters
+2025-04-02 17:01:26,767 - mcc_classifier.agent.Matheus - INFO - Classifying merchant: VisionsNHd
+2025-04-02 17:01:26,767 - mcc_classifier.agent.Matheus - INFO - Performing tier1 classification for: VisionsNHd
+2025-04-02 17:01:40,491 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-02 17:01:40,495 - mcc_classifier.agent.Matheus - INFO - Performing risk tier classification for: VisionsNHd
+2025-04-02 17:01:55,954 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-02 17:01:55,959 - mcc_classifier.agent.Waki - INFO - Classifying merchant: VisionsNHd
+2025-04-02 17:01:55,959 - mcc_classifier.agent.Waki - INFO - Sending request to GPT for merchant: VisionsNHd
+2025-04-02 17:02:08,140 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-02 17:02:08,142 - mcc_classifier.evaluator - INFO - Agent Rafa doesn't support full data, falling back to basic parameters
+2025-04-02 17:02:08,142 - mcc_classifier.agent.Rafa - INFO - Classifying merchant: taxi.com
+2025-04-02 17:02:08,142 - mcc_classifier.agent.Rafa - INFO - Sending request to OpenAI for merchant: taxi.com
+2025-04-02 17:02:10,935 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-02 17:02:10,939 - mcc_classifier.evaluator - INFO - Agent Matheus doesn't support full data, falling back to basic parameters
+2025-04-02 17:02:10,939 - mcc_classifier.agent.Matheus - INFO - Classifying merchant: taxi.com
+2025-04-02 17:02:10,939 - mcc_classifier.agent.Matheus - INFO - Performing tier1 classification for: taxi.com
+2025-04-02 17:02:16,432 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-02 17:02:16,433 - mcc_classifier.agent.Waki - INFO - Classifying merchant: taxi.com
+2025-04-02 17:02:16,433 - mcc_classifier.agent.Waki - INFO - Sending request to GPT for merchant: taxi.com
+2025-04-02 17:02:29,336 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-02 17:02:29,340 - mcc_classifier.evaluator - INFO - Agent Rafa doesn't support full data, falling back to basic parameters
+2025-04-02 17:02:29,340 - mcc_classifier.agent.Rafa - INFO - Classifying merchant: C Collectibles 
+2025-04-02 17:02:29,340 - mcc_classifier.agent.Rafa - INFO - Sending request to OpenAI for merchant: C Collectibles 
+2025-04-02 17:02:37,216 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-02 17:02:37,236 - mcc_classifier.evaluator - INFO - Agent Matheus doesn't support full data, falling back to basic parameters
+2025-04-02 17:02:37,236 - mcc_classifier.agent.Matheus - INFO - Classifying merchant: C Collectibles 
+2025-04-02 17:02:37,236 - mcc_classifier.agent.Matheus - INFO - Performing tier1 classification for: C Collectibles 
+2025-04-02 17:02:45,514 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-02 17:02:45,515 - mcc_classifier.agent.Matheus - INFO - Performing risk tier classification for: C Collectibles 
+2025-04-02 17:03:03,253 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-02 17:03:03,255 - mcc_classifier.agent.Waki - INFO - Classifying merchant: C Collectibles 
+2025-04-02 17:03:03,255 - mcc_classifier.agent.Waki - INFO - Sending request to GPT for merchant: C Collectibles 
+2025-04-02 17:03:12,486 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-02 17:03:12,489 - mcc_classifier.data_handler - INFO - Writing 9 rows to output/custom_test_merchants_comparison_20250402_165934.csv
+2025-04-02 17:03:12,510 - mcc_classifier.data_handler - INFO - Successfully wrote data to output/custom_test_merchants_comparison_20250402_165934.csv
+2025-04-02 17:03:12,510 - mcc_classifier.evaluator - INFO - Evaluation complete. Results written to output/custom_test_merchants_comparison_20250402_165934.csv

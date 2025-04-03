@@ -1,0 +1,10 @@
+Merchant Name,Legal Name,Actual MCC,MCC Description,Rafa's suggested MCC,Rafa's MCC description,Rafa's confidence,Rafa's match,Matheus's suggested MCC,Matheus's MCC description,Matheus's confidence,Matheus's match,Waki's suggested MCC,Waki's MCC description,Waki's confidence,Waki's match
+Flawless Luxury Detailers,LEONARDO CABRE,7542,Car Washes,7542,Car Wash,0.95,Yes,7542,Car Wash,0.9,Yes,7299,Miscellaneous Personal Services,0.6,No
+Littys Cakes,JAMES CHRISTOPHER SHAHEEN,5462,Miscellaneous Food Stores – Convenience Stores and Specialty Markets,5812,Restaurants,0.95,No,5812,"Eating Places, Restaurants",1.0,No,7299,Miscellaneous Personal Services,0.6,No
+Don garcia gutters,JOSE A GARCIA RAMIREZ,5211,General Contractors—Residential and Commercial,1761,Roofing & Siding,0.95,No,1761,"Roofing & Siding – This category is more appropriate for a business specializing in gutters, which are typically associated with roofing services.",0.95,No,7299,Miscellaneous Personal Services,0.6,No
+Izbicki Transport LLC,RICHARD ANTHONY IZBICKI,4789,Transportation Services (Not Elsewhere Classified),4789,Transportation,0.95,Yes,4789,Transportation,1.0,Yes,7299,Miscellaneous Personal Services,0.6,No
+Forever Crafted ,MICHAEL DARNELL FURNACE,5970,"Artist Supply Stores, Craft Shops",5970,Arts & Crafts,0.85,Yes,5970,Arts & Crafts,0.9,Yes,7299,Miscellaneous Personal Services,0.6,No
+VisionsNHd,JEROME LEBRONE HENRY,5399,Miscellaneous General Merchandise Stores,7399,Other B2B Services,0.95,No,5812,"Eating Places, Restaurants",0.9,No,7299,Miscellaneous Personal Services,0.6,No
+taxi.com,NAVEEN SINGH,4789,Transportation Services (Not Elsewhere Classified),4789,Transportation,0.95,Yes,4789,Transportation,0.95,Yes,7299,Miscellaneous Personal Services,0.6,No
+C Collectibles ,CESAR LUIS CORTEZPEREZ,5945,"Hobby, Toy, and Game Shops",5947,Gifts & Souvenirs,0.95,No,5947,"Gift, Novelty, and Souvenir Shops – This category is appropriate for a collectibles business such as 'C Collectibles', where items of interest to collectors are sold.",0.9,No,7299,Miscellaneous Personal Services,0.6,No
+SUMMARY,,,,,,,Accuracy: 50.00%,,,,Accuracy: 50.00%,,,,Accuracy: 0.00%

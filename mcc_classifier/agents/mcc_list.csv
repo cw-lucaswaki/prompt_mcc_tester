@@ -1,0 +1,982 @@
+mcc,description,classification
+0742,Veterinary Services,Approved
+0763,Agricultural Co-operatives,Approved
+0780,"Horticultural Services, Landscaping Services",Approved
+1520,General Contractors-Residential and Commercial,Restricted
+1711,"Air Conditioning Contractors – Sales and Installation, Heating Contractors – Sales, Service, Installation",Restricted
+1731,Electrical Contractors,Restricted
+1740,"Insulation – Contractors, Masonry, Stonework Contractors, Plastering Contractors, Stonework and Masonry Contractors, Tile Settings Contractors",Restricted
+1750,Carpentry Contractors,Restricted
+1761,"Roofing – Contractors, Sheet Metal Work – Contractors, Siding – Contractors",Restricted
+1771,Contractors – Concrete Work,Restricted
+1799,"Contractors – Special Trade, Not Elsewhere Classified",Restricted
+2741,Miscellaneous Publishing and Printing,Restricted
+2791,"Typesetting, Plate Making, & Related Services",Approved
+2842,"Specialty Cleaning, Polishing, and Sanitation Preparations",Restricted
+3000,UNITED AIRLINES,Pre-Approval
+3001,AMERICAN AIRLINES,Pre-Approval
+3002,PAN AMERICAN,Pre-Approval
+3003,Airlines,Pre-Approval
+3004,TRANS WORLD AIRLINES,Pre-Approval
+3005,BRITISH AIRWAYS,Pre-Approval
+3006,JAPAN AIRLINES,Pre-Approval
+3007,AIR FRANCE,Pre-Approval
+3008,LUFTHANSA,Pre-Approval
+3009,AIR CANADA,Pre-Approval
+3010,KLM (ROYAL DUTCH AIRLINES),Pre-Approval
+3011,AEORFLOT,Pre-Approval
+3012,QANTAS,Pre-Approval
+3013,ALITALIA,Pre-Approval
+3014,SAUDIA ARABIAN AIRLINES,Pre-Approval
+3015,SWISSAIR,Pre-Approval
+3016,SAS,Pre-Approval
+3017,SOUTH AFRICAN AIRWAYS,Pre-Approval
+3018,VARIG (BRAZIL),Pre-Approval
+3019,Airlines,Pre-Approval
+3020,AIR-INDIA,Pre-Approval
+3021,AIR ALGERIE,Pre-Approval
+3022,PHILIPPINE AIRLINES,Pre-Approval
+3023,MEXICANA,Pre-Approval
+3024,PAKISTAN INTERNATIONAL,Pre-Approval
+3025,AIR NEW ZEALAND,Pre-Approval
+3026,Airlines,Pre-Approval
+3027,UTA/INTERAIR,Pre-Approval
+3028,AIR MALTA,Pre-Approval
+3029,SABENA,Pre-Approval
+3030,AEROLINEAS ARGENTINAS,Pre-Approval
+3031,OLYMPIC AIRWAYS,Pre-Approval
+3032,EL AL,Pre-Approval
+3033,ANSETT AIRLINES,Pre-Approval
+3034,AUSTRAINLIAN AIRLINES,Pre-Approval
+3035,TAP (PORTUGAL),Pre-Approval
+3036,VASP (BRAZIL),Pre-Approval
+3037,EGYPTAIR,Pre-Approval
+3038,KUWAIT AIRLINES,Pre-Approval
+3039,AVIANCA,Pre-Approval
+3040,GULF AIR (BAHRAIN),Pre-Approval
+3041,BALKAN-BULGARIAN AIRLINES,Pre-Approval
+3042,FINNAIR,Pre-Approval
+3043,AER LINGUS,Pre-Approval
+3044,AIR LANKA,Pre-Approval
+3045,NIGERIA AIRWAYS,Pre-Approval
+3046,CRUZEIRO DO SUL (BRAZIJ),Pre-Approval
+3047,THY (TURKEY),Pre-Approval
+3048,ROYAL AIR MAROC,Pre-Approval
+3049,TUNIS AIR,Pre-Approval
+3050,ICELANDAIR,Pre-Approval
+3051,AUSTRIAN AIRLINES,Pre-Approval
+3052,LANCHILE,Pre-Approval
+3053,AVIACO (SPAIN),Pre-Approval
+3054,LADECO (CHILE),Pre-Approval
+3055,LAB (BOLIVIA),Pre-Approval
+3056,QUEBECAIRE,Pre-Approval
+3057,EASTWEST AIRLINES (AUSTRALIA),Pre-Approval
+3058,DELTA,Pre-Approval
+3059,Airlines,Pre-Approval
+3060,NORTHWEST,Pre-Approval
+3061,CONTINENTAL,Pre-Approval
+3062,WESTERN,Pre-Approval
+3063,US AIR,Pre-Approval
+3064,Airlines,Pre-Approval
+3065,AIRINTER,Pre-Approval
+3066,SOUTHWEST,Pre-Approval
+3067,Airlines,Pre-Approval
+3068,Airlines,Pre-Approval
+3069,SUN COUNTRY AIRLINES,Pre-Approval
+3070,Airlines,Pre-Approval
+3071,AIR BRITISH COLUBIA,Pre-Approval
+3072,Airlines,Pre-Approval
+3073,Airlines,Pre-Approval
+3074,Airlines,Pre-Approval
+3075,SINGAPORE AIRLINES,Pre-Approval
+3076,AEROMEXICO,Pre-Approval
+3077,THAI AIRWAYS,Pre-Approval
+3078,CHINA AIRLINES,Pre-Approval
+3079,Airlines,Pre-Approval
+3080,Airlines,Pre-Approval
+3081,NORDAIR,Pre-Approval
+3082,KOREAN AIRLINES,Pre-Approval
+3083,AIR AFRIGUE,Pre-Approval
+3084,EVA AIRLINES,Pre-Approval
+3085,"MIDWEST EXPRESS AIRLINES, INC.",Pre-Approval
+3086,Airlines,Pre-Approval
+3087,METRO AIRLINES,Pre-Approval
+3088,CROATIA AIRLINES,Pre-Approval
+3089,TRANSAERO,Pre-Approval
+3090,Airlines,Pre-Approval
+3091,Airlines,Pre-Approval
+3092,Airlines,Pre-Approval
+3093,Airlines,Pre-Approval
+3094,ZAMBIA AIRWAYS,Pre-Approval
+3095,Airlines,Pre-Approval
+3096,AIR ZIMBABWE,Pre-Approval
+3097,Airlines,Pre-Approval
+3098,Airlines,Pre-Approval
+3099,CATHAY PACIFIC,Pre-Approval
+3100,MALAYSIAN AIRLINE SYSTEM,Pre-Approval
+3101,Airlines,Pre-Approval
+3102,IBERIA,Pre-Approval
+3103,GARUDA (INDONESIA),Pre-Approval
+3104,Airlines,Pre-Approval
+3105,Airlines,Pre-Approval
+3106,BRAATHENS S.A.F.E. (NORWAY),Pre-Approval
+3107,Airlines,Pre-Approval
+3108,Airlines,Pre-Approval
+3109,Airlines,Pre-Approval
+3110,WINGS AIRWAYS,Pre-Approval
+3111,BRITISH MIDLAND,Pre-Approval
+3112,WINDWARD ISLAND,Pre-Approval
+3113,Airlines,Pre-Approval
+3114,Airlines,Pre-Approval
+3115,Airlines,Pre-Approval
+3116,Airlines,Pre-Approval
+3117,VIASA,Pre-Approval
+3118,VALLEY AIRLINES,Pre-Approval
+3119,Airlines,Pre-Approval
+3120,Airlines,Pre-Approval
+3121,Airlines,Pre-Approval
+3122,Airlines,Pre-Approval
+3123,Airlines,Pre-Approval
+3124,Airlines,Pre-Approval
+3125,TAN,Pre-Approval
+3126,TALAIR,Pre-Approval
+3127,TACA INTERNATIONAL,Pre-Approval
+3128,Airlines,Pre-Approval
+3129,SURINAM AIRWAYS,Pre-Approval
+3130,SUN WORLD INTERNATIONAL,Pre-Approval
+3131,Airlines,Pre-Approval
+3132,Airlines,Pre-Approval
+3133,SUNBELT AIRLINES,Pre-Approval
+3134,Airlines,Pre-Approval
+3135,SUDAN AIRWAYS,Pre-Approval
+3136,Airlines,Pre-Approval
+3137,SINGLETON,Pre-Approval
+3138,SIMMONS AIRLINES,Pre-Approval
+3139,Airlines,Pre-Approval
+3140,Airlines,Pre-Approval
+3141,Airlines,Pre-Approval
+3142,Airlines,Pre-Approval
+3143,SCENIC AIRLINES,Pre-Approval
+3144,VIRGIN ATLANTIC,Pre-Approval
+3145,SAN JUAN AIRLINES,Pre-Approval
+3146,LUXAIR,Pre-Approval
+3147,Airlines,Pre-Approval
+3148,Airlines,Pre-Approval
+3149,Airlines,Pre-Approval
+3150,Airlines,Pre-Approval
+3151,AIR ZAIRE,Pre-Approval
+3152,Airlines,Pre-Approval
+3153,Airlines,Pre-Approval
+3154,PRINCEVILLE,Pre-Approval
+3155,Airlines,Pre-Approval
+3156,Airlines,Pre-Approval
+3157,Airlines,Pre-Approval
+3158,Airlines,Pre-Approval
+3159,PBA,Pre-Approval
+3160,Airlines,Pre-Approval
+3161,ALL NIPPON AIRWAYS,Pre-Approval
+3162,Airlines,Pre-Approval
+3163,Airlines,Pre-Approval
+3164,NORONTAIR,Pre-Approval
+3165,NEW YORK HELICOPTER,Pre-Approval
+3166,Airlines,Pre-Approval
+3167,Airlines,Pre-Approval
+3168,Airlines,Pre-Approval
+3169,Airlines,Pre-Approval
+3170,NOUNT COOK,Pre-Approval
+3171,CANADIAN AIRLINES INTERNATIONAL,Pre-Approval
+3172,NATIONAIR,Pre-Approval
+3173,Airlines,Pre-Approval
+3174,Airlines,Pre-Approval
+3175,Airlines,Pre-Approval
+3176,METROFLIGHT AIRLINES,Pre-Approval
+3177,Airlines,Pre-Approval
+3178,MESA AIR,Pre-Approval
+3179,Airlines,Pre-Approval
+3180,Airlines,Pre-Approval
+3181,MALEV,Pre-Approval
+3182,LOT (POLAND),Pre-Approval
+3183,Airlines,Pre-Approval
+3184,LIAT,Pre-Approval
+3185,LAV (VENEZUELA),Pre-Approval
+3186,LAP (PARAGUAY),Pre-Approval
+3187,LACSA (COSTA RICA),Pre-Approval
+3188,Airlines,Pre-Approval
+3189,Airlines,Pre-Approval
+3190,JUGOSLAV AIR,Pre-Approval
+3191,ISLAND AIRLINES,Pre-Approval
+3192,IRAN AIR,Pre-Approval
+3193,INDIAN AIRLINES,Pre-Approval
+3194,Airlines,Pre-Approval
+3195,Airlines,Pre-Approval
+3196,HAWAIIAN AIR,Pre-Approval
+3197,HAVASU AIRLINES,Pre-Approval
+3198,Airlines,Pre-Approval
+3199,Airlines,Pre-Approval
+3200,FUYANA AIRWAYS,Pre-Approval
+3201,Airlines,Pre-Approval
+3202,Airlines,Pre-Approval
+3203,GOLDEN PACIFIC AIR,Pre-Approval
+3204,FREEDOM AIR,Pre-Approval
+3205,Airlines,Pre-Approval
+3206,Airlines,Pre-Approval
+3207,Airlines,Pre-Approval
+3208,Airlines,Pre-Approval
+3209,Airlines,Pre-Approval
+3210,Airlines,Pre-Approval
+3211,Airlines,Pre-Approval
+3212,DOMINICANA,Pre-Approval
+3213,Airlines,Pre-Approval
+3214,Airlines,Pre-Approval
+3215,DAN AIR SERVICES,Pre-Approval
+3216,CUMBERLAND AIRLINES,Pre-Approval
+3217,CSA,Pre-Approval
+3218,CROWN AIR,Pre-Approval
+3219,COPA,Pre-Approval
+3220,COMPANIA FAUCETT,Pre-Approval
+3221,TRANSPORTES AEROS MILITARES ECCUATORANOS,Pre-Approval
+3222,COMMAND AIRWAYS,Pre-Approval
+3223,COMAIR,Pre-Approval
+3224,Airlines,Pre-Approval
+3225,Airlines,Pre-Approval
+3226,Airlines,Pre-Approval
+3227,Airlines,Pre-Approval
+3228,CAYMAN AIRWAYS,Pre-Approval
+3229,SAETA SOCIAEDAD ECUATORIANOS DE TRANSPORTES AEREOS,Pre-Approval
+3230,Airlines,Pre-Approval
+3231,SASHA SERVICIO AERO DE HONDURAS,Pre-Approval
+3232,Airlines,Pre-Approval
+3233,CAPITOL AIR,Pre-Approval
+3234,BWIA,Pre-Approval
+3235,BROKWAY AIR,Pre-Approval
+3236,Airlines,Pre-Approval
+3237,Airlines,Pre-Approval
+3238,BEMIDJI AIRLINES,Pre-Approval
+3239,BAR HARBOR AIRLINES,Pre-Approval
+3240,BAHAMASAIR,Pre-Approval
+3241,AVIATECA (GUATEMALA),Pre-Approval
+3242,AVENSA,Pre-Approval
+3243,AUSTRIAN AIR SERVICE,Pre-Approval
+3244,Airlines,Pre-Approval
+3245,Airlines,Pre-Approval
+3246,Airlines,Pre-Approval
+3247,Airlines,Pre-Approval
+3248,Airlines,Pre-Approval
+3249,Airlines,Pre-Approval
+3250,Airlines,Pre-Approval
+3251,ALOHA AIRLINES,Pre-Approval
+3252,ALM,Pre-Approval
+3253,AMERICA WEST,Pre-Approval
+3254,TRUMP AIRLINE,Pre-Approval
+3255,Airlines,Pre-Approval
+3256,ALASKA AIRLINES,Pre-Approval
+3257,Airlines,Pre-Approval
+3258,Airlines,Pre-Approval
+3259,AMERICAN TRANS AIR,Pre-Approval
+3260,Airlines,Pre-Approval
+3261,AIR CHINA,Pre-Approval
+3262,"RENO AIR, INC.",Pre-Approval
+3263,Airlines,Pre-Approval
+3264,Airlines,Pre-Approval
+3265,Airlines,Pre-Approval
+3266,AIR SEYCHELLES,Pre-Approval
+3267,AIR PANAMA,Pre-Approval
+3268,Airlines,Pre-Approval
+3269,Airlines,Pre-Approval
+3270,Airlines,Pre-Approval
+3271,Airlines,Pre-Approval
+3272,Airlines,Pre-Approval
+3273,Airlines,Pre-Approval
+3274,Airlines,Pre-Approval
+3275,Airlines,Pre-Approval
+3276,Airlines,Pre-Approval
+3277,Airlines,Pre-Approval
+3278,Airlines,Pre-Approval
+3279,Airlines,Pre-Approval
+3280,AIR JAMAICA,Pre-Approval
+3281,Airlines,Pre-Approval
+3282,AIR DJIBOUTI,Pre-Approval
+3283,Airlines,Pre-Approval
+3284,AERO VIRGIN ISLANDS,Pre-Approval
+3285,AERO PERU,Pre-Approval
+3286,AEROLINEAS NICARAGUENSIS,Pre-Approval
+3287,AERO COACH AVAIATION,Pre-Approval
+3288,Airlines,Pre-Approval
+3289,Airlines,Pre-Approval
+3290,Airlines,Pre-Approval
+3291,ARIANA AFGHAN,Pre-Approval
+3292,CYPRUS AIRWAYS,Pre-Approval
+3293,ECUATORIANA,Pre-Approval
+3294,ETHIOPIAN AIRLINES,Pre-Approval
+3295,KENYA AIRLINES,Pre-Approval
+3296,Airlines,Pre-Approval
+3297,Airlines,Pre-Approval
+3298,AIR MAURITIUS,Pre-Approval
+3299,WIDERO'S FLYVESELSKAP,Pre-Approval
+3351,AFFILIATED AUTO RENTAL,Restricted
+3352,AMERICAN INTL RENT-A-CAR,Restricted
+3353,BROOKS RENT-A-CAR,Restricted
+3354,ACTION AUTO RENTAL,Restricted
+3355,Car Rental,Restricted
+3356,Car Rental,Restricted
+3357,HERTZ RENT-A-CAR,Restricted
+3358,Car Rental,Restricted
+3359,PAYLESS CAR RENTAL,Restricted
+3360,SNAPPY CAR RENTAL,Restricted
+3361,AIRWAYS RENT-A-CAR,Restricted
+3362,ALTRA AUTO RENTAL,Restricted
+3363,Car Rental,Restricted
+3364,AGENCY RENT-A-CAR,Restricted
+3365,Car Rental,Restricted
+3366,BUDGET RENT-A-CAR,Restricted
+3367,Car Rental,Restricted
+3368,HOLIDAY RENT-A-WRECK,Restricted
+3369,Car Rental,Restricted
+3370,RENT-A-WRECK,Restricted
+3371,Car Rental,Restricted
+3372,Car Rental,Restricted
+3373,Car Rental,Restricted
+3374,Car Rental,Restricted
+3375,Car Rental,Restricted
+3376,AJAX RENT-A-CAR,Restricted
+3377,Car Rental,Restricted
+3378,Car Rental,Restricted
+3379,Car Rental,Restricted
+3380,Car Rental,Restricted
+3381,EUROP CAR,Restricted
+3382,Car Rental,Restricted
+3383,Car Rental,Restricted
+3384,Car Rental,Restricted
+3385,TROPICAL RENT-A-CAR,Restricted
+3386,SHOWCASE RENTAL CARS,Restricted
+3387,ALAMO RENT-A-CAR,Restricted
+3388,Car Rental,Restricted
+3389,AVIS RENT-A-CAR,Restricted
+3390,DOLLAR RENT-A-CAR,Restricted
+3391,EUROPE BY CAR,Restricted
+3392,Car Rental,Restricted
+3393,NATIONAL CAR RENTAL,Restricted
+3394,KEMWELL GROUP RENT-A-CAR,Restricted
+3395,THRIFTY RENT-A-CAR,Restricted
+3396,TILDEN TENT-A-CAR,Restricted
+3397,Car Rental,Restricted
+3398,ECONO-CAR RENT-A-CAR,Restricted
+3399,Car Rental,Restricted
+3400,AUTO HOST COST CAR RENTALS,Restricted
+3401,Car Rental,Restricted
+3402,Car Rental,Restricted
+3403,Car Rental,Restricted
+3404,Car Rental,Restricted
+3405,ENTERPRISE RENT-A-CAR,Restricted
+3406,Car Rental,Restricted
+3407,Car Rental,Restricted
+3408,Car Rental,Restricted
+3409,GENERAL RENT-A-CAR,Restricted
+3410,Car Rental,Restricted
+3411,Car Rental,Restricted
+3412,A-1 RENT-A-CAR,Restricted
+3413,Car Rental,Restricted
+3414,GODFREY NATL RENT-A-CAR,Restricted
+3415,Car Rental,Restricted
+3416,Car Rental,Restricted
+3417,Car Rental,Restricted
+3418,Car Rental,Restricted
+3419,ALPHA RENT-A-CAR,Restricted
+3420,ANSA INTL RENT-A-CAR,Restricted
+3421,ALLSTAE RENT-A-CAR,Restricted
+3422,Car Rental,Restricted
+3423,AVCAR RENT-A-CAR,Restricted
+3424,Car Rental,Restricted
+3425,AUTOMATE RENT-A-CAR,Restricted
+3426,Car Rental,Restricted
+3427,AVON RENT-A-CAR,Restricted
+3428,CAREY RENT-A-CAR,Restricted
+3429,INSURANCE RENT-A-CAR,Restricted
+3430,MAJOR RENT-A-CAR,Restricted
+3431,REPLACEMENT RENT-A-CAR,Restricted
+3432,RESERVE RENT-A-CAR,Restricted
+3433,UGLY DUCKLING RENT-A-CAR,Restricted
+3434,USA RENT-A-CAR,Restricted
+3435,VALUE RENT-A-CAR,Restricted
+3436,AUTOHANSA RENT-A-CAR,Restricted
+3437,CITE RENT-A-CAR,Restricted
+3438,INTERENT RENT-A-CAR,Restricted
+3439,MILLEVILLE RENT-A-CAR,Restricted
+3440,VIA ROUTE RENT-A-CAR,Restricted
+3441,Car Rental,Restricted
+3501,"HOLIDAY INNS, HOLIDAY INN EXPRESS",Pre-Approval
+3502,BEST WESTERN HOTELS,Pre-Approval
+3503,SHERATON HOTELS,Pre-Approval
+3504,HILTON HOTELS,Pre-Approval
+3505,FORTE HOTELS,Pre-Approval
+3506,GOLDEN TULIP HOTELS,Pre-Approval
+3507,FRIENDSHIP INNS,Pre-Approval
+3508,"QUALITY INNS, QUALITY SUITES",Pre-Approval
+3509,MARRIOTT HOTELS,Pre-Approval
+3510,"DAYS INN, DAYSTOP",Pre-Approval
+3511,ARABELLA HOTELS,Pre-Approval
+3512,INTER-CONTINENTAL HOTELS,Pre-Approval
+3513,WESTIN HOTELS,Pre-Approval
+3514,Hotels/Motels/Inns/Resorts,Pre-Approval
+3515,RODEWAY INNS,Pre-Approval
+3516,LA QUINTA MOTOR INNS,Pre-Approval
+3517,AMERICANA HOTELS,Pre-Approval
+3518,SOL HOTELS,Pre-Approval
+3519,PULLMAN INTERNATIONAL HOTELS,Pre-Approval
+3520,MERIDIEN HOTELS,Pre-Approval
+3521,CREST HOTELS (see FORTE HOTELS),Pre-Approval
+3522,TOKYO HOTEL,Pre-Approval
+3523,PENNSULA HOTEL,Pre-Approval
+3524,WELCOMGROUP HOTELS,Pre-Approval
+3525,DUNFEY HOTELS,Pre-Approval
+3526,Hotels/Motels/Inns/Resorts,Pre-Approval
+3527,DOWNTOWNER-PASSPORT HOTEL,Pre-Approval
+3528,"RED LION HOTELS, RED LION INNS",Pre-Approval
+3529,CP HOTELS,Pre-Approval
+3530,"RENAISSANCE HOTELS, STOUFFER HOTELS",Pre-Approval
+3531,ASTIR HOTELS,Pre-Approval
+3532,SUN ROUTE HOTELS,Pre-Approval
+3533,HOTEL IBIS,Pre-Approval
+3534,SOUTHERN PACIFIC HOTELS,Pre-Approval
+3535,HILTON INTERNATIONAL,Pre-Approval
+3536,AMFAC HOTELS,Pre-Approval
+3537,ANA HOTEL,Pre-Approval
+3538,CONCORDE HOTELS,Pre-Approval
+3539,Hotels/Motels/Inns/Resorts,Pre-Approval
+3540,IBEROTEL HOTELS,Pre-Approval
+3541,HOTEL OKURA,Pre-Approval
+3542,ROYAL HOTELS,Pre-Approval
+3543,FOUR SEASONS HOTELS,Pre-Approval
+3544,CIGA HOTELS,Pre-Approval
+3545,SHANGRI-LA INTERNATIONAL,Pre-Approval
+3546,Hotels/Motels/Inns/Resorts,Pre-Approval
+3547,Hotels/Motels/Inns/Resorts,Pre-Approval
+3548,HOTELES MELIA,Pre-Approval
+3549,AUBERGE DES GOVERNEURS,Pre-Approval
+3550,REGAL 8 INNS,Pre-Approval
+3551,Hotels/Motels/Inns/Resorts,Pre-Approval
+3552,COAST HOTELS,Pre-Approval
+3553,PARK INNS INTERNATIONAL,Pre-Approval
+3554,Hotels/Motels/Inns/Resorts,Pre-Approval
+3555,Hotels/Motels/Inns/Resorts,Pre-Approval
+3556,Hotels/Motels/Inns/Resorts,Pre-Approval
+3557,Hotels/Motels/Inns/Resorts,Pre-Approval
+3558,JOLLY HOTELS,Pre-Approval
+3559,Hotels/Motels/Inns/Resorts,Pre-Approval
+3560,Hotels/Motels/Inns/Resorts,Pre-Approval
+3561,Hotels/Motels/Inns/Resorts,Pre-Approval
+3562,COMFORT INNS,Pre-Approval
+3563,JOURNEY'S END MOTLS,Pre-Approval
+3564,Hotels/Motels/Inns/Resorts,Pre-Approval
+3565,RELAX INNS,Pre-Approval
+3566,Hotels/Motels/Inns/Resorts,Pre-Approval
+3567,Hotels/Motels/Inns/Resorts,Pre-Approval
+3568,LADBROKE HOTELS,Pre-Approval
+3569,Hotels/Motels/Inns/Resorts,Pre-Approval
+3570,FORUM HOTELS,Pre-Approval
+3571,Hotels/Motels/Inns/Resorts,Pre-Approval
+3572,MIYAKO HOTELS,Pre-Approval
+3573,SANDMAN HOTELS,Pre-Approval
+3574,VENTURE INNS,Pre-Approval
+3575,VAGABOND HOTELS,Pre-Approval
+3576,Hotels/Motels/Inns/Resorts,Pre-Approval
+3577,MANDARIN ORIENTAL HOTEL,Pre-Approval
+3578,Hotels/Motels/Inns/Resorts,Pre-Approval
+3579,HOTEL MERCURE,Pre-Approval
+3580,Hotels/Motels/Inns/Resorts,Pre-Approval
+3581,DELTA HOTEL,Pre-Approval
+3582,Hotels/Motels/Inns/Resorts,Pre-Approval
+3583,SAS HOTELS,Pre-Approval
+3584,PRINCESS HOTELS INTERNATIONAL,Pre-Approval
+3585,HUNGAR HOTELS,Pre-Approval
+3586,SOKOS HOTELS,Pre-Approval
+3587,DORAL HOTELS,Pre-Approval
+3588,HELMSLEY HOTELS,Pre-Approval
+3589,Hotels/Motels/Inns/Resorts,Pre-Approval
+3590,FAIRMONT HOTELS,Pre-Approval
+3591,SONESTA HOTELS,Pre-Approval
+3592,OMNI HOTELS,Pre-Approval
+3593,CUNARD HOTELS,Pre-Approval
+3594,Hotels/Motels/Inns/Resorts,Pre-Approval
+3595,HOSPITALITY INTERNATIONAL,Pre-Approval
+3596,Hotels/Motels/Inns/Resorts,Pre-Approval
+3597,Hotels/Motels/Inns/Resorts,Pre-Approval
+3598,REGENT INTERNATIONAL HOTELS,Pre-Approval
+3599,PANNONIA HOTELS,Pre-Approval
+3600,Hotels/Motels/Inns/Resorts,Pre-Approval
+3601,Hotels/Motels/Inns/Resorts,Pre-Approval
+3602,Hotels/Motels/Inns/Resorts,Pre-Approval
+3603,NOAH'S HOTELS,Pre-Approval
+3604,Hotels/Motels/Inns/Resorts,Pre-Approval
+3605,Hotels/Motels/Inns/Resorts,Pre-Approval
+3606,Hotels/Motels/Inns/Resorts,Pre-Approval
+3607,Hotels/Motels/Inns/Resorts,Pre-Approval
+3608,Hotels/Motels/Inns/Resorts,Pre-Approval
+3609,Hotels/Motels/Inns/Resorts,Pre-Approval
+3610,Hotels/Motels/Inns/Resorts,Pre-Approval
+3611,Hotels/Motels/Inns/Resorts,Pre-Approval
+3612,MOVENPICK HOTELS,Pre-Approval
+3613,Hotels/Motels/Inns/Resorts,Pre-Approval
+3614,Hotels/Motels/Inns/Resorts,Pre-Approval
+3615,TRAVELODGE,Pre-Approval
+3616,Hotels/Motels/Inns/Resorts,Pre-Approval
+3617,Hotels/Motels/Inns/Resorts,Pre-Approval
+3618,Hotels/Motels/Inns/Resorts,Pre-Approval
+3619,Hotels/Motels/Inns/Resorts,Pre-Approval
+3620,TELFORD INTERNATIONAL,Pre-Approval
+3621,Hotels/Motels/Inns/Resorts,Pre-Approval
+3622,MERLIN HOTELS,Pre-Approval
+3623,DORINT HOTELS,Pre-Approval
+3624,Hotels/Motels/Inns/Resorts,Pre-Approval
+3625,HOTLE UNIVERSALE,Pre-Approval
+3626,PRINCE HOTELS,Pre-Approval
+3627,Hotels/Motels/Inns/Resorts,Pre-Approval
+3628,Hotels/Motels/Inns/Resorts,Pre-Approval
+3629,DAN HOTELS,Pre-Approval
+3630,Hotels/Motels/Inns/Resorts,Pre-Approval
+3631,Hotels/Motels/Inns/Resorts,Pre-Approval
+3632,Hotels/Motels/Inns/Resorts,Pre-Approval
+3633,RANK HOTELS,Pre-Approval
+3634,SWISSOTEL,Pre-Approval
+3635,RESO HOTELS,Pre-Approval
+3636,SAROVA HOTELS,Pre-Approval
+3637,"RAMADA INNS, RAMADA LIMITED",Pre-Approval
+3638,"HO JO INN, HOWARD JOHNSON",Pre-Approval
+3639,MOUNT CHARLOTTE THISTLE,Pre-Approval
+3640,HYATT HOTEL,Pre-Approval
+3641,SOFITEL HOTELS,Pre-Approval
+3642,NOVOTEL HOTELS,Pre-Approval
+3643,STEIGENBERGER HOTELS,Pre-Approval
+3644,ECONO LODGES,Pre-Approval
+3645,QUEENS MOAT HOUSES,Pre-Approval
+3646,SWALLOW HOTELS,Pre-Approval
+3647,HUSA HOTELS,Pre-Approval
+3648,DE VERE HOTELS,Pre-Approval
+3649,RADISSON HOTELS,Pre-Approval
+3650,RED ROOK INNS,Pre-Approval
+3651,IMPERIAL LONDON HOTEL,Pre-Approval
+3652,EMBASSY HOTELS,Pre-Approval
+3653,PENTA HOTELS,Pre-Approval
+3654,LOEWS HOTELS,Pre-Approval
+3655,SCANDIC HOTELS,Pre-Approval
+3656,SARA HOTELS,Pre-Approval
+3657,OBEROI HOTELS,Pre-Approval
+3658,OTANI HOTELS,Pre-Approval
+3659,TAJ HOTELS INTERNATIONAL,Pre-Approval
+3660,KNIGHTS INNS,Pre-Approval
+3661,METROPOLE HOTELS,Pre-Approval
+3662,Hotels/Motels/Inns/Resorts,Pre-Approval
+3663,HOTELES EL PRESIDENTS,Pre-Approval
+3664,FLAG INN,Pre-Approval
+3665,HAMPTON INNS,Pre-Approval
+3666,STAKIS HOTELS,Pre-Approval
+3667,Hotels/Motels/Inns/Resorts,Pre-Approval
+3668,MARITIM HOTELS,Pre-Approval
+3669,Hotels/Motels/Inns/Resorts,Pre-Approval
+3670,ARCARD HOTELS,Pre-Approval
+3671,ARCTIA HOTELS,Pre-Approval
+3672,CAMPANIEL HOTELS,Pre-Approval
+3673,IBUSZ HOTELS,Pre-Approval
+3674,RANTASIPI HOTELS,Pre-Approval
+3675,INTERHOTEL CEDOK,Pre-Approval
+3676,Hotels/Motels/Inns/Resorts,Pre-Approval
+3677,CLIMAT DE FRANCE HOTELS,Pre-Approval
+3678,CUMULUS HOTELS,Pre-Approval
+3679,DANUBIUS HOTEL,Pre-Approval
+3680,Hotels/Motels/Inns/Resorts,Pre-Approval
+3681,ADAMS MARK HOTELS,Pre-Approval
+3682,ALLSTAR INNS,Pre-Approval
+3683,Hotels/Motels/Inns/Resorts,Pre-Approval
+3684,BUDGET HOST INNS,Pre-Approval
+3685,BUDGETEL HOTELS,Pre-Approval
+3686,SUISSE CHALETS,Pre-Approval
+3687,CLARION HOTELS,Pre-Approval
+3688,COMPRI HOTELS,Pre-Approval
+3689,CONSORT HOTELS,Pre-Approval
+3690,COURTYARD BY MARRIOTT,Pre-Approval
+3691,DILLION INNS,Pre-Approval
+3692,DOUBLETREE HOTELS,Pre-Approval
+3693,DRURY INNS,Pre-Approval
+3694,ECONOMY INNS OF AMERICA,Pre-Approval
+3695,EMBASSY SUITES,Pre-Approval
+3696,EXEL INNS,Pre-Approval
+3697,FARFIELD HOTELS,Pre-Approval
+3698,HARLEY HOTELS,Pre-Approval
+3699,MIDWAY MOTOR LODGE,Pre-Approval
+3700,MOTEL 6,Pre-Approval
+3701,GUEST QUARTERS (Formally PICKETT SUITE HOTELS),Pre-Approval
+3702,THE REGISTRY HOTELS,Pre-Approval
+3703,RESIDENCE INNS,Pre-Approval
+3704,ROYCE HOTELS,Pre-Approval
+3705,SANDMAN INNS,Pre-Approval
+3706,SHILO INNS,Pre-Approval
+3707,SHONEY'S INNS,Pre-Approval
+3708,Hotels/Motels/Inns/Resorts,Pre-Approval
+3709,SUPER8 MOTELS,Pre-Approval
+3710,THE RITZ CARLTON HOTELS,Pre-Approval
+3711,FLAG INNS (AUSRALIA),Pre-Approval
+3712,GOLDEN CHAIN HOTEL,Pre-Approval
+3713,QUALITY PACIFIC HOTEL,Pre-Approval
+3714,FOUR SEASONS HOTEL (AUSTRALIA),Pre-Approval
+3715,FARIFIELD INN,Pre-Approval
+3716,CARLTON HOTELS,Pre-Approval
+3717,CITY LODGE HOTELS,Pre-Approval
+3718,KAROS HOTELS,Pre-Approval
+3719,PROTEA HOTELS,Pre-Approval
+3720,SOUTHERN SUN HOTELS,Pre-Approval
+3721,HILTON CONRAD,Pre-Approval
+3722,WYNDHAM HOTEL AND RESORTS,Pre-Approval
+3723,RICA HOTELS,Pre-Approval
+3724,INER NOR HOTELS,Pre-Approval
+3725,SEAINES PLANATION,Pre-Approval
+3726,RIO SUITES,Pre-Approval
+3727,BROADMOOR HOTEL,Pre-Approval
+3728,BALLY'S HOTEL AND CASINO,Pre-Approval
+3729,JOHN ASCUAGA'S NUGGET,Pre-Approval
+3730,MGM GRAND HOTEL,Pre-Approval
+3731,HARRAH'S HOTELS AND CASINOS,Pre-Approval
+3732,OPRYLAND HOTEL,Pre-Approval
+3733,BOCA RATON RESORT,Pre-Approval
+3734,HARVEY/BRISTOL HOTELS,Pre-Approval
+3735,Hotels/Motels/Inns/Resorts,Pre-Approval
+3736,COLORADO BELLE/EDGEWATER RESORT,Pre-Approval
+3737,RIVIERA HOTEL AND CASINO,Pre-Approval
+3738,TROPICANA RESORT AND CASINO,Pre-Approval
+3739,WOODSIDE HOTELS AND RESORTS,Pre-Approval
+3740,TOWNPLACE SUITES,Pre-Approval
+3741,MILLENIUM BROADWAY HOTEL,Pre-Approval
+3742,CLUB MED,Pre-Approval
+3743,BILTMORE HOTEL AND SUITES,Pre-Approval
+3744,CAREFREE RESORTS,Pre-Approval
+3745,ST. REGIS HOTEL,Pre-Approval
+3746,THE ELIOT HOTEL,Pre-Approval
+3747,CLUBCORP/CLUB RESORTS,Pre-Approval
+3748,WELESLEY INNS,Pre-Approval
+3749,THE BEVERLY HILLS HOTEL,Pre-Approval
+3750,CROWNE PLAZA HOTELS,Pre-Approval
+3751,HOMEWOOD SUITES,Pre-Approval
+3752,PEABODY HOTELS,Pre-Approval
+3753,GREENBRIAH RESORTS,Pre-Approval
+3754,AMELIA ISLAND PLANATION,Pre-Approval
+3755,THE HOMESTEAD,Pre-Approval
+3756,SOUTH SEAS RESORTS,Pre-Approval
+3757,Hotels/Motels/Inns/Resorts,Pre-Approval
+3758,Hotels/Motels/Inns/Resorts,Pre-Approval
+3759,Hotels/Motels/Inns/Resorts,Pre-Approval
+3760,Hotels/Motels/Inns/Resorts,Pre-Approval
+3761,Hotels/Motels/Inns/Resorts,Pre-Approval
+3762,Hotels/Motels/Inns/Resorts,Pre-Approval
+3763,Hotels/Motels/Inns/Resorts,Pre-Approval
+3764,Hotels/Motels/Inns/Resorts,Pre-Approval
+3765,Hotels/Motels/Inns/Resorts,Pre-Approval
+3766,Hotels/Motels/Inns/Resorts,Pre-Approval
+3767,Hotels/Motels/Inns/Resorts,Pre-Approval
+3768,Hotels/Motels/Inns/Resorts,Pre-Approval
+3769,Hotels/Motels/Inns/Resorts,Pre-Approval
+3770,Hotels/Motels/Inns/Resorts,Pre-Approval
+3771,Hotels/Motels/Inns/Resorts,Pre-Approval
+3772,Hotels/Motels/Inns/Resorts,Pre-Approval
+3773,Hotels/Motels/Inns/Resorts,Pre-Approval
+3774,Hotels/Motels/Inns/Resorts,Pre-Approval
+3775,Hotels/Motels/Inns/Resorts,Pre-Approval
+3776,Hotels/Motels/Inns/Resorts,Pre-Approval
+3777,Hotels/Motels/Inns/Resorts,Pre-Approval
+3778,Hotels/Motels/Inns/Resorts,Pre-Approval
+3779,Hotels/Motels/Inns/Resorts,Pre-Approval
+3780,Hotels/Motels/Inns/Resorts,Pre-Approval
+3781,Hotels/Motels/Inns/Resorts,Pre-Approval
+3782,Hotels/Motels/Inns/Resorts,Pre-Approval
+3783,Hotels/Motels/Inns/Resorts,Pre-Approval
+3784,Hotels/Motels/Inns/Resorts,Pre-Approval
+3785,Hotels/Motels/Inns/Resorts,Pre-Approval
+3786,Hotels/Motels/Inns/Resorts,Pre-Approval
+3787,Hotels/Motels/Inns/Resorts,Pre-Approval
+3788,Hotels/Motels/Inns/Resorts,Pre-Approval
+3789,Hotels/Motels/Inns/Resorts,Pre-Approval
+3790,Hotels/Motels/Inns/Resorts,Pre-Approval
+3816,Home2Suites,Pre-Approval
+3835,* MASTERS ECONOMY INNS,Pre-Approval
+4011,Railroads,Approved
+4111,"Local/Suburban Commuter Passenger Transportation – Railroads, Feries, Local Water Transportation.",Approved
+4112,Passenger Railways,Approved
+4119,Ambulance Services,Approved
+4121,Taxicabs and Limousines,Approved
+4131,"Bus Lines, Including Charters, Tour Buses",Approved
+4214,"Motor Freight Carriers, Moving and Storage Companies, Trucking – Local/Long Distance, Delivery Services – Local",Restricted
+4215,"Courier Services – Air or Ground, Freight forwarders",Approved
+4225,"Public warehousing, Storage",Approved
+4411,Cruise and Steamship Lines,Pre-Approval
+4457,Boat Rentals and Leases,Restricted
+4468,"Marinas, Marine Service, and Supplies",Approved
+4511,"Airlines, Air Carriers ( not listed elsewhere)",Pre-Approval
+4582,"Airports, Airport Terminals, Flying Fields",Approved
+4722,Travel Agencies and Tour Operations,Pre-Approval
+4723,Package Tour Operators (For use in Germany only),Pre-Approval
+4784,Toll and Bridge Fees,Approved
+4789,"Transportation Services, Not elsewhere classified)",Approved
+4812,Telecommunications Equipment including telephone sales,Restricted
+4814,"Fax services, Telecommunication Services",Pre-Approval
+4815,VisaPhone,Approved
+4816,Computer Network Services,Prohibited
+4821,Telegraph services,Restricted
+4829,Money Orders – Wire Transfer,Prohibited
+4899,Cable and other pay television (previously Cable Services),Approved
+4900,"Electric, Gas, Sanitary and Water Utilities",Approved
+5013,Motor vehicle supplies and new parts,Restricted
+5021,Office and Commercial Furniture,Restricted
+5039,"Construction Materials, Not Elsewhere Classified",Approved
+5044,"Office, Photographic, Photocopy, and Microfilm Equipment",Approved
+5045,"Computers, Computer Peripheral Equipment, Software",Approved
+5046,"Commercial Equipment, Not Elsewhere Classified",Approved
+5047,"Medical, Dental Ophthalmic, Hospital Equipment and Supplies",Pre-Approval
+5051,Metal Service Centers and Offices,Approved
+5065,Electrical Parts and Equipment,Approved
+5072,Hardware Equipment and Supplies,Restricted
+5074,Plumbing and Heating Equipment and Supplies,Restricted
+5085,"Industrial Supplies, Not Elsewhere Classified",Restricted
+5094,"Precious Stones and Metals, Watches and Jewelry",Restricted
+5099,"Durable Goods, Not Elsewhere Classified",Approved
+5111,"Stationery, Office Supplies, Printing, and Writing Paper",Approved
+5122,"Drugs, Drug Proprietors, and Druggist's Sundries",Prohibited
+5131,"Piece Goods, Notions, and Other Dry Goods",Approved
+5137,Men's Women's and Children's Uniforms and Commercial Clothing,Approved
+5139,Commercial Footwear,Approved
+5169,"Chemicals and Allied Products, Not Elsewhere Classified",Approved
+5172,Petroleum and Petroleum Products,Restricted
+5192,"Books, Periodicals, and Newspapers",Restricted
+5193,"Florists' Supplies, Nursery Stock and Flowers",Approved
+5198,"Paints, Varnishes, and Supplies",Approved
+5199,"Non-durable Goods, Not Elsewhere Classified",Approved
+5200,Home Supply Warehouse Stores,Approved
+5211,Lumber and Building Materials Stores,Approved
+5231,"Glass, Paint, and Wallpaper Stores",Approved
+5251,Hardware Stores,Approved
+5261,Nurseries – Lawn and Garden Supply Store,Approved
+5271,Mobile Home Dealers,Approved
+5300,Wholesale Clubs,Approved
+5309,Duty Free Store,Approved
+5310,Discount Stores,Approved
+5311,Department Stores,Approved
+5331,Variety Stores,Approved
+5399,Misc. General Merchandise,Approved
+5411,"Grocery Stores, Supermarkets",Approved
+5422,Meat Provisioners – Freezer and Locker,Approved
+5441,"Candy, Nut, and Confectionery Stores",Approved
+5451,Dairy Products Stores,Approved
+5462,Bakeries,Approved
+5499,Misc. Food Stores – Convenience Stores and Specialty Markets,Approved
+5511,"Car and Truck Dealers (New and Used) Sales, Service, Repairs, Parts, and Leasing",Approved
+5521,Automobile and Truck Dealers (Used Only),Pre-Approval
+5531,Automobile Supply Stores,Approved
+5532,Automotive Tire Stores,Approved
+5533,"Automotive Parts, Accessories Stores",Restricted
+5541,Service Stations ( with or without ancillary services),Approved
+5542,Automated Fuel Dispensers,Approved
+5551,Boat Dealers,Approved
+5561,"Recreational and Utility Trailers, Camp Dealers",Restricted
+5571,Motorcycle Dealers,Approved
+5592,Motor Home Dealers,Approved
+5598,Snowmobile Dealers,Approved
+5599,Miscellaneous Auto Dealers,Approved
+5611,Men's and Boy's Clothing and Accessories Stores,Approved
+5621,Women's Ready-to-Wear Stores,Approved
+5631,Women's Accessory and Specialty Shops,Approved
+5641,Children's and Infant's Wear Stores,Approved
+5651,Family Clothing Stores,Approved
+5655,"Sports Apparel, Riding Apparel Stores",Approved
+5661,Shoe Stores,Approved
+5681,Furriers and Fur Shops,Approved
+5691,Men's and Women's Clothing Stores,Approved
+5697,"Tailors, Seamstress, Mending, and Alterations",Approved
+5698,Wig and Toupee Stores,Approved
+5699,Miscellaneous Apparel and Accessory Shops,Approved
+5712,"Furniture, Home Furnishings, and Equipment Stores, ExceptAppliances",Approved
+5713,Floor Covering Stores,Restricted
+5714,"Drapery, Window Covering and Upholstery Stores",Approved
+5718,"Fireplace, Fireplace Screens, and Accessories Stores",Approved
+5719,Miscellaneous Home Furnishing Specialty Stores,Approved
+5722,Household Appliance Stores,Approved
+5732,Electronic Sales,Restricted
+5733,"Music Stores, Musical Instruments, Piano Sheet Music",Approved
+5734,Computer Software Stores,Pre-Review
+5735,Record Shops,Approved
+5811,Caterers,Restricted
+5812,Eating places and Restaurants,Approved
+5813,"Drinking Places (Alcoholic Beverages), Bars, Taverns, Cocktail lounges, Nightclubs and Discotheques",Prohibited
+5814,Fast Food Restaurants,Approved
+5815,"Digital Goods: Media, Books, Movies, Music",Pre-Review
+5816,Digital Goods: Games,Pre-Review
+5817,Digital Goods: Applications (Excludes Games),Pre-Review
+5818,Digital Goods: Large Digital Goods Merchant,Pre-Review
+5832,"Antique Shops – Sales, Repairs, and Restoration Services",Approved
+5912,Drug Stores and Pharmacies,Prohibited
+5921,"Package Stores – Beer, Wine, and Liquor",Prohibited
+5931,Used Merchandise and Secondhand Stores,Approved
+5932,Antique Shops,Restricted
+5933,Pawn Shops and Salvage Yards,Prohibited
+5935,Wrecking and Salvage Yards,Approved
+5937,Antique Reproductions,Pre-Approval
+5940,Bicycle Shops – Sales and Service,Approved
+5941,Sporting Goods Stores,Approved
+5942,Book Stores,Approved
+5943,"Stationery Stores, Office and School Supply Stores",Approved
+5944,"Watch, Clock, Jewelry, and Silverware Stores",Restricted
+5945,"Hobby, Toy, and Game Shops",Approved
+5946,Camera and Photographic Supply Stores,Approved
+5947,"Card Shops, Gift, Novelty, and Souvenir Shops",Restricted
+5948,Leather Goods Stores,Approved
+5949,"Sewing, Needle, Fabric, and Price Goods Stores",Approved
+5950,Glassware/Crystal Stores,Approved
+5960,Direct Marketing- Insurance Service,Pre-Approval
+5961,"Mail Order Houses Including Catalog Order Stores, Book/Record Clubs (No longer permitted for U.S. original presentments)",Pre-Approval
+5962,Direct Marketing – Travel Related Arrangements Services,Pre-Approval
+5963,Door-to-Door Sales,Pre-Approval
+5964,Direct Marketing – Catalog Merchant,Pre-Approval
+5965,Direct Marketing – Catalog and Catalog and Retail Merchant,Pre-Approval
+5966,Direct Marketing- Outbound Telemarketing Merchant,Prohibited
+5967,Direct Marketing – Inbound Teleservices Merchant,Prohibited
+5968,Direct Marketing – Continuity/Subscription Merchant,Pre-Approval
+5969,Direct Marketing – Not Elsewhere Classified,Pre-Approval
+5970,Artist's Supply and Craft Shops,Pre-Approval
+5971,Art Dealers and Galleries,Approved
+5972,Stamp and Coin Stores – Philatelic and Numismatic Supplies,Restricted
+5973,Religious Goods Stores,Pre-Approval
+5975,"Hearing Aids – Sales, Service, and Supply Stores",Approved
+5976,Orthopedic Goods Prosthetic Devices,Approved
+5977,Cosmetic Stores,Approved
+5978,"Typewriter Stores – Sales, Rental, Service",Approved
+5983,"Fuel – Fuel Oil, Wood, Coal, Liquefied Petroleum",Approved
+5992,Florists,Approved
+5993,Cigar Stores and Stands,Pre-Review
+5994,News Dealers and Newsstands,Approved
+5995,"Pet Shops, Pet Foods, and Supplies Stores",Approved
+5996,"Swimming Pools – Sales, Service, and Supplies",Approved
+5997,Electric Razor Stores – Sales and Service,Approved
+5998,Tent and Awning Shops,Approved
+5999,Miscellaneous and Specialty Retail Stores,Approved
+6010,Financial Institutions – Manual Cash Disbursements,Approved
+6011,Financial Institutions – Manual Cash Disbursements,Approved
+6012,Financial Institutions – Merchandise and Services,Pre-Approval
+6051,"Non-Financial Institutions – Foreign Currency, Money Orders (not wire transfer) and Travelers Cheques",Prohibited
+6211,Security Brokers/Dealers,Pre-Review
+6300,"Insurance Sales, Underwriting, and Premiums",Pre-Approval
+6381,"Insurance Premiums, (no longer valid for first presentment work)",Approved
+6399,"Insurance, Not Elsewhere Classified ( no longer valid forfirst presentment work)",Approved
+6513,Real Estate Agents and Managers - Rentals,Pre-Approval
+7011,"Lodging – Hotels, Motels, Resorts, Central Reservation Services (not elsewhere classified)",Pre-Approval
+7012,Timeshares,Pre-Approval
+7032,Sporting and Recreational Camps,Approved
+7033,Trailer Parks and Camp Grounds,Approved
+7210,"Laundry, Cleaning, and Garment Services",Approved
+7211,Laundry – Family and Commercial,Approved
+7216,Dry Cleaners,Approved
+7217,Carpet and Upholstery Cleaning,Approved
+7221,Photographic Studios,Approved
+7230,Barber and Beauty Shops,Restricted
+7251,"Shop Repair Shops and Shoe Shine Parlors, and Hat Cleaning Shops",Approved
+7261,Funeral Service and Crematories,Approved
+7273,Dating and Escort Services,Prohibited
+7276,Tax Preparation Service,Approved
+7277,"Counseling Service – Debt, Marriage, Personal",Pre-Approval
+7278,"Buying/Shopping Services, Clubs",Pre-Approval
+7296,"Clothing Rental – Costumes, Formal Wear, Uniforms",Approved
+7297,Massage Parlors,Prohibited
+7298,Health and Beauty Shops,Restricted
+7299,Miscellaneous Personal Services ( not elsewhere classifies),Approved
+7311,Advertising Services,Approved
+7321,Consumer Credit Reporting Agencies,Restricted
+7332,Blueprinting and Photocopying Services,Approved
+7333,"Commercial Photography, Art and Graphics",Approved
+7338,"Quick Copy, Reproduction and Blueprinting Services",Approved
+7339,Stenographic and Secretarial Support Services,Approved
+7342,Exterminating and Disinfecting Services,Restricted
+7349,"Cleaning and Maintenance, Janitorial Services",Restricted
+7361,"Employment Agencies, Temporary Help Services",Restricted
+7372,"Computer Programming, Integrated Systems Design and Data Processing Services",Restricted
+7375,Information Retrieval Services,Restricted
+7379,"Computer Maintenance and Repair Services, Not Elsewhere Classified",Restricted
+7392,"Management, Consulting, and Public Relations Services",Restricted
+7393,Protective and Security Services – Including Armored Carsand Guard Dogs,Restricted
+7394,"Equipment Rental and Leasing Services, Tool Rental, Furniture Rental, and Appliance Rental",Approved
+7395,"Photofinishing Laboratories, Photo Developing",Approved
+7399,"Business Services, Not Elsewhere Classified",Approved
+7511,Truck Stop,Approved
+7512,Car Rental Companies ( Not Listed Below),Restricted
+7513,Truck and Utility Trailer Rentals,Restricted
+7519,Motor Home and Recreational Vehicle Rentals,Restricted
+7523,Automobile Parking Lots and Garages,Approved
+7531,Automotive Body Repair Shops,Approved
+7534,Tire Re-treading and Repair Shops,Approved
+7535,Paint Shops – Automotive,Approved
+7538,Automotive Service Shops,Approved
+7542,Car Washes,Approved
+7549,Towing Services,Approved
+7622,Radio Repair Shops,Approved
+7623,Air Conditioning and Refrigeration Repair Shops,Approved
+7629,Electrical And Small Appliance Repair Shops,Approved
+7631,"Watch, Clock, and Jewelry Repair",Approved
+7641,"Furniture, Furniture Repair, and Furniture Refinishing",Approved
+7692,Welding Repair,Approved
+7699,Repair Shops and Related Services –Miscellaneous,Approved
+7800,Government-Owned Lotteries,Pre-Review
+7801,Government-Licensed On-Line Casinos (On-Line Gambling),Pre-Review
+7802,Government-Licensed Horse/Dog Racing,Pre-Review
+7829,Motion Pictures and Video Tape Production and Distribution,Restricted
+7832,Motion Picture Theaters,Approved
+7841,Video Tape Rental Stores,Approved
+7911,"Dance Halls, Studios and Schools",Restricted
+7922,"Theatrical Producers (Except Motion Pictures), Ticket Agencies",Approved
+7929,"Bands, Orchestras, and Miscellaneous Entertainers (Not Elsewhere Classified)",Approved
+7932,Billiard and Pool Establishments,Approved
+7933,Bowling Alleys,Approved
+7941,"Commercial Sports, Athletic Fields, Professional Sport Clubs, and Sport Promoters",Approved
+7991,Tourist Attractions and Exhibits,Approved
+7992,Golf Courses – Public,Approved
+7993,Video Amusement Game Supplies,Approved
+7994,Video Game Arcades/Establishments,Approved
+7995,"Betting (including Lottery Tickets, Casino Gaming Chips, Off-track Betting and Wagers at Race Tracks)",Pre-Approval
+7996,"Amusement Parks, Carnivals, Circuses, Fortune Tellers",Pre-Approval
+7997,"Membership Clubs (Sports, Recreation, Athletic), Country Clubs, and Private Golf Courses",Pre-Review
+7998,"Aquariums, Sea-aquariums, Dolphinariums",Approved
+7999,Recreation Services (Not Elsewhere Classified),Approved
+8011,Doctors and Physicians (Not Elsewhere Classified),Approved
+8021,Dentists and Orthodontists,Approved
+8031,Osteopaths,Approved
+8041,Chiropractors,Approved
+8042,Optometrists and Ophthalmologists,Approved
+8043,"Opticians, Opticians Goods and Eyeglasses",Approved
+8044,"Opticians, Optical Goods, and Eyeglasses (no longer validfor first presentments)",Approved
+8049,Podiatrists and Chiropodists,Approved
+8050,Nursing and Personal Care Facilities,Approved
+8062,Hospitals,Approved
+8071,Medical and Dental Laboratories,Approved
+8099,Medical Services and Health Practitioners (Not Elsewhere Classified),Restricted
+8111,Legal Services and Attorneys,Pre-Approval
+8211,Elementary and Secondary Schools,Restricted
+8220,"Colleges, Junior Colleges, Universities, and ProfessionalSchools",Restricted
+8241,Correspondence Schools,Restricted
+8244,Business and Secretarial Schools,Restricted
+8249,Vocational Schools and Trade Schools,Restricted
+8299,Schools and Educational Services ( Not Elsewhere Classified),Restricted
+8351,Child Care Services,Approved
+8398,Charitable and Social Service Organizations,Pre-Approval
+8641,"Civic, Fraternal, and Social Associations",Pre-Approval
+8651,Political Organizations,Restricted
+8661,Religious Organizations,Approved
+8675,Automobile Associations,Restricted
+8699,Membership Organizations ( Not Elsewhere Classified),Approved
+8734,Testing Laboratories ( non-medical),Restricted
+8911,Architectural – Engineering and Surveying Services,Approved
+8931,"Accounting, Auditing, and Bookkeeping Services",Approved
+8999,Professional Services ( Not Elsewhere Defined),Approved
+9211,"Court Costs, including Alimony and Child Support",Pre-Approval
+9222,Fines,Approved
+9223,Bail and Bond Payments,Pre-Approval
+9311,Tax Payments,Approved
+9399,Government Services ( Not Elsewhere Classified),Approved
+9402,Postal Services – Government Only,Restricted
+9405,Intra – Government Transactions,Approved
+9700,Automated Referral Service ( For Visa Only),Approved
+9701,Visa Credential Service ( For Visa Only),Approved
+9702,GCAS Emergency Services ( For Visa Only),Approved
+9950,Intra – Company Purchases ( For Visa Only),Approved

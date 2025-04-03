@@ -1,0 +1,45 @@
+# MCC Classification Tool Evaluation
+
+## Context
+You are creating a tool to evaluate the effectiveness of different AI agents in classifying merchants with their correct Merchant Category Codes (MCCs).
+
+## Task
+Develop a Python script that compares the performance of three different AI agents (Rafa, Matheus, and Waki) in assigning MCCs to merchants based on their names.
+
+## Input
+- A CSV file containing the following columns:
+  - Merchant Name
+  - Legal Name
+  - Actual MCC code
+  - MCC Description
+
+## Required Functionality
+1. Create an abstract base class for MCC classification agents with a standard interface
+2. Implement the existing agents (Rafa and Matheus) using this interface
+3. Prepare for implementation of a third agent (Waki)
+4. For each merchant in the dataset:
+   - Submit the merchant name to each agent
+   - Compare their MCC recommendations against the actual MCC
+   - Calculate performance metrics for each agent
+
+## Output
+- Generate a CSV file with columns:
+  - Merchant Name
+  - Legal Name
+  - Actual MCC
+  - MCC Description
+  - Rafa's suggested MCC
+  - Matheus's suggested MCC
+  - Waki's suggested MCC
+  - Performance metrics for each agent (accuracy, confidence score, etc.)
+
+## Technical Requirements
+- Use proper Python OOP principles (inheritance, encapsulation)
+- Implement error handling and logging
+- Ensure code is well-documented and follows PEP 8 standards
+- Make the solution extensible for future agents
+
+## Deliverables
+1. Complete Python script implementing the above functionality
+2. Sample output file demonstrating the comparison
+3. Documentation explaining how to use the script and add new agents 

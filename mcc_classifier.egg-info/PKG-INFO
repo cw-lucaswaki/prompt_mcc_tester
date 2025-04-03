@@ -1,0 +1,12 @@
+Metadata-Version: 2.4
+Name: mcc_classifier
+Version: 0.1.0
+Summary: Tool to evaluate MCC classification agents
+Author: InfinitePay Team
+Requires-Python: >=3.6
+Requires-Dist: pandas>=1.0.0
+Requires-Dist: numpy>=1.18.0
+Dynamic: author
+Dynamic: requires-dist
+Dynamic: requires-python
+Dynamic: summary

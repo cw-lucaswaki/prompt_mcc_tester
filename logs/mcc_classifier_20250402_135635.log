@@ -1,0 +1,92 @@
+2025-04-02 13:56:35,584 - root - INFO - Logging configured for MCC Classifier
+2025-04-02 13:56:35,650 - mcc_classifier.agent.Matheus - INFO - OpenAI client initialized successfully.
+2025-04-02 13:56:35,651 - mcc_classifier.agent.Matheus - INFO - Classifying merchant: Gap Clothing Store
+2025-04-02 13:56:35,651 - mcc_classifier.agent.Matheus - INFO - Performing tier1 classification for: Gap Clothing Store
+2025-04-02 13:56:36,016 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 401 Unauthorized"
+2025-04-02 13:56:36,019 - mcc_classifier.agent.Matheus - ERROR - Error in tier1 classification: Error code: 401 - {'error': {'message': 'Incorrect API key provided: sk-proj-********************************************************************xxxx. You can find your API key at https://platform.openai.com/account/api-keys.', 'type': 'invalid_request_error', 'param': None, 'code': 'invalid_api_key'}}
+2025-04-02 13:56:36,019 - mcc_classifier.agent.Matheus - INFO - Using fallback classification for: Gap Clothing Store
+2025-04-02 13:56:36,020 - mcc_classifier.agent.Matheus - INFO - Performing risk tier classification for: Gap Clothing Store
+2025-04-02 13:56:36,247 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 401 Unauthorized"
+2025-04-02 13:56:36,248 - mcc_classifier.agent.Matheus - ERROR - Error in risk tier classification: Error code: 401 - {'error': {'message': 'Incorrect API key provided: sk-proj-********************************************************************xxxx. You can find your API key at https://platform.openai.com/account/api-keys.', 'type': 'invalid_request_error', 'param': None, 'code': 'invalid_api_key'}}
+2025-04-02 13:56:36,248 - mcc_classifier.agent.Matheus - INFO - Using fallback classification for: Gap Clothing Store
+2025-04-02 13:56:36,248 - mcc_classifier.agent.Matheus - INFO - Performing tier3 classification for: Gap Clothing Store
+2025-04-02 13:56:36,510 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 401 Unauthorized"
+2025-04-02 13:56:36,510 - mcc_classifier.agent.Matheus - ERROR - Error in tier3 classification: Error code: 401 - {'error': {'message': 'Incorrect API key provided: sk-proj-********************************************************************xxxx. You can find your API key at https://platform.openai.com/account/api-keys.', 'type': 'invalid_request_error', 'param': None, 'code': 'invalid_api_key'}}
+2025-04-02 13:56:36,511 - mcc_classifier.agent.Matheus - INFO - Using fallback classification for: Gap Clothing Store
+2025-04-02 13:56:36,511 - mcc_classifier.agent.Matheus - INFO - Classifying merchant: Taco Bell
+2025-04-02 13:56:36,511 - mcc_classifier.agent.Matheus - INFO - Performing tier1 classification for: Taco Bell
+2025-04-02 13:56:36,737 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 401 Unauthorized"
+2025-04-02 13:56:36,737 - mcc_classifier.agent.Matheus - ERROR - Error in tier1 classification: Error code: 401 - {'error': {'message': 'Incorrect API key provided: sk-proj-********************************************************************xxxx. You can find your API key at https://platform.openai.com/account/api-keys.', 'type': 'invalid_request_error', 'param': None, 'code': 'invalid_api_key'}}
+2025-04-02 13:56:36,738 - mcc_classifier.agent.Matheus - INFO - Using fallback classification for: Taco Bell
+2025-04-02 13:56:36,738 - mcc_classifier.agent.Matheus - INFO - Classifying merchant: Ace Hardware
+2025-04-02 13:56:36,738 - mcc_classifier.agent.Matheus - INFO - Performing tier1 classification for: Ace Hardware
+2025-04-02 13:56:36,983 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 401 Unauthorized"
+2025-04-02 13:56:36,983 - mcc_classifier.agent.Matheus - ERROR - Error in tier1 classification: Error code: 401 - {'error': {'message': 'Incorrect API key provided: sk-proj-********************************************************************xxxx. You can find your API key at https://platform.openai.com/account/api-keys.', 'type': 'invalid_request_error', 'param': None, 'code': 'invalid_api_key'}}
+2025-04-02 13:56:36,984 - mcc_classifier.agent.Matheus - INFO - Using fallback classification for: Ace Hardware
+2025-04-02 13:56:36,984 - mcc_classifier.agent.Matheus - INFO - Performing risk tier classification for: Ace Hardware
+2025-04-02 13:56:37,206 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 401 Unauthorized"
+2025-04-02 13:56:37,206 - mcc_classifier.agent.Matheus - ERROR - Error in risk tier classification: Error code: 401 - {'error': {'message': 'Incorrect API key provided: sk-proj-********************************************************************xxxx. You can find your API key at https://platform.openai.com/account/api-keys.', 'type': 'invalid_request_error', 'param': None, 'code': 'invalid_api_key'}}
+2025-04-02 13:56:37,206 - mcc_classifier.agent.Matheus - INFO - Using fallback classification for: Ace Hardware
+2025-04-02 13:56:37,207 - mcc_classifier.agent.Matheus - INFO - Performing tier3 classification for: Ace Hardware
+2025-04-02 13:56:37,427 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 401 Unauthorized"
+2025-04-02 13:56:37,427 - mcc_classifier.agent.Matheus - ERROR - Error in tier3 classification: Error code: 401 - {'error': {'message': 'Incorrect API key provided: sk-proj-********************************************************************xxxx. You can find your API key at https://platform.openai.com/account/api-keys.', 'type': 'invalid_request_error', 'param': None, 'code': 'invalid_api_key'}}
+2025-04-02 13:56:37,427 - mcc_classifier.agent.Matheus - INFO - Using fallback classification for: Ace Hardware
+2025-04-02 13:56:37,428 - mcc_classifier.agent.Matheus - INFO - Classifying merchant: Staples Office Supplies
+2025-04-02 13:56:37,428 - mcc_classifier.agent.Matheus - INFO - Performing tier1 classification for: Staples Office Supplies
+2025-04-02 13:56:37,647 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 401 Unauthorized"
+2025-04-02 13:56:37,648 - mcc_classifier.agent.Matheus - ERROR - Error in tier1 classification: Error code: 401 - {'error': {'message': 'Incorrect API key provided: sk-proj-********************************************************************xxxx. You can find your API key at https://platform.openai.com/account/api-keys.', 'type': 'invalid_request_error', 'param': None, 'code': 'invalid_api_key'}}
+2025-04-02 13:56:37,648 - mcc_classifier.agent.Matheus - INFO - Using fallback classification for: Staples Office Supplies
+2025-04-02 13:56:37,649 - mcc_classifier.agent.Matheus - INFO - Performing risk tier classification for: Staples Office Supplies
+2025-04-02 13:56:37,873 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 401 Unauthorized"
+2025-04-02 13:56:37,874 - mcc_classifier.agent.Matheus - ERROR - Error in risk tier classification: Error code: 401 - {'error': {'message': 'Incorrect API key provided: sk-proj-********************************************************************xxxx. You can find your API key at https://platform.openai.com/account/api-keys.', 'type': 'invalid_request_error', 'param': None, 'code': 'invalid_api_key'}}
+2025-04-02 13:56:37,874 - mcc_classifier.agent.Matheus - INFO - Using fallback classification for: Staples Office Supplies
+2025-04-02 13:56:37,874 - mcc_classifier.agent.Matheus - INFO - Performing tier3 classification for: Staples Office Supplies
+2025-04-02 13:56:38,098 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 401 Unauthorized"
+2025-04-02 13:56:38,098 - mcc_classifier.agent.Matheus - ERROR - Error in tier3 classification: Error code: 401 - {'error': {'message': 'Incorrect API key provided: sk-proj-********************************************************************xxxx. You can find your API key at https://platform.openai.com/account/api-keys.', 'type': 'invalid_request_error', 'param': None, 'code': 'invalid_api_key'}}
+2025-04-02 13:56:38,098 - mcc_classifier.agent.Matheus - INFO - Using fallback classification for: Staples Office Supplies
+2025-04-02 13:56:38,098 - mcc_classifier.agent.Matheus - INFO - Classifying merchant: The Cheesecake Factory
+2025-04-02 13:56:38,099 - mcc_classifier.agent.Matheus - INFO - Performing tier1 classification for: The Cheesecake Factory
+2025-04-02 13:56:38,322 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 401 Unauthorized"
+2025-04-02 13:56:38,322 - mcc_classifier.agent.Matheus - ERROR - Error in tier1 classification: Error code: 401 - {'error': {'message': 'Incorrect API key provided: sk-proj-********************************************************************xxxx. You can find your API key at https://platform.openai.com/account/api-keys.', 'type': 'invalid_request_error', 'param': None, 'code': 'invalid_api_key'}}
+2025-04-02 13:56:38,322 - mcc_classifier.agent.Matheus - INFO - Using fallback classification for: The Cheesecake Factory
+2025-04-02 13:56:38,323 - mcc_classifier.agent.Matheus - INFO - Classifying merchant: AutoZone
+2025-04-02 13:56:38,323 - mcc_classifier.agent.Matheus - INFO - Performing tier1 classification for: AutoZone
+2025-04-02 13:56:38,544 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 401 Unauthorized"
+2025-04-02 13:56:38,561 - mcc_classifier.agent.Matheus - ERROR - Error in tier1 classification: Error code: 401 - {'error': {'message': 'Incorrect API key provided: sk-proj-********************************************************************xxxx. You can find your API key at https://platform.openai.com/account/api-keys.', 'type': 'invalid_request_error', 'param': None, 'code': 'invalid_api_key'}}
+2025-04-02 13:56:38,561 - mcc_classifier.agent.Matheus - INFO - Using fallback classification for: AutoZone
+2025-04-02 13:56:38,561 - mcc_classifier.agent.Matheus - INFO - Performing risk tier classification for: AutoZone
+2025-04-02 13:56:38,794 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 401 Unauthorized"
+2025-04-02 13:56:38,794 - mcc_classifier.agent.Matheus - ERROR - Error in risk tier classification: Error code: 401 - {'error': {'message': 'Incorrect API key provided: sk-proj-********************************************************************xxxx. You can find your API key at https://platform.openai.com/account/api-keys.', 'type': 'invalid_request_error', 'param': None, 'code': 'invalid_api_key'}}
+2025-04-02 13:56:38,794 - mcc_classifier.agent.Matheus - INFO - Using fallback classification for: AutoZone
+2025-04-02 13:56:38,794 - mcc_classifier.agent.Matheus - INFO - Performing tier3 classification for: AutoZone
+2025-04-02 13:56:39,016 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 401 Unauthorized"
+2025-04-02 13:56:39,016 - mcc_classifier.agent.Matheus - ERROR - Error in tier3 classification: Error code: 401 - {'error': {'message': 'Incorrect API key provided: sk-proj-********************************************************************xxxx. You can find your API key at https://platform.openai.com/account/api-keys.', 'type': 'invalid_request_error', 'param': None, 'code': 'invalid_api_key'}}
+2025-04-02 13:56:39,016 - mcc_classifier.agent.Matheus - INFO - Using fallback classification for: AutoZone
+2025-04-02 13:56:39,017 - mcc_classifier.agent.Matheus - INFO - Classifying merchant: Holiday Inn Express
+2025-04-02 13:56:39,017 - mcc_classifier.agent.Matheus - INFO - Performing tier1 classification for: Holiday Inn Express
+2025-04-02 13:56:39,232 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 401 Unauthorized"
+2025-04-02 13:56:39,232 - mcc_classifier.agent.Matheus - ERROR - Error in tier1 classification: Error code: 401 - {'error': {'message': 'Incorrect API key provided: sk-proj-********************************************************************xxxx. You can find your API key at https://platform.openai.com/account/api-keys.', 'type': 'invalid_request_error', 'param': None, 'code': 'invalid_api_key'}}
+2025-04-02 13:56:39,232 - mcc_classifier.agent.Matheus - INFO - Using fallback classification for: Holiday Inn Express
+2025-04-02 13:56:39,233 - mcc_classifier.agent.Matheus - INFO - Classifying merchant: Massage Envy
+2025-04-02 13:56:39,233 - mcc_classifier.agent.Matheus - INFO - Performing tier1 classification for: Massage Envy
+2025-04-02 13:56:39,456 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 401 Unauthorized"
+2025-04-02 13:56:39,457 - mcc_classifier.agent.Matheus - ERROR - Error in tier1 classification: Error code: 401 - {'error': {'message': 'Incorrect API key provided: sk-proj-********************************************************************xxxx. You can find your API key at https://platform.openai.com/account/api-keys.', 'type': 'invalid_request_error', 'param': None, 'code': 'invalid_api_key'}}
+2025-04-02 13:56:39,457 - mcc_classifier.agent.Matheus - INFO - Using fallback classification for: Massage Envy
+2025-04-02 13:56:39,457 - mcc_classifier.agent.Matheus - INFO - Classifying merchant: Whole Foods Market
+2025-04-02 13:56:39,457 - mcc_classifier.agent.Matheus - INFO - Performing tier1 classification for: Whole Foods Market
+2025-04-02 13:56:39,678 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 401 Unauthorized"
+2025-04-02 13:56:39,678 - mcc_classifier.agent.Matheus - ERROR - Error in tier1 classification: Error code: 401 - {'error': {'message': 'Incorrect API key provided: sk-proj-********************************************************************xxxx. You can find your API key at https://platform.openai.com/account/api-keys.', 'type': 'invalid_request_error', 'param': None, 'code': 'invalid_api_key'}}
+2025-04-02 13:56:39,678 - mcc_classifier.agent.Matheus - INFO - Using fallback classification for: Whole Foods Market
+2025-04-02 13:56:39,678 - mcc_classifier.agent.Matheus - INFO - Performing risk tier classification for: Whole Foods Market
+2025-04-02 13:56:39,915 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 401 Unauthorized"
+2025-04-02 13:56:39,915 - mcc_classifier.agent.Matheus - ERROR - Error in risk tier classification: Error code: 401 - {'error': {'message': 'Incorrect API key provided: sk-proj-********************************************************************xxxx. You can find your API key at https://platform.openai.com/account/api-keys.', 'type': 'invalid_request_error', 'param': None, 'code': 'invalid_api_key'}}
+2025-04-02 13:56:39,915 - mcc_classifier.agent.Matheus - INFO - Using fallback classification for: Whole Foods Market
+2025-04-02 13:56:39,915 - mcc_classifier.agent.Matheus - INFO - Performing tier3 classification for: Whole Foods Market
+2025-04-02 13:56:40,132 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 401 Unauthorized"
+2025-04-02 13:56:40,132 - mcc_classifier.agent.Matheus - ERROR - Error in tier3 classification: Error code: 401 - {'error': {'message': 'Incorrect API key provided: sk-proj-********************************************************************xxxx. You can find your API key at https://platform.openai.com/account/api-keys.', 'type': 'invalid_request_error', 'param': None, 'code': 'invalid_api_key'}}
+2025-04-02 13:56:40,132 - mcc_classifier.agent.Matheus - INFO - Using fallback classification for: Whole Foods Market
+2025-04-02 13:56:40,133 - mcc_classifier.agent.Matheus - INFO - Classifying merchant: Michaels Arts and Crafts
+2025-04-02 13:56:40,133 - mcc_classifier.agent.Matheus - INFO - Performing tier1 classification for: Michaels Arts and Crafts
+2025-04-02 13:56:40,357 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 401 Unauthorized"
+2025-04-02 13:56:40,357 - mcc_classifier.agent.Matheus - ERROR - Error in tier1 classification: Error code: 401 - {'error': {'message': 'Incorrect API key provided: sk-proj-********************************************************************xxxx. You can find your API key at https://platform.openai.com/account/api-keys.', 'type': 'invalid_request_error', 'param': None, 'code': 'invalid_api_key'}}
+2025-04-02 13:56:40,358 - mcc_classifier.agent.Matheus - INFO - Using fallback classification for: Michaels Arts and Crafts

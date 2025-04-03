@@ -1,0 +1,11 @@
+Merchant Name,Legal Name,Actual MCC,Actual MCC Description,Suggested MCC,Suggested MCC Description,Confidence,Is Correct
+Gap Clothing Store,Gap Inc.,5651,Apparel,5699,Clothing & Accessories,0.6,No
+Taco Bell,Taco Bell Corp.,5814,Fast Food Restaurants,5812,"Eating Places, Restaurants",1.0,No
+Ace Hardware,Ace Hardware Corporation,5251,Hardware,5251,Hardware,0.6,Yes
+Staples Office Supplies,Staples Inc.,5943,Office & Stationery,5943,Office & Stationery,0.6,Yes
+The Cheesecake Factory,The Cheesecake Factory Inc.,5812,Restaurants,5812,"Eating Places, Restaurants",1.0,Yes
+AutoZone,AutoZone Inc.,5533,Auto Parts,5533,Auto Parts,0.6,Yes
+Holiday Inn Express,InterContinental Hotels Group,7011,Hotels & Lodging,5812,"Eating Places, Restaurants",1.0,No
+Massage Envy,Massage Envy Franchising LLC,7298,Health and Beauty Spas,5812,"Eating Places, Restaurants",1.0,No
+Whole Foods Market,Amazon.com Inc.,5411,Grocery Stores,5499,Food & Convenience,0.6,No
+Michaels Arts and Crafts,The Michaels Companies Inc.,5970,Arts & Crafts ,5970,Arts & Crafts,0.7,Yes
